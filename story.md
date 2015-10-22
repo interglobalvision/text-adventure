@@ -3,6 +3,7 @@
 ---
 ##MAP
 
+```
                               WEST
 
           ---------------------------------------------
@@ -39,10 +40,12 @@
  
 
                              EAST
+```
 
 ---
 ##[0]
 
+```
 ::::::,,::,:::,:,:,,,,,,,,,,,:,,::,:,,,:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:,,
 ::::::::::::::::::,:,::::,:::,::,,,,::::,,,:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:,
 ::::::::::,,,:,:,::,,:,,,,:,,,,,:,::::,:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -79,7 +82,6 @@
 ::::::::::::::::,:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:,,,,,
 :::::::::,::,::::::,,:,:,,:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:,,,,,,,:::::,
 ~::::,:,,,:,:,,,,,,,,:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:,,,,,::,:,,::?:::
-
 ```
 
 Nov 21 2015 thru Jan 30 2016
@@ -97,12 +99,16 @@ Is this your first time playing?
 // [0b]
 
 ---
+
 ###[0a]
+
 
 // explains how to play. that commands are in BOLD. HELP, MAP, LIST, RESTART, etc
 
 ---
+
 ###[0b]
+
 
 You're standing in front of a long brown building on Santa Fe Ave, a warehouse in downtown Los Angeles. Above your head and to your left you see the number 2011. There is a glass door in front of you, and big windows on either side. In the window to your right written in black is the word "Cirrus" in all caps. You can ENTER through the glass door or LEAVE.
 
@@ -117,7 +123,9 @@ Goodbye.
 // [0c]
 
 ---
+
 ###[0c]
+
 
 // this is only read the first time the ENTER command is called from outside
 
@@ -128,7 +136,9 @@ You walk in through the glass door. On your left there is a small table with a g
 // [3]
 
 ---
+
 ##[1]
+
 
 You enter Salomeh's office. The sound of the printer has the air. Salomeh is at a big L-shaped desk, eyes on her computer screen. She is finishing an email and you aren't sure if she noticed you yet. 
 
@@ -161,7 +171,9 @@ You see that the black-and-white printout is a pixelated image of an ideal cloud
 // list of responses
 
 ---
+
 ##[2]
+
 
 You are in the corner of the southeast corner of the gallery. You see on the wall a PAINTING by Siebren Versteeg.  To the right of that is the DOOR to Salomeh's office. To the WEST you see another office. To the NORTH you see more of the gallery, and the exit.
 
@@ -182,7 +194,9 @@ You are in the corner of the southeast corner of the gallery. You see on the wal
 // [3]
 
 ___
+
 ###[2a]
+
 
 You read on the title sheet that the painting on the wall by Siebren Versteeg is called "ANChORESs".  It's quite large - taller and wider than you, you think.  You can see that this painting is really a print on canvas. The telltale brush strokes of a digital brush.  And you see collaged in the digital paint images of text and texture. 
 
@@ -193,7 +207,9 @@ You remember that Versteeg has an algorithm for generating these paintings. You 
 // [2]
 
 ---
+
 ##[3]
+
 
 You are on the eastern side of a big white room with bright white lights suspended from the ceiling. This is the gallery. From here you can move around the space. To the SOUTH, there is a painting on the wall, and the door to an office. To the WEST, in the center of the room, there is a square table with laptops. To the NORTH there is a video playing and a triptych of works on paper. 
 
@@ -211,12 +227,16 @@ You are on the eastern side of a big white room with bright white lights suspend
 
 
 ---
+
 ##[4]
+
 
 //table
 
 ---
+
 ##[5]
+
 
 You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by [artists name]. To your left a TRIPTYCH by [artists name]. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.
 
@@ -241,13 +261,14 @@ You are in the northeast corner of the gallery. You feel calm. To your right on 
 // [3]
 
 ---
+
 ###[5a]
 
+
 ---
+
 ####[5b]
 
+
 ---
-
-
-
 
