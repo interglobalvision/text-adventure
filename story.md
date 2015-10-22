@@ -90,20 +90,22 @@ Welcome to the Treachery of Images text adventure.  //possible title?
 
 Is this your first time playing?
 
-> YES or Y
+`> YES or Y`
 
-// [0a]
+*go to [0a]*
 
-> NO or N 
+`> NO or N`
 
-// [0b]
+*go to [0b]*
 
 ---
 
 ###[0a]
 
 
-// explains how to play. that commands are in BOLD. HELP, MAP, LIST, RESTART, etc
+*explains how to play. that commands are in BOLD. HELP, MAP, LIST, RESTART, etc*
+
+*go to [0b]*
 
 ---
 
@@ -112,28 +114,28 @@ Is this your first time playing?
 
 You're standing in front of a long brown building on Santa Fe Ave, a warehouse in downtown Los Angeles. Above your head and to your left you see the number 2011. There is a glass door in front of you, and big windows on either side. In the window to your right written in black is the word "Cirrus" in all caps. You can ENTER through the glass door or LEAVE.
 
-> LEAVE
+`> LEAVE`
 
 Goodbye. 
 
-// redirect?
+*redirect?*
 
-> ENTER 
+`> ENTER`
 
-// [0c]
+*go to [0c]*
 
 ---
 
 ###[0c]
 
 
-// this is only read the first time the ENTER command is called from outside
+*this is only read the first time the ENTER command is called from outside*
 
 You walk in through the glass door. On your left there is a small table with a guestbook. You take a title sheet and then write your name in the guestbook...
 
-> [Players name] 
+`> [Players name]`
 
-// [3]
+*go to [3]*
 
 ---
 
@@ -146,29 +148,29 @@ With a smile she says "Just one moment." While you're waiting you notice a stran
 
 "Done. Hi [player's name]. It's nice to see you. Did you have any questions about the show?"
 
-// list of responses. Player navigates list with up/down arrows and then hits return.
+*show list of responses. Player navigates list with up/down arrows and hits return to choose.*
 
-> "Not really..."
+`> "Not really..."`
 
 She says, "OK well let me know if you do."
 
 You turn around and leave the office
 
-// [2]
+*go to [2]*
 
-> "How long is it up for?"
+`> "How long is it up for?"`
 
 "The show is on from Nov 21 2015 through Jan 30 2016", she says.
 
-// list of responses
+*show list of responses*
 
-> "What's that printout on your desk?"
+`> "What's that printout on your desk?"`
 
 "Jean's messing around with some emojis for clouds...I was like, 'Just do your own!'"
 
 You see that the black-and-white printout is a pixelated image of an ideal cloud.
 
-// list of responses
+*show list of responses*
 
 ---
 
@@ -177,21 +179,21 @@ You see that the black-and-white printout is a pixelated image of an ideal cloud
 
 You are in the corner of the southeast corner of the gallery. You see on the wall a PAINTING by Siebren Versteeg.  To the right of that is the DOOR to Salomeh's office. To the WEST you see another office. To the NORTH you see more of the gallery, and the exit.
 
-> PAINTING
+`> PAINTING`
 
-// [2a]
+*go to [2a]*
 
-> DOOR
+`> DOOR`
 
-// [1]
+*go to [1]*
 
-> WEST
+`> WEST`
 
-// [7]
+*go to [7]*
 
-> NORTH
+`> NORTH`
 
-// [3]
+*go to [3]*
 
 ___
 
@@ -204,7 +206,7 @@ You think of fantasy and dragons but you don't know why. Maybe its the fonts use
 
 You remember that Versteeg has an algorithm for generating these paintings. You think of all the different possible iterations and you realize the difficulty with infinity is that it can't be satisfied.
 
-// [2]
+*go to [2]* 
 
 ---
 
@@ -213,17 +215,17 @@ You remember that Versteeg has an algorithm for generating these paintings. You 
 
 You are on the eastern side of a big white room with bright white lights suspended from the ceiling. This is the gallery. From here you can move around the space. To the SOUTH, there is a painting on the wall, and the door to an office. To the WEST, in the center of the room, there is a square table with laptops. To the NORTH there is a video playing and a triptych of works on paper. 
 
-> SOUTH
+`> SOUTH`
 
-// [2]
+*go to [2]*
 
-> WEST
+`> WEST`
 
-// [4]
+*go to [4]*
 
-> NORTH
+`> NORTH`
 
-// [5]
+*go to [5]*
 
 
 ---
@@ -231,7 +233,7 @@ You are on the eastern side of a big white room with bright white lights suspend
 ##[4]
 
 
-//table
+table
 
 ---
 
@@ -240,25 +242,25 @@ You are on the eastern side of a big white room with bright white lights suspend
 
 You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by [artists name]. To your left a TRIPTYCH by [artists name]. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.
 
-> VIDEO
+`> VIDEO`
 
-// [5a]
+*go to [5a]*
 
-> TRIPTYCH
+`> TRIPTYCH`
 
-// [5b]
+*go to [5b]*
 
-> WEST
+`> WEST`
 
-// [9]
+*go to [9]*
 
-> SOUTHWEST
+`> SOUTHWEST`
 
-// [4]
+*go to [4]*
 
-> SOUTH
+`> SOUTH`
 
-// [3]
+*go to [3]*
 
 ---
 
