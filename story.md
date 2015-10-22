@@ -47,6 +47,37 @@
 ##HELP
 
 
+You can move around and interact with this world by typing commands when prompted with '>', and then pressing RETURN or ENTER.
+
+When you enter a new position on the map a description of that position is read to you. The available commands for that position will be in upper case letters. 
+
+Directional commands like EAST or SOUTHEAST will move you to a new position. Object commands like PAINTING or VIDEO will tell you about an object in the world.
+
+Sometimes a person will start a conversation with you.  When it is time to speak back you will be given a list of responses like:
+```
+> "Yes"
+  "No"
+```
+You can choose a response with the UP and DOWN arrow keys, and press RETURN or ENTER to select it.
+
+...
+
+Also there are commands you can use at any time to help you on your way:
+
+Type LIST to see a list of possible commands from your current position.
+
+Type MAP to see the world map.
+
+Type RESTART to return to the beginning of the world.
+
+Type HELP to see this information again.
+
+...
+
+You current position is [current position].
+
+*repeats last text*
+
 ---
 
 ##[0] Welcome
@@ -157,14 +188,6 @@ With a smile she says "Just one moment." While you're waiting you notice a stran
 
 *show list of responses. Player navigates list with up/down arrows and hits return to choose.*
 
-`> "Not really..."`
-
-She says, "OK well let me know if you do."
-
-You turn around and leave the office
-
-*go to [2]*
-
 `> "How long is it up for?"`
 
 "The show is on from Nov 21 2015 through Jan 30 2016", she says.
@@ -178,6 +201,18 @@ You turn around and leave the office
 You see that the black-and-white printout is a pixelated image of an ideal cloud.
 
 *show list of responses*
+
+`> "Wh-Where am I? How did I get here? What's going on?!"`
+
+*go to [0a]*
+
+`> "Not really..."`
+
+She says, "OK well let me know if you do."
+
+You turn around and leave the office
+
+*go to [2]*
 
 ---
 
