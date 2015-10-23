@@ -53,6 +53,8 @@ When you enter a new position on the map a description of that position is read 
 
 Directional commands like EAST or SOUTHEAST will move you to a new position. Object commands like PAINTING or VIDEO will tell you about an object in the world.
 
+...
+
 Sometimes a person will start a conversation with you.  When it is time to speak back you will be given a list of responses like:
 ```
 > "Yes"
@@ -184,7 +186,7 @@ You enter Salomeh's office. The sound of the printer has the air. Salomeh is at 
 
 With a smile she says "Just one moment." While you're waiting you notice a strange printout on her desk.
 
-"Done. Hi [player's name]. It's nice to see you. Did you have any questions about the show?"
+"Done. Hi [player's name]. It's nice to see you. Did you have questions about the show?"
 
 *show list of responses. Player navigates list with up/down arrows and hits return to choose.*
 
@@ -201,10 +203,6 @@ With a smile she says "Just one moment." While you're waiting you notice a stran
 You see that the black-and-white printout is a pixelated image of an ideal cloud.
 
 *show list of responses*
-
-`> "Wh-Where am I? How did I get here? What's going on?!"`
-
-*go to [0a]*
 
 `> "Not really..."`
 
