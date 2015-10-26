@@ -78,8 +78,14 @@ Adventure = {
 
       // Action not found
       } else { 
+        
+        // Check for default action
+        if( _.indexOf(actions, 'default') >= 0 ) {
+          _this.go( _this.currentPlace.actions.default);
+        } else {
+          console.log('action not found');
+        }
 
-        console.log('action not found');
         break; 
 
       }
