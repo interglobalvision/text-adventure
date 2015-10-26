@@ -45,20 +45,51 @@ Adventure = {
   listen: function(text) {
     var _this = this;
     
-    // TODO: convert to lowercase
+    // Convert to lowercase
+    text.toLowerCase();
 
     // Split text into words in case theres more than just one word
-    var words = text.split(" ");
+    var words = text.split(' ');
+    
+    // Get an array of all available actions
+    var actions =  _.keys(_this.currentPlace.actions);
 
-    words.forEach( function(currentValue, index) {
+    for( var i = 0; i < words.length; i++ ) {
+      var action = words[i];
+
+      // if 'help'
+      if( action === 'help' ) {
+
+        var help = '<p>Available actions are:</p><ul>';
+
+        for( var x = 0; x < actions.length; x++ ) {
+          actions[x].toUpperCase();
+          help += '<li>' + actions[x] + '</li>';
+        }
+        help += '</ul>';
+        _this.say(help);
+        break;
+
       // Check if action exists
-      if( _this.actionExists(currentValue) ) {
-        _this.go( _this.currentPlace.actions[currentValue]);
+      } else if( _.indexOf(actions,action) >= 0 ) {
+
+        _this.go( _this.currentPlace.actions[action]);
+        break; 
+
+      // Action not found
       } else { 
-        // Action not found
-        console.log('action not found');
+        
+        // Check for default action
+        if( _.indexOf(actions, 'default') >= 0 ) {
+          _this.go( _this.currentPlace.actions.default);
+        } else {
+          console.log('action not found');
+        }
+
+        break; 
+
       }
-    });
+    }
   },
 
   say: function(text) {
@@ -70,25 +101,11 @@ Adventure = {
   placeExist: function(place) {
     var _this = this;
     
-    if ( typeof( _this.story[place] ) === "object" ) {
+    if ( typeof( _this.story[place] ) === 'object' ) {
       return true;
     } else {
       return false;
     }
-  },
-
-  actionExists: function(action) {
-    var _this = this;
-
-    // TODO: Check if 'default' action exist
-    // if true, return true?
-    
-    if ( typeof( _this.currentPlace.actions[action] ) !== "undefined" ) {
-      return true;
-    } else {
-      return false;
-    }
-    
   },
 
 };

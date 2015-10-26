@@ -2,7 +2,7 @@ Story = {
 
   welcome: {
     name: "Welcome",
-    description: "Welcome to the Treachery of Images text adventure. possible title?",
+    description: "Welcome to the Treachery of Images text adventure. possible title. Is this your first time here?",
     actions: {
       yes: "tutorial",
       no: "outside",
