@@ -270,7 +270,7 @@ You are on the eastern side of a big white room with bright white lights suspend
 
 ---
 
-##[4] Main space - Table
+##[4] Main space - Center
 
 
 table
