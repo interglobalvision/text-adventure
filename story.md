@@ -244,7 +244,7 @@ You read on the title sheet that the painting on the wall by Siebren Versteeg is
 
 You think of fantasy and dragons but you don't know why. Maybe its the fonts used in the collaged text, you think. One reminds you of Game of Thrones and the other of Medieval Times. 
 
-You remember that Versteeg has an algorithm for generating these paintings. You think of all the different possible iterations and you realize the difficulty with infinity is that it can't be satisfied.
+You remember that Versteeg has an algorithm for generating these paintings. You think of all the different possible iterations and you remember that infinity, like desire, is insatiable.
 
 *go to [2]* 
 
@@ -304,8 +304,10 @@ You are in the northeast corner of the gallery. You feel calm. To your right on 
 
 ---
 
-###[5a]
+###[5a] Artist - Title (black square video)
 
+
+You see a gently undgulating flower of white calligraphy in [TITLE], a video by [ARTIST]. You think that it isn't a flower at all but two identical forms of 8-point symmetry perfectly overlapped and turning in opposite directions on a black background. The turning creates a sensation for you both seductive and repulsive. Each time the two forms align you feel a tightness in your chest. You continue to watch the hypnotic spinning forms and see that they are indeed calligraphy of Arabic or Islamic origin. You think that even if you could read the characters you wouldn't be able to decipher the text with them spiraling like this.
 
 ---
 
@@ -314,3 +316,36 @@ You are in the northeast corner of the gallery. You feel calm. To your right on 
 
 ---
 
+####[11]
+
+
+---
+
+####[11a] Bruce Nauman - Raw War
+
+
+You see a lithograph of the word 'WAR' in uppercase red letters. This is one of Bruce Naumans early lithographs, 'Raw War'. You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text.
+
+---
+
+####[11b] Chris Burden - Untitled
+
+
+An untitled print by Chris Burden shows you some handwriting and a photo of upturned palms.  You walk closer to inspect it. You read the blue handwriting quietly to yourself:
+
+CHRIS —
+TOOK BUS TO
+WORK. CAN NOT
+DO NAILS. COULDN'T
+SLEEP.
+
+Below the words, centered horizontally, you see the photo. You look closer and see that the palms are upturned to show a fresh wound in each. You think it reminds you of the wounds of Christ and remember a performance by Burden called 'Trans-Fixed' in which he was crucified on a VW Beetle.  You think on the roles that text and photography have played in his actions. You wonder who wrote the note and who drove the nails through his hands when the writer could not.
+
+---
+
+####[11c] Guy de Cointet - Lady and Two Popes
+
+
+You're standing in front of a framed print of very thin lines on big white paper. The lines are a thicket of sharp angles and it appears to you that lines are maybe just one line crossing over itself many times at different angles. The small, handwritten caption at the bottom reads 'A lady and two popes' and you think that sounds like the beginning of a joke. You see it's also signed on the bottom-right, 'Guy de Cointet'. The shape of the drawing looks to you like a block of text because of the way it finishes at the bottom like the last line of a paragraph. You remember those drawings of de Cointet that are like cryptographic poems and think, 'This must be one of them'. You think about cryptography in your daily life...barcodes...passwords. You think of Bitcoin and the Silk Road...Edward Snowden and Chelsea Manning.
+
+---
