@@ -214,7 +214,7 @@ You turn around and leave the office
 
 ---
 
-##[2] Main space - Southeast
+##[2] Front space - Southeast
 
 
 You are in the corner of the southeast corner of the gallery. You see on the wall a PAINTING by Siebren Versteeg.  To the right of that is the DOOR to Salomeh's office. To the WEST you see another office. To the NORTH you see more of the gallery, and the exit.
@@ -250,7 +250,7 @@ You remember that Versteeg has an algorithm for generating these paintings. You 
 
 ---
 
-##[3] Main space - East
+##[3] Front space - East
 
 
 You are on the eastern side of a big white room with bright white lights suspended from the ceiling. This is the gallery. From here you can move around the space. To the SOUTH, there is a painting on the wall, and the door to an office. To the WEST, in the center of the room, there is a square table with laptops. To the NORTH there is a video playing and a triptych of works on paper. 
@@ -270,14 +270,13 @@ You are on the eastern side of a big white room with bright white lights suspend
 
 ---
 
-##[4] Main space - Center
+##[4] Front space - Center
 
 
-table
 
 ---
 
-##[5] Main space - Northeast
+##[5] Front space - Northeast
 
 
 You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by [artists name]. To your left a TRIPTYCH by [artists name]. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.
@@ -309,14 +308,98 @@ You are in the northeast corner of the gallery. You feel calm. To your right on 
 
 You see a gently undgulating flower of white calligraphy in [TITLE], a video by [ARTIST]. You think that it isn't a flower at all but two identical forms of 8-point symmetry perfectly overlapped and turning in opposite directions on a black background. The turning creates a sensation for you both seductive and repulsive. Each time the two forms align you feel a tightness in your chest. You continue to watch the hypnotic spinning forms and see that they are indeed calligraphy of Arabic or Islamic origin. You think that even if you could read the characters you wouldn't be able to decipher the text with them spiraling like this.
 
----
-
-####[5b]
-
+*go to [5]*
 
 ---
 
-####[11]
+####[5b] Dennis Oppenheim - Ghost Trip
+
+
+You see on the wall a triptych of large paper works framed in plexiglass. The one on the left: a rather blue bird's eye photograph of terrain. On the second of the three panels you read black text on white: 
+
+GHOST TRIP 1976. PROJECT PROPOSAL FOR:
+WESTERN UNITED STATES.
+DIMENSIONS: 400 FEET.
+MATERIALS: PLOWED EARTH.
+
+You think of the approximation of physical space in data...and the limitations of the documentation of art. The third panel of the triptych is a map and you wonder if it resembles at all the other two panels. You recall something from Borges, an introduction to a story maybe, that spoke something of a map so precise it became as large as the area it was meant to represent. You think you remember something from Baudrillard that mentioned that verse but you quickly give up on remembering.
+
+*go to [5]*
+
+---
+
+####[6] Jean's Office
+
+
+
+
+---
+
+####[7] Front space - South
+
+
+
+
+---
+
+####[8] Front space - West wall
+
+
+
+
+---
+
+####[9] Front space - Northwest
+
+
+
+
+---
+
+####[10] Darkroom
+
+
+
+
+---
+
+####[11] Back space - South
+
+
+You are at the south end of the back space; the southwest corner of the gallery. You feel brave. On the wall to the south are a LITHOGRAPH by Bruce Nauman, a SMALL PRINT by Chris Burden, a LARGE PRINT by Guy de Cointet, an INKSTAMP by Ed Keinholz, and a PRINT by Lee Mullican. To the WEST is the warehouse. To NORTH is the back space of the gallery, and to the EAST is the front space.
+
+`> LITHOGRAPH`
+
+*go to [11a]*
+
+`> SMALL PRINT`
+
+*go to [11b]*
+
+`> LARGE PRINT`
+
+*go to [11c]*
+
+`> INKSTAMP`
+
+*go to [11d]*
+
+`> PRINT`
+
+*go to [11e]*
+
+`> WEST`
+
+*go to [15]*
+
+`> NORTH`
+
+*go to [12]*
+
+`> EAST`
+
+*go to [7]*
+
 
 
 ---
@@ -325,6 +408,8 @@ You see a gently undgulating flower of white calligraphy in [TITLE], a video by 
 
 
 You see a lithograph of the word 'WAR' in uppercase red letters. This is one of Bruce Naumans early lithographs, 'Raw War'. You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text...or another between stillness and motion.
+
+*go to [11]*
 
 ---
 
@@ -341,6 +426,8 @@ SLEEP.
 
 Below the words, centered horizontally, you see the photo. You look closer and see that the palms are upturned to show a fresh wound in each. You think it reminds you of the wounds of Christ and remember a performance by Burden called 'Trans-Fixed' in which he was crucified on a VW Beetle.  You think on the roles that text and photography have played in his actions. You wonder who wrote the note and who drove the nails through his hands when the writer could not.
 
+*go to [11]*
+
 ---
 
 ####[11c] Guy de Cointet - Lady and Two Popes
@@ -350,4 +437,81 @@ You're standing in front of a framed print of very thin lines on big white paper
 
 The small, handwritten caption at the bottom reads 'A lady and two popes' and you think that sounds like the beginning of a joke. You see it's also signed on the bottom-right, 'Guy de Cointet'. The shape of the drawing looks to you like a block of text because of the way it finishes at the bottom like the last line of a paragraph. You remember those drawings of de Cointet that are like cryptographic poems and think, 'This must be one of them'. You think about cryptography in your daily life...barcodes...passwords. You think of Bitcoin and the Silk Road...Edward Snowden and Chelsea Manning.
 
+*go to [11]*
+
 ---
+
+####[11d] Ed Kienholz - For a Mitre Saw
+
+
+Ed Kienholz - For a Mitre Saw
+
+*go to [11]*
+
+---
+
+####[11e] Lee Mullican - [Title]
+
+
+Lee Mullican - [Title]
+
+*go to [11]*
+
+---
+
+####[12] Back space - Center
+
+
+You are in the center back space; the north edge of the gallery.
+
+---
+
+####[13] Back space - North
+
+
+You at the north end of the back space; the northwest corner of the gallery.
+
+---
+
+####[14] Kitchen
+
+
+
+---
+
+####[15] Warehouse door
+
+
+
+---
+
+####[16] Viewing table
+
+
+
+---
+
+####[17] Work tables
+
+
+
+---
+
+####[18] Archives
+
+
+
+---
+
+####[19] Workshop south
+
+
+
+---
+
+####[20] Workshop north
+
+
+
+---
+
