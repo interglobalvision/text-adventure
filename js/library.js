@@ -1,4 +1,5 @@
 
+
 Story = {
 
   welcome: {
@@ -29,7 +30,7 @@ Story = {
     actions: {
       enter: "guestbook",
       leave: "goodbye",
-    },
+    }, 
   },
 
   guestbook: {
@@ -42,7 +43,7 @@ Story = {
 
   salomehOffice: {
     name: "Salomeh's Office",
-    description: "You enter Salomeh's office. The sound of the printer has the air. Salomeh is at a big L-shaped desk, eyes on her computer screen. She is finishing an email and you aren't sure if she noticed you yet.\n With a smile she says 'Just one moment.' While you're waiting you notice a strange printout on her desk.\n 'Done. Hi " + player name + ". It's nice to see you. Did you have questions about the show?'",
+    description: "You enter Salomeh's office. The sound of the printer has the air. Salomeh is at a big L-shaped desk, eyes on her computer screen. She is finishing an email and you aren't sure if she noticed you yet.\n With a smile she says 'Just one moment.' While you're waiting you notice a strange printout on her desk.\n 'Done. Hi player-name. It's nice to see you. Did you have questions about the show?'",
     actions: {
     },
   },
