@@ -365,14 +365,14 @@ You are in the south wall of the front space. You feel liminal. Further south is
 ####[8] Front space - West wall
 
 
-
+You are standing at the western wall of the front space. You feel small. To the EAST there is a square table with laptops. 
 
 ---
 
 ####[9] Front space - Northwest
 
 
-
+You are in the northwest corner of the front space. You feel like you are moving although you are not. To the SOUTHEAST there is a square table with laptops. 
 
 ---
 
