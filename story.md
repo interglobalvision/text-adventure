@@ -338,7 +338,27 @@ You think of the approximation of physical space in data...and the limitations o
 ####[7] Front space - South
 
 
+You are in the south wall of the front space. You feel liminal. Further south is Jean's OFFICE. To the WEST is the back space of the gallery. To the NORTH is the west wall of the front space. To the EAST is Salomeh's office and the east end of the front space. NORTHEAST there is a square table with laptops.
 
+`> OFFICE`
+
+*go to [6]*
+
+`> WEST`
+
+*go to [11]*
+
+`> NORTH`
+
+*go to [8]*
+
+`> EAST`
+
+*go to [2]*
+
+`> NORTHEAST`
+
+*go to [4]*
 
 ---
 
