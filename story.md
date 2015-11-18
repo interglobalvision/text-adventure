@@ -130,6 +130,8 @@ Welcome to the Treachery of Images text adventure.  *possible title?*
 
 Is this your first time playing?
 
+(type YES or NO and then press ENTER)
+
 `> YES or Y`
 
 *go to [0a]*
