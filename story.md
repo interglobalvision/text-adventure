@@ -591,7 +591,21 @@ Below the words, centered horizontally, you see the photo. You look closer and s
 ###[11d] Barbara Kruger - You're Right
 
 
-//
+The thin lithograph framed before you by a thin pane of glass is wider than it is tall. It has three simple elements. The first, and most prominent by size, is a black halftone of two human eyes gazing off to your left, disregarding you. The second, and most prominent by color, is a hot pink rectangle censoring the bridge of the gazer's nose with white text reading:
+
+YOU'RE
+RIGHT
+
+And third, locked below the hot pink strip is a green block with white text reading:
+
+AND YOU
+KNOW IT
+AND SO 
+SHOULD
+EVERYONE
+ELSE
+
+You think of the distribution of the artist's thoughts and the egoism and almost divinity implied therein. You suppose that any speech act is a mechanism to manifest the body of the speaker in some supreme manner superior to the arguably questionable physical presence of that body. You think this is pessimistic and you leave it at that.
 
 ---
 
