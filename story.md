@@ -493,7 +493,7 @@ You think of the approximation of physical space in data...and the limitations o
 ##[11] Back space - South
 
 
-You are at the south end of the back space; the southwest corner of the gallery. You feel brave. On the wall to the south are a framed PRINTOUT by Barbara Turner Smith, a Seth Price TEXT hanging from a chain, a SMALL PRINT by Chris Burden, a LARGE PRINT by Guy de Cointet, an INKSTAMP by Ed Keinholz, and a PRINT by Lee Mullican. To the WEST is the warehouse. To NORTH is the back space of the gallery, and to the EAST is the front space.
+You are at the south end of the back space; the southwest corner of the gallery. You feel brave. On the wall to the south are a framed PRINTOUT by Barbara Turner Smith, a Seth Price TEXT hanging from a chain, a PRINT by Chris Burden. Next to those there is a small Barbara Kruger LITHOGRAPH hung above an INKSTAMP by Ed Keinholz. Then to the right is a PAINTING by Tyler Matthew Oyer, and finally a DRAWING by Guy de Cointet. To NORTH is the back space of the gallery, and to the EAST is the front space.
 
 `> PRINTOUT`
 
@@ -503,27 +503,25 @@ You are at the south end of the back space; the southwest corner of the gallery.
 
 *go to [11b]*
 
-`> SMALL PRINT`
+`> PRINT`
 
 *go to [11c]*
 
-// Revise
-
-`> LARGE PRINT`
+`> LITHOGRAPH`
 
 *go to [11d]*
 
 `> INKSTAMP`
 
-*go to [11d]*
-
-`> PRINT`
-
 *go to [11e]*
 
-`> WEST`
+`> PAINTING`
 
-*go to [15]*
+*go to [11f]*
+
+`> DRAWING`
+
+*go to [11g]*
 
 `> NORTH`
 
@@ -590,7 +588,7 @@ Below the words, centered horizontally, you see the photo. You look closer and s
 
 ---
 
-###[11d] eyes
+###[11d] Barbara Kruger - You're Right
 
 
 //
@@ -610,7 +608,7 @@ For A MITRE SAW
 
 ---
 
-###[11f] Tyler Matthew Oyer - [Title]
+###[11f] Tyler Matthew Oyer - [painting]
 
 
 //
