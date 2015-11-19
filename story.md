@@ -274,7 +274,10 @@ You are on the eastern side of a big white room with bright white lights suspend
 
 ##[4] Front space - Center
 
-You stand at a table. It has a thin luan plywood tabletop.  There are two tablets at either head of the table. One tablet is showing VIDEOS and the other has a list of WEBSITES. Standing on the center of the table is a large flat screen MONITOR. 
+
+You stand at a table. It has a 1/4 inch Sandeply tabletop and 3 chairs around it.  There are two tablets at either head of the table. One tablet is showing VIDEOS and the other has a list of WEBSITES. Standing on the center of the table is a large flat screen MONITOR. 
+
+To the WEST are two framed works. To the NORTHWEST, a video projection and a triptych. To the NORTHEAST corner a photographic print and a video. In the EAST is the exit, the SOUTHEAST a painting and an office. To the SOUTHWEST is another office and the way to the back space of the gallery.
 
 `> VIDEOS`
 
@@ -288,14 +291,50 @@ You stand at a table. It has a thin luan plywood tabletop.  There are two tablet
 
 *go to [4c]*
 
-`> SOUTHWEST`
+`> WEST`
 
-*go to [4]*
+*go to [8]*
 
-`> SOUTH`
+`> NORTHWEST`
+
+*go to [9]*
+
+`> NORTHEAST`
+
+*go to [5]*
+
+`> EAST`
 
 *go to [3]*
 
+`> SOUTHEAST`
+
+*go to [2]*
+
+`> SOUTHWEST`
+
+*go to [7]*
+
+---
+
+##[4a] Video tablet
+
+
+You sit down at the tablet showing videos. You see it's a youtube playlist of videos related to the artists or works in the exhibition. The video playing is titled 'Bruce Nauman : performances1968-9'. The video is black and white. You put on the headphones and hear the ticking of a film camera. You watch as Nauman takes delicate steps around the perimeter of the larger square of two concentric squares marked on the floor of what you assume is his studio. His hips cock, forming a contrapposto balance with each step. You think of greek sculptors and geometors. You think he looks like a bird the way he moves. You consider the distance of the film and the distance of his journey around the square. You wonder if the physical film itself is also walking the perimeter of a square.
+
+---
+
+##[4b] Website tablet
+
+
+
+
+---
+
+##[4c] Monitor
+
+
+//
 
 ---
 
