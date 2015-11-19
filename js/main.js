@@ -74,7 +74,7 @@ Adventure = {
       // if 'help'
       if (action === 'help') {
 
-        var help = '<p>Available actions are:</p><ul>';
+        var help = '<p>From here you can say:</p><ul>';
 
         for (var x = 0; x < actions.length; x++) {
           actions[x].toUpperCase();

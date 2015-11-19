@@ -30,9 +30,9 @@
          |                  |             [8]          |
          |   Jean's office  |   [7]                [9] |
          |        [6]       |          `````````       |
-          ------------------           ` Table `       |
-         |                  |          `  [4]  `       |
-         | Salomeh's office |   [2]    `````````   [5] |
+          ------------------           `  [4]  `       |
+         |                  |          `````````       |
+         | Salomeh's office |   [2]                [5] |
          |        [1]       |             [3]          |
           ------------------ --------------/----------- 
 
@@ -274,6 +274,27 @@ You are on the eastern side of a big white room with bright white lights suspend
 
 ##[4] Front space - Center
 
+You stand at a table. It has a thin luan plywood tabletop.  There are two tablets at either head of the table. One tablet is showing VIDEOS and the other has a list of WEBSITES. Standing on the center of the table is a large flat screen MONITOR. 
+
+`> VIDEOS`
+
+*go to [4a]*
+
+`> WEBSITES`
+
+*go to [4b]*
+
+`> MONITOR`
+
+*go to [4c]*
+
+`> SOUTHWEST`
+
+*go to [4]*
+
+`> SOUTH`
+
+*go to [3]*
 
 
 ---
