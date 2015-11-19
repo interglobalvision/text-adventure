@@ -3,12 +3,12 @@
 
 // VARIABLES
 
-$gutter = 15px
+$gutter = 18px
 $margin-small = ($gutter)
 $margin-basic = ($gutter*2)
 $margin-large = ($gutter*5)
 
-$font-size-basic = 15px
+$font-size-basic = $gutter
 $font-leading-basic = 1.35em
 $font-tracking-basic = 0.001em
 
@@ -93,7 +93,7 @@ img
 #caret
   float: left
   width: 5px
-  height: 14px
+  height: $font-size-basic
   background: $color-white
   opacity: 0
   animation: blink 1s infinite linear
