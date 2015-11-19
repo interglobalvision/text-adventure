@@ -111,6 +111,8 @@ Adventure = {
     var _this = this;
 
     _this.container.append('<p>' + text + '</p>');
+
+    window.scrollTo(0,document.body.scrollHeight);
   },
 
   placeExist: function(place) {
