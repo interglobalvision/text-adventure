@@ -110,7 +110,7 @@ Adventure = {
   say: function(text) {
     var _this = this;
 
-    _this.container.html(text);
+    _this.container.append('<p>' + text + '</p>');
   },
 
   placeExist: function(place) {
