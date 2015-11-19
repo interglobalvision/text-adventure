@@ -341,13 +341,13 @@ font
 ##[5] Front space - Northeast
 
 
-You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by [artists name]. To your left a TRIPTYCH by [artists name]. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.
+You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by [artists name]. To your left a PHOTO by Eve Sonneman. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.
 
 `> VIDEO`
 
 *go to [5a]*
 
-`> PRINT`
+`> PHOTO`
 
 *go to [5b]*
 
@@ -537,7 +537,7 @@ You are at the south end of the back space; the southwest corner of the gallery.
 
 ---
 
-###[11a] Barbara Turner Smith - poster for Field Piece
+###[11a] Barbara Turner Smith - mailer for Field Piece
 
 
 Hung in a gold frame nearest the left end of the wall you approach what appears like a drawing of dots. The top and bottom edges of the paper are each lined with a single line of punched holes. You recognize that this is a dot matrix print on continuous form paper, an now far outdated technique of computer printout. The image on the paper is formed by evenly spaced dots of different widths and densities. You see at the upper half of the paper the dots form the image of a white cloud, the word 'CIRRUS' in its center. At the lower half of the paper you see the dots form the image of a hill, the words 'FIELD PIECE' spelled out across it in negative space. Both the cloud and the hill appear to you to be emanating some kind of atmosphere. "They're trying to merge", you think. In the bottom left corner of the hill, written perpendicular to the horizon of the dot landscape, in characters the same height and width of the dots in the matrix, are the details of an exhibition:
@@ -557,7 +557,7 @@ RECEPTION:
 THURS SEPT 9
 8PM TO 10 PM
 
-In the bottom righthand corner, in the same font as the exhibition details, you see the letters 'RR' and think, '...those must be initials.'
+In the bottom righthand corner, in the same font as the exhibition details, you see the letters 'RR' and think, '...those must be initials.' You think of the term 'immaterial labor' and decide you don't quite know what that means.
 
 *go to [11]*
 
@@ -600,7 +600,11 @@ Below the words, centered horizontally, you see the photo. You look closer and s
 ###[11e] Ed Kienholz - For a Mitre Saw
 
 
-//
+On the wall you see a thin steel frame weathered and framing a work on watercolor paper. The work is about the width of your shoulders when you were a child.  There is a pale yellow wash striping the white plane of paper like a horizon.  And on that, in a black handmade type of some antique style, you read:
+
+For A MITRE SAW
+
+'Like a price tag', you think and you wonder about the commerce of artworks. You wonder how to draw an equivilancy between a mitre saw and this drawing before you.
 
 *go to [11]*
 
