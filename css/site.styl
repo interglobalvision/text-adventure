@@ -107,6 +107,18 @@ img
   width: 5px
   height: 14px
   background: $color-white
+  opacity: 0
+  animation: blink 1s infinite linear
+  
+@keyframes blink
+  0% 
+    opacity: 0
+  49% 
+    opacity: 0
+  50% 
+    opacity: 1
+  100% 
+    opacity: 1
   
 input
   height: 0
