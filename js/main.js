@@ -6,6 +6,7 @@ Adventure = {
   container: $('#description'),
   form: $('#input-form'),
   input: $('#text-input'),
+  command: $('#command'),
   currentPlace: null,
   init: function(story, place) {
     var _this = this;
@@ -13,10 +14,27 @@ Adventure = {
     // Set story
     _this.story = story;
 
+    // Focus input
+    _this.input.focus();
+
+    // Prevent input blur
+    $(window).on('click', function(){
+      _this.input.focus();
+    });
+
+    // Copy from input to "command line"
+    _this.input.keyup(function() {
+      _this.command.text( _this.input.val() );
+    });
+
     // Bind event
     _this.form.submit( function(event) {
       event.preventDefault();
       _this.listen( _this.input.val() );
+
+      // Clear input and "command line"
+      _this.input.val('');
+      _this.command.text('');
     });
 
     _this.go(place);

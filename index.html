@@ -48,8 +48,12 @@ nope: "js/polyfills/mediaqueries.js"
       <!-- main content -->
       <main id="main-content" class="container">
         <div id="description"></div>
-        <form id="input-form">
-          <input id="text-input" type="text">
+        <div id="command-line">
+          <span id="command"></span>
+          <div id="caret"></div>
+        </div>
+        <form id="input-form" autocomplete="off">
+          <input id="text-input" type="text" autocomplete="off">
           <input type="submit" value="Submit">
         </form>
 
