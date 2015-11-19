@@ -2,7 +2,7 @@ Story = {
 
   welcome: {
     name: "Welcome",
-    description: "Welcome to the Treachery of Images text adventure.",
+    description: "Welcome to the Treachery of Images text adventure. possible title. Is this your first time here?",
     actions: {
       yes: "tutorial",
       no: "outside",
@@ -13,7 +13,7 @@ Story = {
     name: "Welcome",
     description: "Goodbye",
   },
-  
+
   tutorial: {
     name: "Tutorial",
     description: "explains how to play. that commands are in BOLD. HELP, MAP, LIST, RESTART, etc",
@@ -28,7 +28,7 @@ Story = {
     actions: {
       enter: "guestbook",
       leave: "goodbye",
-    }, 
+    },
   },
 
   guestbook: {
@@ -80,7 +80,7 @@ Story = {
     description: "",
     actions: {
     },
-  }, 
+  },
 
   mainSoutheast: {
     name: "Main space - Northeast",
@@ -94,5 +94,4 @@ Story = {
     },
   },
 
-  
 };

@@ -1,10 +1,5 @@
 /* jshint browser: true, devel: true, indent: 2, curly: true, eqeqeq: true, futurehostile: true, latedef: true, undef: true, unused: true */
-/* global $, jQuery, document, Modernizr */
-
-function l(data) {
-  'use strict';
-  console.log(data);
-}
+/* global $, document, Adventure, _, Story */
 
 Adventure = {
   story: '',
@@ -47,66 +42,85 @@ Adventure = {
 
   go: function(place) {
     var _this = this;
-    
+
     // Check if action exists
-    if( _this.placeExist(place) ) {
+    if (_this.placeExist(place)) {
       _this.currentPlace = _this.story[place];
 
       // Print description
-      _this.say( _this.currentPlace.description )
+      _this.say(_this.currentPlace.description);
 
-    } else { 
+    } else {
       // Action not found
+      console.log('Action not found');
     }
   },
 
   listen: function(text) {
     var _this = this;
-    
-    // TODO: convert to lowercase
+
+    // Convert to lowercase
+    text.toLowerCase();
 
     // Split text into words in case theres more than just one word
-    var words = text.split(" ");
+    var words = text.split(' ');
 
-    words.forEach( function(currentValue, index) {
+    // Get an array of all available actions
+    var actions = _.keys(_this.currentPlace.actions);
+
+    for (var i = 0; i < words.length; i++) {
+      var action = words[i];
+
+      // if 'help'
+      if (action === 'help') {
+
+        var help = '<p>Available actions are:</p><ul>';
+
+        for (var x = 0; x < actions.length; x++) {
+          actions[x].toUpperCase();
+          help += '<li>' + actions[x] + '</li>';
+        }
+
+        help += '</ul>';
+        _this.say(help);
+        break;
+
       // Check if action exists
-      if( _this.actionExists(currentValue) ) {
-        _this.go( _this.currentPlace.actions[currentValue]);
-      } else { 
-        // Action not found
-        console.log('action not found');
+      } else if (_.indexOf(actions,action) >= 0) {
+
+        _this.go(_this.currentPlace.actions[action]);
+        break;
+
+      // Action not found
+      } else {
+
+        // Check for default action
+        if (_.indexOf(actions, 'default') >= 0) {
+          _this.go( _this.currentPlace.actions.default);
+        } else {
+          console.log('action not found');
+        }
+
+        break;
+
       }
-    });
+    }
   },
 
   say: function(text) {
     var _this = this;
-    
+
     _this.container.html(text);
   },
 
   placeExist: function(place) {
     var _this = this;
-    
-    if ( typeof( _this.story[place] ) === "object" ) {
+
+    if (typeof( _this.story[place] ) === 'object') {
       return true;
     } else {
       return false;
     }
-  },
-
-  actionExists: function(action) {
-    var _this = this;
-
-    // TODO: Check if 'default' action exist
-    // if true, return true?
-    
-    if ( typeof( _this.currentPlace.actions[action] ) !== "undefined" ) {
-      return true;
-    } else {
-      return false;
-    }
-    
   },
 
 };
