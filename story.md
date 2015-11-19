@@ -275,7 +275,7 @@ You are on the eastern side of a big white room with bright white lights suspend
 ##[4] Front space - Center
 
 
-You stand at a table. It has a 1/4 inch Sandeply tabletop and 3 chairs around it.  There are two tablets at either head of the table. One tablet is showing VIDEOS and the other has a list of WEBSITES. Standing on the center of the table is a large flat screen MONITOR. 
+You stand at a table. It has a 1/4 inch Sandeply tabletop and 3 chairs around it.  There are two tablets at either head of the table. One tablet is showing VIDEOS and the other has a list of WEBSITES. Standing on the center of the table is a large flat screen MONITOR with a program by Paul Chan. 
 
 To the WEST are two framed works. To the NORTHWEST, a video projection and a triptych. To the NORTHEAST corner a photographic print and a video. In the EAST is the exit, the SOUTHEAST a painting and an office. To the SOUTHWEST is another office and the way to the back space of the gallery.
 
@@ -317,24 +317,24 @@ To the WEST are two framed works. To the NORTHWEST, a video projection and a tri
 
 ---
 
-##[4a] Video tablet
+###[4a] Video tablet
 
 
-You sit down at the tablet showing videos. You see it's a youtube playlist of videos related to the artists or works in the exhibition. The video playing is titled 'Bruce Nauman : performances1968-9'. The video is black and white. You put on the headphones and hear the ticking of a film camera. You watch as Nauman takes delicate steps around the perimeter of the larger square of two concentric squares marked on the floor of what you assume is his studio. His hips cock, forming a contrapposto balance with each step. You think of greek sculptors and geometors. You think he looks like a bird the way he moves. You consider the distance of the film and the distance of his journey around the square. You wonder if the physical film itself is also walking the perimeter of a square.
-
----
-
-##[4b] Website tablet
-
-
-
+You sit down at the tablet showing videos. You see it's a youtube playlist of videos related to the artists or works in the exhibition. The video playing is titled 'Bruce Nauman : performances1968-9'. The video is black and white. You put on the headphones and hear the ticking of a film camera. You watch as Nauman takes delicate steps around the perimeter of the larger square of two concentric squares marked on the floor of what you assume is his studio. His hips cock, forming a contrapposto balance with each step. You think of greek sculptors and geometors. You think he looks like a bird the way he moves. You consider the distance of the film and the distance of his journey around the square. You wonder if the physical film itself is also walking the perimeter of a square. You wonder if that physical film exists much at all given the other forms walking squares between here and there. Between the square room and the square table and the square tablet and the square youtube thumbnail.
 
 ---
 
-##[4c] Monitor
+###[4b] Website tablet
 
 
-//
+You pull out the chair and sit at a tablet at one end of the table. You see on screen a website. It's wegmanworld.com, William Wegman's official webpage. You notice the website's design is drawn from the illustrations in his recent children's books. You think of his transition from his early video and photographic works addressing his own body, to the work addressing his dogs' bodies. You open a video on the website. Its called 'Dog Duet'. You watch as two Weimaraners stand side-by-side simultaneously tracing with their eyes and heads the movement of some point traveling in space behind the camera. You consider coreography and the ways society and architecture influence the movement and posturing of bodies.
+
+---
+
+###[4c] Paul Chan
+
+
+font 
 
 ---
 
@@ -347,7 +347,7 @@ You are in the northeast corner of the gallery. You feel calm. To your right on 
 
 *go to [5a]*
 
-`> TRIPTYCH`
+`> PRINT`
 
 *go to [5b]*
 
@@ -365,7 +365,7 @@ You are in the northeast corner of the gallery. You feel calm. To your right on 
 
 ---
 
-###[5a] Artist - Title (black square video)
+###[5a] Kutlug Ataman - Animated Words - Nothing
 
 
 You see a gently undgulating flower of white calligraphy in [TITLE], a video by [ARTIST]. You think that it isn't a flower at all but two identical forms of 8-point symmetry perfectly overlapped and turning in opposite directions on a black background. The turning creates a sensation for you both seductive and repulsive. Each time the two forms align you feel a tightness in your chest. You continue to watch the hypnotic spinning forms and see that they are indeed calligraphy of Arabic or Islamic origin. You think that even if you could read the characters you wouldn't be able to decipher the text with them spiraling like this.
@@ -374,30 +374,23 @@ You see a gently undgulating flower of white calligraphy in [TITLE], a video by 
 
 ---
 
-####[5b] Dennis Oppenheim - Ghost Trip
+###[5b] Eve Sonneman - Discus Thrower
 
 
-You see on the wall a triptych of large paper works framed in plexiglass. The one on the left: a rather blue bird's eye photograph of terrain. On the second of the three panels you read black text on white: 
-
-GHOST TRIP 1976. PROJECT PROPOSAL FOR:
-WESTERN UNITED STATES.
-DIMENSIONS: 400 FEET.
-MATERIALS: PLOWED EARTH.
-
-You think of the approximation of physical space in data...and the limitations of the documentation of art. The third panel of the triptych is a map and you wonder if it resembles at all the other two panels. You recall something from Borges, an introduction to a story maybe, that spoke something of a map so precise it became as large as the area it was meant to represent. You think you remember something from Baudrillard that mentioned that verse but you quickly give up on remembering.
+//
 
 *go to [5]*
 
 ---
 
-####[6] Jean's Office
+##[6] Jean's Office
 
 
 
 
 ---
 
-####[7] Front space - South
+##[7] Front space - South
 
 
 You are in the south wall of the front space. You feel liminal. Further south is Jean's OFFICE. To the WEST is the back space of the gallery. To the NORTH is the west wall of the front space. To the EAST is Salomeh's office and the east end of the front space. NORTHEAST there is a square table with laptops.
@@ -424,43 +417,101 @@ You are in the south wall of the front space. You feel liminal. Further south is
 
 ---
 
-####[8] Front space - West wall
+##[8] Front space - West wall
 
 
-You are standing at the western wall of the front space. You feel small. To the EAST there is a square table with laptops. 
+You are standing at the western wall of the front space. You feel small. On the wall are two two-part WORKS by David Hockney. To the EAST there is a square table with laptops. 
+
+`> WORKS`
+
+*go to [8a]*
+
+`> EAST`
+
+*go to [4]*
+
+`> NORTH`
+
+*go to [8]*
+
+`> EAST`
+
+*go to [2]*
+
+`> NORTHEAST`
+
+*go to [4]*
 
 ---
 
-####[9] Front space - Northwest
+###[8a] David Hockney - Geometric Waves and Views of the Sea
+
+
+//
+
+---
+
+##[9] Front space - Northwest
 
 
 You are in the northwest corner of the front space. You feel like you are moving although you are not. To the SOUTHEAST there is a square table with laptops. 
 
 ---
 
-####[10] Darkroom
+###[9a] video projection
+
+
+//
+
+*go to [9]*
+
+---
+
+###[9b] Dennis Oppenheim - Ghost Trip
+
+
+You see on the wall a triptych of large paper works framed in plexiglass. The one on the left: a rather blue bird's eye photograph of terrain. On the second of the three panels you read black text on white: 
+
+GHOST TRIP 1976. PROJECT PROPOSAL FOR:
+WESTERN UNITED STATES.
+DIMENSIONS: 400 FEET.
+MATERIALS: PLOWED EARTH.
+
+You think of the approximation of physical space in data...and the limitations of the documentation of art. The third panel of the triptych is a map and you wonder if it resembles at all the other two panels. You recall something from Borges, an introduction to a story maybe, that spoke something of a map so precise it became as large as the area it was meant to represent. You think you remember something from Baudrillard that mentioned that verse but you quickly give up on remembering.
+
+*go to [9]*
+
+---
+
+##[10] Darkroom
 
 
 
 
 ---
 
-####[11] Back space - South
+##[11] Back space - South
 
 
-You are at the south end of the back space; the southwest corner of the gallery. You feel brave. On the wall to the south are a LITHOGRAPH by Bruce Nauman, a SMALL PRINT by Chris Burden, a LARGE PRINT by Guy de Cointet, an INKSTAMP by Ed Keinholz, and a PRINT by Lee Mullican. To the WEST is the warehouse. To NORTH is the back space of the gallery, and to the EAST is the front space.
+You are at the south end of the back space; the southwest corner of the gallery. You feel brave. On the wall to the south are a framed PRINTOUT by Barbara Turner Smith, a Seth Price TEXT hanging from a chain, a SMALL PRINT by Chris Burden, a LARGE PRINT by Guy de Cointet, an INKSTAMP by Ed Keinholz, and a PRINT by Lee Mullican. To the WEST is the warehouse. To NORTH is the back space of the gallery, and to the EAST is the front space.
 
-`> LITHOGRAPH`
+`> PRINTOUT`
 
 *go to [11a]*
 
-`> SMALL PRINT`
+`> TEXT`
 
 *go to [11b]*
 
-`> LARGE PRINT`
+`> SMALL PRINT`
 
 *go to [11c]*
+
+// Revise
+
+`> LARGE PRINT`
+
+*go to [11d]*
 
 `> INKSTAMP`
 
@@ -486,16 +537,43 @@ You are at the south end of the back space; the southwest corner of the gallery.
 
 ---
 
-####[11a] Bruce Nauman - Raw War
+###[11a] Barbara Turner Smith - poster for Field Piece
 
 
-You see a lithograph of the word 'WAR' in uppercase red letters. This is one of Bruce Naumans early lithographs, 'Raw War'. You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text...or another between stillness and motion.
+Hung in a gold frame nearest the left end of the wall you approach what appears like a drawing of dots. The top and bottom edges of the paper are each lined with a single line of punched holes. You recognize that this is a dot matrix print on continuous form paper, an now far outdated technique of computer printout. The image on the paper is formed by evenly spaced dots of different widths and densities. You see at the upper half of the paper the dots form the image of a white cloud, the word 'CIRRUS' in its center. At the lower half of the paper you see the dots form the image of a hill, the words 'FIELD PIECE' spelled out across it in negative space. Both the cloud and the hill appear to you to be emanating some kind of atmosphere. "They're trying to merge", you think. In the bottom left corner of the hill, written perpendicular to the horizon of the dot landscape, in characters the same height and width of the dots in the matrix, are the details of an exhibition:
+
+BARBARA TURNER SMITH
+
+708 MANHATTAN PLACE
+LOS ANGELES (NR MELROSE & WESTERN)
+
+SEPT 9 THRU SEPT 27, 1971
+
+
+HOURS: MON THRU SAT
+10AM TO 4PM
+
+RECEPTION:
+THURS SEPT 9
+8PM TO 10 PM
+
+In the bottom righthand corner, in the same font as the exhibition details, you see the letters 'RR' and think, '...those must be initials.'
 
 *go to [11]*
 
 ---
 
-####[11b] Chris Burden - Untitled
+###[11b] Seth Price - Dispersion
+
+
+The definition of artistic activity occurs, first of all, in the field of distribution.
+Marcel Broodthaers
+
+dispersion for artworks.  a manifesto not set in stone.  he can change it.  free at the new museum.  the premise for that exhibition. new models
+
+---
+
+###[11c] Chris Burden - Untitled
 
 
 An untitled print by Chris Burden shows you some handwriting and a photo of upturned palms.  You walk closer to inspect it. You read the blue handwriting quietly to yourself:
@@ -512,7 +590,32 @@ Below the words, centered horizontally, you see the photo. You look closer and s
 
 ---
 
-####[11c] Guy de Cointet - Lady and Two Popes
+###[11d] eyes
+
+
+//
+
+---
+
+###[11e] Ed Kienholz - For a Mitre Saw
+
+
+//
+
+*go to [11]*
+
+---
+
+###[11f] Tyler Matthew Oyer - [Title]
+
+
+//
+
+*go to [11]*
+
+---
+
+###[11g] Guy de Cointet - Lady and Two Popes
 
 
 You're standing in front of a framed print of very thin lines on big white paper. The lines are a thicket of sharp angles and it appears to you that lines could be just one line crossing over itself many times at different angles. 'But of course not, there are many endings,' you think to yourself. 
@@ -523,75 +626,83 @@ The small, handwritten caption at the bottom reads 'A lady and two popes' and yo
 
 ---
 
-####[11d] Ed Kienholz - For a Mitre Saw
+##[12] Back space - Center
 
 
-Ed Kienholz - For a Mitre Saw
+You are in the center back space; the north edge of the gallery. There is a single framed LITHOGRAPH by Bruce Nauman, and to the right of that, a variety of print EPHEMERA by Ida Applebroog.
 
-*go to [11]*
+`> LITHOGRAPH`
 
----
+*go to [12a]*
 
-####[11e] Lee Mullican - [Title]
+`> EPHEMERA`
 
-
-Lee Mullican - [Title]
-
-*go to [11]*
+*go to [12b]*
 
 ---
 
-####[12] Back space - Center
+###[12a] Bruce Nauman - Raw War
 
 
-You are in the center back space; the north edge of the gallery.
+You see a lithograph of the word 'WAR' in uppercase red letters. This is one of Bruce Naumans early lithographs, 'Raw War'. You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text...or another between stillness and motion.
+
+*go to [12]*
 
 ---
 
-####[13] Back space - North
+###[12b] Ida Applebroog - Raw War
+
+
+You see a lithograph of the word 'WAR' in uppercase red letters. This is one of Bruce Naumans early lithographs, 'Raw War'. You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text...or another between stillness and motion.
+
+*go to [12]*
+
+---
+
+##[13] Back space - North
 
 
 You at the north end of the back space; the northwest corner of the gallery.
 
 ---
 
-####[14] Kitchen
+##[14] Kitchen
 
 
 
 ---
 
-####[15] Warehouse door
+##[15] Warehouse door
 
 
 
 ---
 
-####[16] Viewing table
+##[16] Viewing table
 
 
 
 ---
 
-####[17] Work tables
+##[17] Work tables
 
 
 
 ---
 
-####[18] Archives
+##[18] Archives
 
 
 
 ---
 
-####[19] Workshop south
+##[19] Workshop south
 
 
 
 ---
 
-####[20] Workshop north
+##[20] Workshop north
 
 
 
