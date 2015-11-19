@@ -31,10 +31,6 @@ Adventure = {
     _this.form.submit( function(event) {
       event.preventDefault();
       _this.listen( _this.input.val() );
-
-      // Clear input and "command line"
-      _this.input.val('');
-      _this.command.text('');
     });
 
     _this.go(place);
@@ -42,6 +38,13 @@ Adventure = {
 
   go: function(place) {
     var _this = this;
+
+    // Output command
+    _this.say(_this.command.text().toUpperCase());
+
+    // Clear input and "command line"
+    _this.input.val('');
+    _this.command.text('');
 
     // Check if action exists
     if (_this.placeExist(place)) {
