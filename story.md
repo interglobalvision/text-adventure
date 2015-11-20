@@ -255,7 +255,7 @@ You remember that Versteeg has an algorithm for generating these paintings. You 
 ##[3] Front space - East
 
 
-You are on the eastern side of a big white room with bright white lights suspended from the ceiling. This is the gallery. From here you can move around the space. To the SOUTH, there is a painting on the wall, and the door to an office. To the WEST, in the center of the room, there is a square table with laptops. To the NORTH there is a video playing and a triptych of works on paper. 
+You are on the eastern side of a big white room with bright white lights suspended from the ceiling. This is the gallery. From here you can move around the space. To the SOUTH, there is a painting on the wall, and the door to an office. To the WEST, in the center of the room, there is a table with screens. To the NORTH there is a video playing and a large photograph. 
 
 `> SOUTH`
 
@@ -661,7 +661,15 @@ For A MITRE SAW
 ###[11f] Tyler Matthew Oyer - Marquee #68
 
 
-There on the wall in front of you is a painted canvas stretched on a frame. You think its about the size of a young boy. The picture plane shows you three graphic layers: a pitch black background, then a golden hand, then 5 lines of large white text. The golden hand is graphic yet ornate. It begins at the top from its wrist, crowned in a golden 
+There on the wall in front of you is a painted canvas stretched on a frame. You think its about the size of a young boy. The picture plane shows you three graphic layers: a pitch black background, then a silhouette of a giant golden hand, then 5 lines of large white uppercase text. The golden hand is graphic yet ornate. It begins at the top from its wrist, haloed by a frilly golden sleeve. The golden wrist continues down the picture to the golden hand. The golden hand leads to golden fingers. The tip of each golden finger terminates in a golden flower, and each of the flowers appear to be of a unique variety. You think that each finger bestows a unique character on the field. On top of the golden hand is the white text which reads:
+
+M I N D R
+E B O R N
+B Y S K Y
+T H A T I
+S T O R N
+
+And it takes you a moment to decifer but then recognize it reads as, "MIND REBORN BY SKY THAT IS TORN". To you this reads like a line from a poem or a song. But then you remember the magic golden fingers of the golden hand and think the text is also like a spell. 
 
 *go to [11]*
 
