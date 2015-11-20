@@ -219,11 +219,15 @@ You turn around and leave the office
 ##[2] Front space - Southeast
 
 
-You are in the corner of the southeast corner of the gallery. You see on the wall a PAINTING by Siebren Versteeg.  To the right of that is the DOOR to Salomeh's office. To the WEST you see another office. To the NORTH you see more of the gallery, and the exit.
+You are in the corner of the southeast corner of the gallery. You see on the wall a PAINTING by Siebren Versteeg. In the corner, a VIDEO by John Baldessari. To the right of that is the DOOR to Salomeh's office. To the WEST you see another office. To the NORTH you see more of the gallery, and the exit.
 
 `> PAINTING`
 
 *go to [2a]*
+
+`> VIDEO`
+
+*go to [2b]*
 
 `> DOOR`
 
@@ -252,6 +256,15 @@ You remember that Versteeg has an algorithm for generating these paintings. You 
 
 ---
 
+###[2b] John Baldessari - Teaching a Plant the Alphabet
+
+
+A video monitor is on a white pedestal about the height of your waist. Onscreen you see a black-and-white film is playing. Pictured in the frame in the foreground is a small potted house plant is set on a stool. You recognize this stool from CalArts. Just behind the plant you see Baldessari's hand enter and leave the frame, each time holding a letter-size card with a letter from the English alphabet. He's going through the alphabet in sequence and each time saying the name of the letter 10 or 15 times, and taking a brief pause between each letter.  'It's a futile excersize, teaching the alphabet to a houseplant', you think. You wonder if the transmission of ideas between discrete objects, be they persons or plants, is any use at all. You sense Baldessari had some playful frustration with effectiveness of language.
+
+*go to [2]* 
+
+---
+
 ##[3] Front space - East
 
 
@@ -275,7 +288,7 @@ You are on the eastern side of a big white room with bright white lights suspend
 ##[4] Front space - Center
 
 
-You stand at a table. It has a 1/4 inch Sandeply tabletop and 3 chairs around it.  There are two tablets at either head of the table. One tablet is showing VIDEOS and the other has a list of WEBSITES. Standing on the center of the table is a large flat screen MONITOR with a program by Paul Chan. 
+You stand at a table. It has a 1/4 inch Sandeply tabletop and 3 chairs around it.  There are two tablets at either head of the table. One tablet is showing VIDEOS and the other has a list of WEBSITES. Standing on the center of the table is a COMPUTER with a font set by Paul Chan. 
 
 To the WEST are two framed works. To the NORTHWEST, a video projection and a triptych. To the NORTHEAST corner a photographic print and a video. In the EAST is the exit, the SOUTHEAST a painting and an office. To the SOUTHWEST is another office and the way to the back space of the gallery.
 
@@ -287,7 +300,7 @@ To the WEST are two framed works. To the NORTHWEST, a video projection and a tri
 
 *go to [4b]*
 
-`> MONITOR`
+`> COMPUTER`
 
 *go to [4c]*
 
@@ -331,10 +344,17 @@ You pull out the chair and sit at a tablet at one end of the table. You see on s
 
 ---
 
-###[4c] Paul Chan
+###[4c] Paul Chan - Sade for Fonts Sake
 
 
-font 
+You sit down and on the table in front of you are a black computer keyboard and a black computer mouse and a modestly sized black computer monitor. Open onscreen is a blank Microsoft Word document titled: 'OPEN FOR PAUL CHAN PIECE'. A sheet of paper on the table to the left of the keyboard tells you that installed on this computer are fonts designed by Chan that transform any text into Sadean erotics. The selected font is 'Oh Juliette'. You type, 'Walking a mile in someone else's shoes', but the font causes the words to spell out something else:
+
+you sissy fuck me please christ oh god don't stop, keep going fuck me
+so wet oh god please yes oh god don't stop,
+harder more so wet yes more don't stop, yes yes please harder yes harder
+harder yes yes more yes harder
+
+You feel warm. You look over to your left and then back at the screen. You stand up from your chair and push it in.
 
 ---
 
@@ -689,7 +709,7 @@ The small, handwritten caption at the bottom reads 'A lady and two popes' and yo
 ##[12] Back space - Center
 
 
-You are in the center of the back space; the north edge of the gallery. On the floor is a video of a GAME by Eddo Stern. There is a single framed LITHOGRAPH by Bruce Nauman on the wall. To the right of that, a variety of print ephemera: four POSTCARDS by ////////
+You are in the center of the back space; the north edge of the gallery. On the floor is a video of a GAME by Eddo Stern. There is a single framed LITHOGRAPH by Bruce Nauman on the wall. To the right of that, a variety of print ephemera: CHICKEN postcards by Suzanne Lacy, MIMEOGRAPH pieces by Kim Jones, BOOTS postcards by Eleanor Antin, and three BOOKS by Ida Applebroog.
 
 `> GAME`
 
@@ -699,19 +719,19 @@ You are in the center of the back space; the north edge of the gallery. On the f
 
 *go to [12b]*
 
-`> //`
+`> CHICKEN`
 
 *go to [12c]*
 
-`> //`
+`> MIMEOGRAPH`
 
 *go to [12d]*
 
-`> //`
+`> BOOTS`
 
 *go to [12e]*
 
-`> //`
+`> BOOKS`
 
 *go to [12f]*
 
@@ -720,7 +740,7 @@ You are in the center of the back space; the north edge of the gallery. On the f
 ###[12a] Eddo Stern - Vietnam Romance
 
 
-//
+You watch as side-scrolling scenes of richly colored watercolor landscapes fall from right to left across a large flat-screen monitor in the center of the floor you stand on. You crouch down momentarily to meet the screen at eye-level. The scenes before you switch between clouds and cities and war zones and deserts (some road in a rainy rural Vietnam, an airport in the Mojave desert, an airport cafe, a stormy night sky high in the clouds with airplanes struggling to stay in flight, a desert road with tanks trudging across). Occasionally text appears onscreen with video game prompts: "press any button to play", or dialogue floating above characters heads. You decide that this is in-game video from a video game, but the aesthetic of the watercolor graphics is unfamiliar. You watch as a tank travels up a hill annhiliating giant text characters with its mounted machine gun.
 
 *go to [12]*
 
@@ -729,13 +749,22 @@ You are in the center of the back space; the north edge of the gallery. On the f
 ###[12b] Bruce Nauman - Raw War
 
 
-You see a lithograph of the word 'WAR' in uppercase red letters. This is one of Bruce Naumans early lithographs, 'Raw War'. You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text...or another between stillness and motion.
+You see a lithograph displaying the word 'WAR' in uppercase red letters.  You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text...or another between stillness and motion.
 
 *go to [12]*
 
 ---
 
-###[12c] //
+###[12c] Suzanne Lacy - Anatomy Lesson no.1: Chickens, Coming Home to Roost, 1975-76
+
+
+You see four postcards in four frames hung in two lines of two on the wall. Each postcard is a photograph depicting Lacy nude at a kitchen table facing the camera.  You see that in each photograph she is eating a different part of a chicken. In the top two postcards she is eating the chicken's wings. In the first she has her head turned sharply to right, with her right elbow on the table as she feeds her mouth with her right hand, and her left arm stretched forward toward the table. Below her right arm is printed the word: 'wing', and below her left arm: 'arm'. You think that her right arm as it touches elbow to table and bends back up to feed herself does in its triangular posture resemble a wing. And you can see that her other arm as it is outstretched on the table in repose is far more human.
+
+*go to [12]*
+
+---
+
+###[12d] Kim Jones - Mimeograph pieces, Early 80's
 
 
 //
@@ -744,7 +773,7 @@ You see a lithograph of the word 'WAR' in uppercase red letters. This is one of 
 
 ---
 
-###[12d] //
+###[12d] Eleanor Antin - 100 Boots, 1971-73
 
 
 //
@@ -753,16 +782,7 @@ You see a lithograph of the word 'WAR' in uppercase red letters. This is one of 
 
 ---
 
-###[12d] //
-
-
-//
-
-*go to [12]*
-
----
-
-###[12f] //
+###[12f] Ida Applebroog - a performance, 1981
 
 
 //
@@ -823,10 +843,16 @@ A digital print by Lee Mullican is framed in white on the wall in front of you. 
 
 ---
 
-###[13d] Ed Ruscha
+###[13d] Ed Ruscha - Waves of Advancing Technology
 
 
-//
+Framed in wood on the wall in front of you is a drawing. It depicts three lines of white block text advancing or receding through an indigo haze. You read the words:
+
+WAVES OF
+ADVANCING
+TECHNOLOGY
+
+And you sense the tinge of significance. You think of some dark sky high above the ground on a clear night in Los Angeles and an ominous prophecy floating through a thin smog unnoticed by the humans busy actualizing it below. You think of the technology of Ruscha's mark as it filled the picture plane with this thin blue field. You think of the question of advancement in the technology of art production and the risk of adopting new methods.
 
 *go to [13]*
 
