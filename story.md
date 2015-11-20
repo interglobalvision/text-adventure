@@ -341,7 +341,7 @@ font
 ##[5] Front space - Northeast
 
 
-You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by [artists name]. To your left a PHOTO by Eve Sonneman. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.
+You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by [artists name]. To your left a POLAROID by Eve Sonneman. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.
 
 `> VIDEO`
 
@@ -377,7 +377,9 @@ You see a gently undgulating flower of white calligraphy in [TITLE], a video by 
 ###[5b] Eve Sonneman - Discus Thrower
 
 
-//
+Hung before you is a photographic print, "about the size of a baby's crib", you think. The photograph depicts two silhouettes of the same human form, side-by-side, the right one half the size of the left. You recognize the silhouettes are of the discus thrower; the greek athlete posed at the peak of potential energy. Both silhouettes are lit by colored spotlights, circles of color defining the silhouettes form on the black background. One light is a powder green and the other is yellow and blue concentrically. To you they look like planets.
+
+You check the title sheet for the material of the piece: Polaroid Sonnegram, and you recognize 'sonne' as the German for 'sun'. You wonder about the large format camera that made this print.
 
 *go to [5]*
 
@@ -420,9 +422,9 @@ You are in the south wall of the front space. You feel liminal. Further south is
 ##[8] Front space - West wall
 
 
-You are standing at the western wall of the front space. You feel small. On the wall are two two-part WORKS by David Hockney. To the EAST there is a square table with laptops. 
+You are standing at the western wall of the front space. You feel small. On the wall are two two-part FAX works by David Hockney. To the EAST there is a square table with laptops. 
 
-`> WORKS`
+`> FAX`
 
 *go to [8a]*
 
@@ -444,24 +446,58 @@ You are standing at the western wall of the front space. You feel small. On the 
 
 ---
 
-###[8a] David Hockney - Geometric Waves and Views of the Sea
+###[8a] David Hockney - Views of the Sea and Geometric Waves
 
 
-//
+Two frames are on the wall in front of you side-by-side, each supporting two works on paper, one above the other. The top work of each frame is a moody blue-grey drawing on watercolor paper. The drawings are done in variety of materials: ink, guache, crayon and paint, and with an even greater variety of mark-making. 
+
+The frame on the left is 'Views of the Sea' and indeed depicts something of an ocean scenario. 'Maybe a beach', you think, as you notice in the bottom-right corner of the picture something that resembles a palm tree. The frame on the right is 'Geometric Waves' and indeed depict something of a cubist sea storm. The waves jut out of patterned seas as dramatic cones.
+
+Below the drawings in each frame is a fascimile of the drawing above it of the same dimensions (letter). They are black-and-white doubles of the drawings above them. You feel that in the reproduction some emotion has been lost; they feel dead to you. On the left edge of each facsimile is printed computer text reading perpendicular to the picture plane (the top of the letter-size copy paper). You read the text from the facsimile of 'Views of the Sea':
+
+APR 27 '95 16:57 D H STUDIO
+
+You read the text from the facsimile of 'Geometric Waves':
+
+APR 27 '95 17:09 D H STUDIO
+
+'Twelve minues later,' you think, and you can tell this text is the mark of a recieved telefax. You notice more than the loss of color in the facsimile, you notice a compression in the image. You wonder what is gained through loss and about the term 'digital artifact'. You think of an ocean of data and of weather systems.
 
 ---
 
 ##[9] Front space - Northwest
 
 
-You are in the northwest corner of the front space. You feel like you are moving although you are not. To the SOUTHEAST there is a square table with laptops. 
+You are in the northwest corner of the front space. You feel like you are moving although you are not. In the corner is a video PROJECTION by To the SOUTHEAST there is a square table with laptops. 
+
+`> WORKS`
+
+*go to [8a]*
+
+`> SOUTHEAST`
+
+*go to [4]*
+
+`> NORTH`
+
+*go to [8]*
+
+`> EAST`
+
+*go to [2]*
+
+`> NORTHEAST`
+
+*go to [4]*
 
 ---
 
-###[9a] video projection
+###[9a] Brice Bischoff - Night Drive
 
 
-//
+There is a large black steel frame on some wide stucco pedestal in the corner of the room. Streched within the frame is a kind of plastic screen or scrim with a few thin blue and yellow colored strokes gesturing across it. 'They're like spray paint," you think, or some remainder of a photographic process. 
+
+On the floor by your feet, more toward the center of the room, is a small white pedestal with a projector pointed toward the screen.  The projector is throwing a parade of greyscale images onto the screen in front of you. The images meander from left to right at different speeds and depths. The images are photographs from the street. You think how they are so reminiscent of the streets of Los Angeles, but that many streets in many cities could yield images like these. The way the projected images play with the colored strokes is very friendly as they crest and intersect.
 
 *go to [9]*
 
@@ -493,7 +529,7 @@ You think of the approximation of physical space in data...and the limitations o
 ##[11] Back space - South
 
 
-You are at the south end of the back space; the southwest corner of the gallery. You feel brave. On the wall to the south are a framed PRINTOUT by Barbara Turner Smith, a Seth Price TEXT hanging from a chain, a PRINT by Chris Burden. Next to those there is a small Barbara Kruger LITHOGRAPH hung above an INKSTAMP by Ed Keinholz. Then to the right is a PAINTING by Tyler Matthew Oyer, and finally a DRAWING by Guy de Cointet. To NORTH is the back space of the gallery, and to the EAST is the front space.
+You are at the south end of the back space; the southwest corner of the gallery. You feel brave. On the wall to the south are a framed PRINTOUT by Barbara Smith, a Seth Price TEXT hanging from a chain, a PRINT by Chris Burden. Next to those there is a small Barbara Kruger LITHOGRAPH hung above an INKSTAMP by Ed Keinholz. Then to the right is a PAINTING by Tyler Matthew Oyer, and finally a DRAWING by Guy de Cointet. To NORTH is the back space of the gallery, and to the EAST is the front space.
 
 `> PRINTOUT`
 
@@ -535,7 +571,7 @@ You are at the south end of the back space; the southwest corner of the gallery.
 
 ---
 
-###[11a] Barbara Turner Smith - mailer for Field Piece
+###[11a] Barbara Smith - mailer for Field Piece
 
 
 Hung in a gold frame nearest the left end of the wall you approach what appears like a drawing of dots. The top and bottom edges of the paper are each lined with a single line of punched holes. You recognize that this is a dot matrix print on continuous form paper, an now far outdated technique of computer printout. The image on the paper is formed by evenly spaced dots of different widths and densities. You see at the upper half of the paper the dots form the image of a white cloud, the word 'CIRRUS' in its center. At the lower half of the paper you see the dots form the image of a hill, the words 'FIELD PIECE' spelled out across it in negative space. Both the cloud and the hill appear to you to be emanating some kind of atmosphere. "They're trying to merge", you think. In the bottom left corner of the hill, written perpendicular to the horizon of the dot landscape, in characters the same height and width of the dots in the matrix, are the details of an exhibition:
@@ -622,10 +658,10 @@ For A MITRE SAW
 
 ---
 
-###[11f] Tyler Matthew Oyer - [painting]
+###[11f] Tyler Matthew Oyer - Marquee #68
 
 
-//
+There on the wall in front of you is a painted canvas stretched on a frame. You think its about the size of a young boy. The picture plane shows you three graphic layers: a pitch black background, then a golden hand, then 5 lines of large white text. The golden hand is graphic yet ornate. It begins at the top from its wrist, crowned in a golden 
 
 *go to [11]*
 
@@ -645,19 +681,44 @@ The small, handwritten caption at the bottom reads 'A lady and two popes' and yo
 ##[12] Back space - Center
 
 
-You are in the center back space; the north edge of the gallery. There is a single framed LITHOGRAPH by Bruce Nauman, and to the right of that, a variety of print EPHEMERA by Ida Applebroog.
+You are in the center of the back space; the north edge of the gallery. On the floor is a video of a GAME by Eddo Stern. There is a single framed LITHOGRAPH by Bruce Nauman on the wall. To the right of that, a variety of print ephemera: four POSTCARDS by ////////
 
-`> LITHOGRAPH`
+`> GAME`
 
 *go to [12a]*
 
-`> EPHEMERA`
+`> LITHOGRAPH`
 
 *go to [12b]*
 
+`> //`
+
+*go to [12c]*
+
+`> //`
+
+*go to [12d]*
+
+`> //`
+
+*go to [12e]*
+
+`> //`
+
+*go to [12f]*
+
 ---
 
-###[12a] Bruce Nauman - Raw War
+###[12a] Eddo Stern - Vietnam Romance
+
+
+//
+
+*go to [12]*
+
+---
+
+###[12b] Bruce Nauman - Raw War
 
 
 You see a lithograph of the word 'WAR' in uppercase red letters. This is one of Bruce Naumans early lithographs, 'Raw War'. You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text...or another between stillness and motion.
@@ -666,10 +727,37 @@ You see a lithograph of the word 'WAR' in uppercase red letters. This is one of 
 
 ---
 
-###[12b] Ida Applebroog - Raw War
+###[12c] //
 
 
-You see a lithograph of the word 'WAR' in uppercase red letters. This is one of Bruce Naumans early lithographs, 'Raw War'. You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text...or another between stillness and motion.
+//
+
+*go to [12]*
+
+---
+
+###[12d] //
+
+
+//
+
+*go to [12]*
+
+---
+
+###[12d] //
+
+
+//
+
+*go to [12]*
+
+---
+
+###[12f] //
+
+
+//
 
 *go to [12]*
 
@@ -678,7 +766,61 @@ You see a lithograph of the word 'WAR' in uppercase red letters. This is one of 
 ##[13] Back space - North
 
 
-You at the north end of the back space; the northwest corner of the gallery.
+You are at the north end of the back space; the northwest corner of the gallery. On the north wall is a large PAINTING by Despina Stokou, and to the right of that a computer PRINT by Lee Mullican. On the wall to the right is a VIDEO by Miranda July and a pastel DRAWING by Ed Ruscha.
+
+`> PAINTING`
+
+*go to [13a]*
+
+`> PRINT`
+
+*go to [13b]*
+
+`> VIDEO`
+
+*go to [13c]*
+
+`> DRAWING`
+
+*go to [13d]*
+
+---
+
+###[13a] Despina Stokou
+
+
+A large stretched canvas is on the wall, and you feel its maybe the size of your body with your arms and legs stretched out. Drawn with a thick pencil or maybe charcoal over the entire surface of the canvas are lines of emoji characters, about 15 lines in total, 10 emojis per line. You recognize this emoji character set specifically from apple devices. About half of the hand-drawn emojis have been filled in with color paint, the rest are left as pencil outlines. You start by viewing the composition as a single whole, bluring your eyes. Then you catch yourself and remember that each discrete emoji character indicates some single meaning in its given context. 
+
+Beginning at the top left, you read the lines of emojis like a story, thinking that this maybe function like lines of text. The emojis are like hieroglyphs, their vague individual meanings resting on the context of their neighbors like a house of cards, a precarious architecture of imprecise signification. But reading this emoji story left to right and top to bottom yields little save for the experience of grasping for connections and drawing conclusions. You try instead to read the story in another direction, first from top to bottom and left to right, and then from right to left and top to bottom, and so on. Each direction tells you a new story but with no more coherence than the others. You think the problem is of scale. If this is a story, then each character in the script might be an object or a memory, a feeling or an encounter and nothing in these heiroglyphs tell you which is which.
+
+*go to [13]*
+
+---
+
+###[13b] Lee Mullican
+
+
+A digital print by Lee Mullican is framed in white on the wall in front of you. 'I didn't know he made digital prints', you think. The colors are wonderfully rich and the forms are diverse and evocative and move in painterly stripes. The geometry gives you a sense of space that you can't trace. You think of roads and cities and lights and Matt Mullican. 
+
+*go to [13]*
+
+---
+
+###[13c] Miranda July
+
+
+//
+
+*go to [13]*
+
+---
+
+###[13d] Ed Ruscha
+
+
+//
+
+*go to [13]*
 
 ---
 
