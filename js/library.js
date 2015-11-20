@@ -139,8 +139,49 @@ Story = {
 
   salomehOffice: {
     name: "Salomeh's Office",
+    type: "conversation",
     description: "You enter Salomeh's office. The sound of the printer has the air. Salomeh is at a big L-shaped desk, eyes on her computer screen. She is finishing an email and you aren't sure if she noticed you yet.\n With a smile she says 'Just one moment.' While you're waiting you notice a strange printout on her desk.\n 'Done. Hi player-name. It's nice to see you. Did you have questions about the show?'",
+    options: {
+      1: "How long is it up for?",
+      2: "What's that printout on your desk?",
+      3: "Not really...",
+    },
     actions: {
+      1: "salomehOffice_1",
+      2: "salomehOffice_2",
+      3: "mainSoutheast",
+    },
+  },
+
+  salomehOffice_1: {
+    name: "Salomeh's Office",
+    type: "conversation",
+    description: "The show is on from Nov 21 2015 through Jan 30 2016. \n Did you any more questions about the show?'",
+    options: {
+      1: "How long is it up for?",
+      2: "What's that printout on your desk?",
+      3: "Not really...",
+    },
+    actions: {
+      "1": "salomehOffice_1",
+      "2": "salomehOffice_2",
+      "3": "mainSoutheast",
+    },
+  },
+
+  salomehOffice_2: {
+    name: "Salomeh's Office",
+    type: "conversation",
+    description: "Jean's messing around with some emojis for clouds...I was like, 'Just do your own!'. \n Did you any more questions about the show?'",
+    options: {
+      1: "How long is it up for?",
+      2: "What's that printout on your desk?",
+      3: "Not really...",
+    },
+    actions: {
+      "1": "salomehOffice_1",
+      "2": "salomehOffice_2",
+      "3": "mainSoutheast",
     },
   },
 
@@ -175,12 +216,12 @@ Story = {
 
   mainCenter: {
     name: "Main space - Center",
-    description: "",
+    description: "main center",
     actions: {
     },
   },
 
-  mainSoutheast: {
+  mainNortheast: {
     name: "Main space - Northeast",
     description: "You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by [artists name]. To your left a TRIPTYCH by [artists name]. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.",
     actions: {

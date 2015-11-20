@@ -6,7 +6,10 @@ Adventure = {
   container: $('#description'),
   form: $('#input-form'),
   input: $('#text-input'),
+  $customForm: $('#custom-form-container'),
+  $focus: null,
   command: $('#command'),
+  $mainContainer: $('#main-container'),
   currentPlace: null,
   init: function(story, place) {
     var _this = this;
@@ -14,12 +17,9 @@ Adventure = {
     // Set story
     _this.story = story;
 
-    // Focus input
-    _this.input.focus();
-
     // Prevent input blur
     $(window).on('click', function(){
-      _this.input.focus();
+      //_this.$focus.focus();
     });
 
     // Copy from input to "command line"
@@ -36,6 +36,16 @@ Adventure = {
     _this.go(place);
   },
 
+  clean: function() {
+    var _this = this;
+
+    _this.input.val('');
+    _this.command.text('');
+    _this.$customForm.html('');
+    _this.$mainContainer.removeClass().addClass('container');
+
+  },
+
   go: function(place) {
     var _this = this;
 
@@ -43,27 +53,51 @@ Adventure = {
     _this.say(_this.command.text().toUpperCase());
 
     // Clear input and "command line"
-    _this.input.val('');
-    _this.command.text('');
+    _this.clean();
 
     // Check if action exists
     if (_this.placeExist(place)) {
+
+      // Set new place
       _this.currentPlace = _this.story[place];
 
-      // Print description
-      _this.say(_this.currentPlace.description);
+      // Check if place is not a special type ex. conversation, question 
+      if( !_.has(_this.currentPlace, 'type') ) {
+        // Set focus element
+        _this.$focus = _this.input;
+
+        // Print description
+        _this.say(_this.currentPlace.description);
+
+      // else is special type
+      } else {
+        switch(_this.currentPlace.type) {
+          case 'conversation': {
+            _this.chat();
+            break;
+          }
+
+          case 'question': {
+            break;
+          }
+
+        }
+      }
 
     } else {
       // Action not found
-      console.log('Action not found');
+      _this.say('Action not found');
     }
+
+    // focus 
+    _this.$focus.focus();
   },
 
   listen: function(text) {
     var _this = this;
 
     // Convert to lowercase
-    text.toLowerCase();
+    text = text.toLowerCase();
 
     // Split text into words in case theres more than just one word
     var words = text.split(' ');
@@ -101,7 +135,7 @@ Adventure = {
         if (_.indexOf(actions, 'default') >= 0) {
           _this.go( _this.currentPlace.actions.default);
         } else {
-          console.log('action not found');
+          _this.say('action not found');
         }
 
         break;
@@ -117,6 +151,45 @@ Adventure = {
 
     window.scrollTo(0,document.body.scrollHeight);
   },
+
+  chat: function(conversation) {
+    var _this = this;
+
+    // Get the conversation
+    conversation = typeof conversation !== 'undefined' ? _this.story[conversation].options : _this.currentPlace.options;
+
+    var chatForm = '<form id="custom-form">';
+
+    // Generate radio buttons 
+    for(var ffs = 1; ffs <= _.size(conversation); ffs++) {
+      var checked = ffs === 1 ? 'checked' : '';
+
+      chatForm += '<input id="radio-' + ffs + '" type="radio" name="conversation" value="' + ffs + '" ' + checked + ' /><label for="radio-' + ffs + '">' + conversation[ffs] + '</label><br />';
+    }
+
+    // Add submit button
+    chatForm += '<input type="submit" value="Submit"></form>';
+
+    // insert dom and container class
+    _this.$customForm.html(chatForm);
+    _this.$customForm = $('#custom-form-container');
+    _this.say(_this.currentPlace.description);
+    _this.$mainContainer.addClass('conversation');
+
+    // Set new focus element
+    _this.$focus = $('#radio-1');
+
+    // Bind submit
+    _this.$customForm.children().bind('submit', function(event) {
+      event.preventDefault();
+      var selectedOption = $('input[type="radio"]:checked').val();
+      var nextPlace = _this.currentPlace.actions[selectedOption];
+
+      _this.say(_this.currentPlace.options[selectedOption].toUpperCase());
+      _this.go(nextPlace);
+    });
+
+  }, 
 
   placeExist: function(place) {
     var _this = this;
