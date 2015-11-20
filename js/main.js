@@ -204,7 +204,7 @@ Adventure = {
 };
 $(document).ready(function () {
   'use strict';
-  Adventure.init(Story, 'mainSoutheast');
+  Adventure.init(Story, 'welcome');
 });
 
 $(window).load(function () {
