@@ -449,10 +449,19 @@ You are standing at the western wall of the front space. You feel small. On the 
 ###[8a] David Hockney - Views of the Sea and Geometric Waves
 
 
-Two frames are on the wall in front of you side-by-side, each supporting two works on paper, one above the other. The top work of each frame is a moody blue-grey drawing on watercolor paper. The drawings are done in variety of materials: ink, guache, crayon and paint, and with an even greater variety of mark-making. Below the drawings in each frame is a second paper of the same 
+Two frames are on the wall in front of you side-by-side, each supporting two works on paper, one above the other. The top work of each frame is a moody blue-grey drawing on watercolor paper. The drawings are done in variety of materials: ink, guache, crayon and paint, and with an even greater variety of mark-making. 
 
-The work 
-telltale marks of a recieved fax. loss, compression, and what is gained through loss. digital artifacts. 
+The frame on the left is 'Views of the Sea' and indeed depicts something of an ocean scenario. 'Maybe a beach', you think, as you notice in the bottom-right corner of the picture something that resembles a palm tree. The frame on the right is 'Geometric Waves' and indeed depict something of a cubist sea storm. The waves jut out of patterned seas as dramatic cones.
+
+Below the drawings in each frame is a fascimile of the drawing above it of the same dimensions (letter). They are black-and-white doubles of the drawings above them. You feel that in the reproduction some emotion has been lost; they feel dead to you. On the left edge of each facsimile is printed computer text reading perpendicular to the picture plane (the top of the letter-size copy paper). You read the text from the facsimile of 'Views of the Sea':
+
+APR 27 '95 16:57 D H STUDIO
+
+You read the text from the facsimile of 'Geometric Waves':
+
+APR 27 '95 17:09 D H STUDIO
+
+'Twelve minues later,' you think, and you can tell this text is the mark of a recieved telefax. You notice more than the loss of color in the facsimile, you notice a compression in the image. You wonder what is gained through loss and about the term 'digital artifact'. You think of an ocean of data and of weather systems.
 
 ---
 
