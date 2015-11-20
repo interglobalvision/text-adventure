@@ -55,7 +55,7 @@ Adventure = {
 
     } else {
       // Action not found
-      console.log('Action not found');
+      _this.say('Action not found');
     }
   },
 
@@ -63,7 +63,7 @@ Adventure = {
     var _this = this;
 
     // Convert to lowercase
-    text.toLowerCase();
+    text = text.toLowerCase();
 
     // Split text into words in case theres more than just one word
     var words = text.split(' ');
@@ -101,7 +101,7 @@ Adventure = {
         if (_.indexOf(actions, 'default') >= 0) {
           _this.go( _this.currentPlace.actions.default);
         } else {
-          console.log('action not found');
+          _this.say('action not found');
         }
 
         break;
