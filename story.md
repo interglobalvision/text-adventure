@@ -341,7 +341,7 @@ font
 ##[5] Front space - Northeast
 
 
-You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by [artists name]. To your left a PHOTO by Eve Sonneman. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.
+You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by [artists name]. To your left a POLAROID by Eve Sonneman. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.
 
 `> VIDEO`
 
@@ -377,7 +377,9 @@ You see a gently undgulating flower of white calligraphy in [TITLE], a video by 
 ###[5b] Eve Sonneman - Discus Thrower
 
 
-//
+Hung before you is a photographic print, "about the size of a baby's crib", you think. The photograph depicts two silhouettes of the same human form, side-by-side, the right one half the size of the left. You recognize the silhouettes are of the discus thrower; the greek athlete posed at the peak of potential energy. Both silhouettes are lit by colored spotlights, circles of color defining the silhouettes form on the black background. One light is a powder green and the other is yellow and blue concentrically. To you they look like planets.
+
+You check the title sheet for the material of the piece: Polaroid Sonnegram, and you recognize 'sonne' as the German for 'sun'. You wonder about the large format camera that made this print.
 
 *go to [5]*
 
@@ -420,9 +422,9 @@ You are in the south wall of the front space. You feel liminal. Further south is
 ##[8] Front space - West wall
 
 
-You are standing at the western wall of the front space. You feel small. On the wall are two two-part WORKS by David Hockney. To the EAST there is a square table with laptops. 
+You are standing at the western wall of the front space. You feel small. On the wall are two two-part FAX works by David Hockney. To the EAST there is a square table with laptops. 
 
-`> WORKS`
+`> FAX`
 
 *go to [8a]*
 
@@ -444,24 +446,49 @@ You are standing at the western wall of the front space. You feel small. On the 
 
 ---
 
-###[8a] David Hockney - Geometric Waves and Views of the Sea
+###[8a] David Hockney - Views of the Sea and Geometric Waves
 
 
-//
+Two frames are on the wall in front of you side-by-side, each supporting two works on paper, one above the other. The top work of each frame is a moody blue-grey drawing on watercolor paper. The drawings are done in variety of materials: ink, guache, crayon and paint, and with an even greater variety of mark-making. Below the drawings in each frame is a second paper of the same 
+
+The work 
+telltale marks of a recieved fax. loss, compression, and what is gained through loss. digital artifacts. 
 
 ---
 
 ##[9] Front space - Northwest
 
 
-You are in the northwest corner of the front space. You feel like you are moving although you are not. To the SOUTHEAST there is a square table with laptops. 
+You are in the northwest corner of the front space. You feel like you are moving although you are not. In the corner is a video PROJECTION by To the SOUTHEAST there is a square table with laptops. 
+
+`> WORKS`
+
+*go to [8a]*
+
+`> SOUTHEAST`
+
+*go to [4]*
+
+`> NORTH`
+
+*go to [8]*
+
+`> EAST`
+
+*go to [2]*
+
+`> NORTHEAST`
+
+*go to [4]*
 
 ---
 
-###[9a] video projection
+###[9a] Brice Bischoff - Night Drive
 
 
-//
+There is a large black steel frame on some wide stucco pedestal in the corner of the room. Streched within the frame is a kind of plastic screen or scrim with a few thin blue and yellow colored strokes gesturing across it. 'They're like spray paint," you think, or some remainder of a photographic process. 
+
+On the floor by your feet, more toward the center of the room, is a small white pedestal with a projector pointed toward the screen.  The projector is throwing a parade of greyscale images onto the screen in front of you. The images meander from left to right at different speeds and depths. The images are photographs from the street. You think how they are so reminiscent of the streets of Los Angeles, but that many streets in many cities could yield images like these. The way the projected images play with the colored strokes is very friendly as they crest and intersect.
 
 *go to [9]*
 
@@ -493,7 +520,7 @@ You think of the approximation of physical space in data...and the limitations o
 ##[11] Back space - South
 
 
-You are at the south end of the back space; the southwest corner of the gallery. You feel brave. On the wall to the south are a framed PRINTOUT by Barbara Turner Smith, a Seth Price TEXT hanging from a chain, a PRINT by Chris Burden. Next to those there is a small Barbara Kruger LITHOGRAPH hung above an INKSTAMP by Ed Keinholz. Then to the right is a PAINTING by Tyler Matthew Oyer, and finally a DRAWING by Guy de Cointet. To NORTH is the back space of the gallery, and to the EAST is the front space.
+You are at the south end of the back space; the southwest corner of the gallery. You feel brave. On the wall to the south are a framed PRINTOUT by Barbara Smith, a Seth Price TEXT hanging from a chain, a PRINT by Chris Burden. Next to those there is a small Barbara Kruger LITHOGRAPH hung above an INKSTAMP by Ed Keinholz. Then to the right is a PAINTING by Tyler Matthew Oyer, and finally a DRAWING by Guy de Cointet. To NORTH is the back space of the gallery, and to the EAST is the front space.
 
 `> PRINTOUT`
 
@@ -535,7 +562,7 @@ You are at the south end of the back space; the southwest corner of the gallery.
 
 ---
 
-###[11a] Barbara Turner Smith - mailer for Field Piece
+###[11a] Barbara Smith - mailer for Field Piece
 
 
 Hung in a gold frame nearest the left end of the wall you approach what appears like a drawing of dots. The top and bottom edges of the paper are each lined with a single line of punched holes. You recognize that this is a dot matrix print on continuous form paper, an now far outdated technique of computer printout. The image on the paper is formed by evenly spaced dots of different widths and densities. You see at the upper half of the paper the dots form the image of a white cloud, the word 'CIRRUS' in its center. At the lower half of the paper you see the dots form the image of a hill, the words 'FIELD PIECE' spelled out across it in negative space. Both the cloud and the hill appear to you to be emanating some kind of atmosphere. "They're trying to merge", you think. In the bottom left corner of the hill, written perpendicular to the horizon of the dot landscape, in characters the same height and width of the dots in the matrix, are the details of an exhibition:
