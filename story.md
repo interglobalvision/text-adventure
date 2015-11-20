@@ -622,7 +622,7 @@ For A MITRE SAW
 
 ---
 
-###[11f] Tyler Matthew Oyer - [painting]
+###[11f] Tyler Matthew Oyer - Marquee #68
 
 
 //
@@ -645,19 +645,44 @@ The small, handwritten caption at the bottom reads 'A lady and two popes' and yo
 ##[12] Back space - Center
 
 
-You are in the center back space; the north edge of the gallery. There is a single framed LITHOGRAPH by Bruce Nauman, and to the right of that, a variety of print EPHEMERA by Ida Applebroog.
+You are in the center of the back space; the north edge of the gallery. On the floor is a video of a GAME by Eddo Stern. There is a single framed LITHOGRAPH by Bruce Nauman on the wall. To the right of that, a variety of print ephemera: four POSTCARDS by ////////
 
-`> LITHOGRAPH`
+`> GAME`
 
 *go to [12a]*
 
-`> EPHEMERA`
+`> LITHOGRAPH`
 
 *go to [12b]*
 
+`> //`
+
+*go to [12c]*
+
+`> //`
+
+*go to [12d]*
+
+`> //`
+
+*go to [12e]*
+
+`> //`
+
+*go to [12f]*
+
 ---
 
-###[12a] Bruce Nauman - Raw War
+###[12a] Eddo Stern - Vietnam Romance
+
+
+//
+
+*go to [12]*
+
+---
+
+###[12b] Bruce Nauman - Raw War
 
 
 You see a lithograph of the word 'WAR' in uppercase red letters. This is one of Bruce Naumans early lithographs, 'Raw War'. You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text...or another between stillness and motion.
@@ -666,10 +691,37 @@ You see a lithograph of the word 'WAR' in uppercase red letters. This is one of 
 
 ---
 
-###[12b] Ida Applebroog - Raw War
+###[12c] //
 
 
-You see a lithograph of the word 'WAR' in uppercase red letters. This is one of Bruce Naumans early lithographs, 'Raw War'. You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text...or another between stillness and motion.
+//
+
+*go to [12]*
+
+---
+
+###[12d] //
+
+
+//
+
+*go to [12]*
+
+---
+
+###[12d] //
+
+
+//
+
+*go to [12]*
+
+---
+
+###[12f] //
+
+
+//
 
 *go to [12]*
 
@@ -678,7 +730,61 @@ You see a lithograph of the word 'WAR' in uppercase red letters. This is one of 
 ##[13] Back space - North
 
 
-You at the north end of the back space; the northwest corner of the gallery.
+You are at the north end of the back space; the northwest corner of the gallery. On the north wall is a large PAINTING by Despina Stokou, and to the right of that a computer PRINT by Lee Mullican. On the wall to the right is a VIDEO by Miranda July and a pastel DRAWING by Ed Ruscha.
+
+`> PAINTING`
+
+*go to [13a]*
+
+`> PRINT`
+
+*go to [13b]*
+
+`> VIDEO`
+
+*go to [13c]*
+
+`> DRAWING`
+
+*go to [13d]*
+
+---
+
+###[13a] Despina Stokou
+
+
+A large stretched canvas is on the wall, and you feel its maybe the size of your body with your arms and legs stretched out. Drawn with a thick pencil or maybe charcoal over the entire surface of the canvas are lines of emoji characters, about 15 lines in total, 10 emojis per line. You recognize this emoji character set specifically from apple devices. About half of the hand-drawn emojis have been filled in with color paint, the rest are left as pencil outlines. You start by viewing the composition as a single whole, bluring your eyes. Then you catch yourself and remember that each discrete emoji character indicates some single meaning in its given context. 
+
+Beginning at the top left, you read the lines of emojis like a story, thinking that this maybe function like lines of text. The emojis are like hieroglyphs, their vague individual meanings resting on the context of their neighbors like a house of cards, a precarious architecture of imprecise signification. But reading this emoji story left to right and top to bottom yields little save for the experience of grasping for connections and drawing conclusions. You try instead to read the story in another direction, first from top to bottom and left to right, and then from right to left and top to bottom, and so on. Each direction tells you a new story but with no more coherence than the others. You think the problem is of scale. If this is a story, then each character in the script might be an object or a memory, a feeling or an encounter and nothing in these heiroglyphs tell you which is which.
+
+*go to [13]*
+
+---
+
+###[13b] Lee Mullican
+
+
+A digital print by Lee Mullican is framed in white on the wall in front of you. 'I didn't know he made digital prints', you think. The colors are wonderfully rich and the forms are diverse and evocative and move in painterly stripes. The geometry gives you a sense of space that you can't trace. You think of roads and cities and lights and Matt Mullican. 
+
+*go to [13]*
+
+---
+
+###[13c] Miranda July
+
+
+//
+
+*go to [13]*
+
+---
+
+###[13d] Ed Ruscha
+
+
+//
+
+*go to [13]*
 
 ---
 
