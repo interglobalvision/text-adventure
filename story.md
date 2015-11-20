@@ -661,7 +661,7 @@ For A MITRE SAW
 ###[11f] Tyler Matthew Oyer - Marquee #68
 
 
-//
+There on the wall in front of you is a painted canvas stretched on a frame. You think its about the size of a young boy. The picture plane shows you three graphic layers: a pitch black background, then a golden hand, then 5 lines of large white text. The golden hand is graphic yet ornate. It begins at the top from its wrist, crowned in a golden 
 
 *go to [11]*
 
