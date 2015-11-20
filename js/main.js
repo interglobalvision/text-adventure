@@ -72,9 +72,15 @@ Adventure = {
       // else is special type
       } else {
         switch(_this.currentPlace.type) {
-          case 'conversation':
+          case 'conversation': {
             _this.chat();
             break;
+          }
+
+          case 'question': {
+            break;
+          }
+
         }
       }
 
@@ -150,13 +156,12 @@ Adventure = {
     var _this = this;
 
     // Get the conversation
-    var conversation = typeof conversation !== 'undefined' ? _this.story[conversation].options : _this.currentPlace.options;
+    conversation = typeof conversation !== 'undefined' ? _this.story[conversation].options : _this.currentPlace.options;
 
     var chatForm = '<form id="custom-form">';
 
     // Generate radio buttons 
     for(var ffs = 1; ffs <= _.size(conversation); ffs++) {
-      var option = conversation[ffs];
       var checked = ffs === 1 ? 'checked' : '';
 
       chatForm += '<input id="radio-' + ffs + '" type="radio" name="conversation" value="' + ffs + '" ' + checked + ' /><label for="radio-' + ffs + '">' + conversation[ffs] + '</label><br />';
@@ -199,7 +204,7 @@ Adventure = {
 };
 $(document).ready(function () {
   'use strict';
-  Adventure.init(Story, 'welcome');
+  Adventure.init(Story, 'mainSoutheast');
 });
 
 $(window).load(function () {

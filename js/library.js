@@ -216,7 +216,7 @@ Story = {
 
   mainCenter: {
     name: "Main space - Center",
-    description: "",
+    description: "main center",
     actions: {
     },
   },
