@@ -221,7 +221,7 @@ Story = {
     },
   },
 
-  mainSoutheast: {
+  mainNortheast: {
     name: "Main space - Northeast",
     description: "You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by [artists name]. To your left a TRIPTYCH by [artists name]. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.",
     actions: {
