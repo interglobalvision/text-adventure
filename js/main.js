@@ -6,6 +6,8 @@ Adventure = {
   container: $('#description'),
   form: $('#input-form'),
   input: $('#text-input'),
+  $customForm: $('#custom-form-container'),
+  $focus: null,
   command: $('#command'),
   currentPlace: null,
   init: function(story, place) {
@@ -14,12 +16,9 @@ Adventure = {
     // Set story
     _this.story = story;
 
-    // Focus input
-    _this.input.focus();
-
     // Prevent input blur
     $(window).on('click', function(){
-      _this.input.focus();
+      //_this.$focus.focus();
     });
 
     // Copy from input to "command line"
@@ -45,18 +44,38 @@ Adventure = {
     // Clear input and "command line"
     _this.input.val('');
     _this.command.text('');
+    _this.$customForm.html('');
 
     // Check if action exists
     if (_this.placeExist(place)) {
+
+      // Set new place
       _this.currentPlace = _this.story[place];
 
-      // Print description
-      _this.say(_this.currentPlace.description);
+      // Check if place is not a special type ex. conversation, question 
+      if( !_.has(_this.currentPlace, 'type') ) {
+        // Set focus element
+        _this.$focus = _this.input;
+
+        // Print description
+        _this.say(_this.currentPlace.description);
+
+      // else is special type
+      } else {
+        switch(_this.currentPlace.type) {
+          case 'conversation':
+            _this.chat();
+            break;
+        }
+      }
 
     } else {
       // Action not found
       _this.say('Action not found');
     }
+
+    // focus 
+    _this.$focus.focus();
   },
 
   listen: function(text) {
@@ -118,6 +137,45 @@ Adventure = {
     window.scrollTo(0,document.body.scrollHeight);
   },
 
+  chat: function(conversation) {
+    var _this = this;
+
+    // Get the conversation
+    var conversation = typeof conversation !== 'undefined' ? _this.story[conversation].options : _this.currentPlace.options;
+
+    var chatForm = '<form id="custom-form">';
+
+    // Generate radio buttons 
+    for(var ffs = 1; ffs <= _.size(conversation); ffs++) {
+      var option = conversation[ffs];
+      var checked = ffs === 1 ? 'checked' : '';
+
+      chatForm += '<input id="radio-' + ffs + '" type="radio" name="conversation" value="' + ffs + '" ' + checked + ' />' + conversation[ffs] + '<br />';
+    }
+
+    // Add submit button
+    chatForm += '<input type="submit" value="Submit"></form>';
+
+    // insert dom
+    _this.$customForm.html(chatForm);
+    _this.$customForm = $('#custom-form-container');
+    _this.say(_this.currentPlace.description);
+
+    // Set new focus element
+    _this.$focus = $('#radio-1');
+
+    // Bind submit
+    _this.$customForm.children().bind('submit', function(event) {
+      event.preventDefault();
+      var selectedOption = $('input[type="radio"]:checked').val();
+      var nextPlace = _this.currentPlace.actions[selectedOption];
+
+      _this.say(_this.currentPlace.options[selectedOption]);
+      _this.go(nextPlace);
+    });
+
+  }, 
+
   placeExist: function(place) {
     var _this = this;
 
@@ -131,7 +189,7 @@ Adventure = {
 };
 $(document).ready(function () {
   'use strict';
-  Adventure.init(Story, 'welcome');
+  Adventure.init(Story, 'salomehOffice');
 });
 
 $(window).load(function () {
