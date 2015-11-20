@@ -9,6 +9,7 @@ Adventure = {
   $customForm: $('#custom-form-container'),
   $focus: null,
   command: $('#command'),
+  $mainContainer: $('#main-container'),
   currentPlace: null,
   init: function(story, place) {
     var _this = this;
@@ -35,6 +36,16 @@ Adventure = {
     _this.go(place);
   },
 
+  clean: function() {
+    var _this = this;
+
+    _this.input.val('');
+    _this.command.text('');
+    _this.$customForm.html('');
+    _this.$mainContainer.removeClass().addClass('container');
+
+  },
+
   go: function(place) {
     var _this = this;
 
@@ -42,9 +53,7 @@ Adventure = {
     _this.say(_this.command.text().toUpperCase());
 
     // Clear input and "command line"
-    _this.input.val('');
-    _this.command.text('');
-    _this.$customForm.html('');
+    _this.clean();
 
     // Check if action exists
     if (_this.placeExist(place)) {
@@ -150,16 +159,17 @@ Adventure = {
       var option = conversation[ffs];
       var checked = ffs === 1 ? 'checked' : '';
 
-      chatForm += '<input id="radio-' + ffs + '" type="radio" name="conversation" value="' + ffs + '" ' + checked + ' />' + conversation[ffs] + '<br />';
+      chatForm += '<input id="radio-' + ffs + '" type="radio" name="conversation" value="' + ffs + '" ' + checked + ' /><label for="radio-' + ffs + '">' + conversation[ffs] + '</label><br />';
     }
 
     // Add submit button
     chatForm += '<input type="submit" value="Submit"></form>';
 
-    // insert dom
+    // insert dom and container class
     _this.$customForm.html(chatForm);
     _this.$customForm = $('#custom-form-container');
     _this.say(_this.currentPlace.description);
+    _this.$mainContainer.addClass('conversation');
 
     // Set new focus element
     _this.$focus = $('#radio-1');
@@ -170,7 +180,7 @@ Adventure = {
       var selectedOption = $('input[type="radio"]:checked').val();
       var nextPlace = _this.currentPlace.actions[selectedOption];
 
-      _this.say(_this.currentPlace.options[selectedOption]);
+      _this.say(_this.currentPlace.options[selectedOption].toUpperCase());
       _this.go(nextPlace);
     });
 
@@ -189,7 +199,7 @@ Adventure = {
 };
 $(document).ready(function () {
   'use strict';
-  Adventure.init(Story, 'salomehOffice');
+  Adventure.init(Story, 'welcome');
 });
 
 $(window).load(function () {
