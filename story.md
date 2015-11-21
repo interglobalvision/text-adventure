@@ -335,7 +335,7 @@ You pull out the chair and sit at a tablet at one end of the table. You see on s
 
 ---
 
-###[4c] Paul Chan - Sade for Fonts Sake
+###[4c] Paul Chan - 'Sade for Fonts Sake'
 
 
 You sit down and on the table in front of you are a black computer keyboard and a black computer mouse and a modestly sized black computer monitor. Open onscreen is a blank Microsoft Word document titled: 'OPEN FOR PAUL CHAN PIECE'. A sheet of paper on the table to the left of the keyboard tells you that installed on this computer are fonts designed by Chan that transform any text into Sadean erotics. The selected font is 'Oh Juliette'. You type, 'Walking a mile in someone else's shoes', but the font causes the words to spell out something else:

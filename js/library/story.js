@@ -152,9 +152,12 @@ Story = {
     },
   },
 
-  websiteTablet: {
-    name: "Website tablet",
-    description: "You pull out the chair and sit at a tablet at one end of the table. You see on screen a website. It's wegmanworld.com, William Wegman's official webpage. You notice the website's design is drawn from the illustrations in his recent children's books. You think of his transition from his early video and photographic works addressing his own body, to the work addressing his dogs' bodies. You open a video on the website. Its called 'Dog Duet'. You watch as two Weimaraners stand side-by-side simultaneously tracing with their eyes and heads the movement of some point traveling in space behind the camera. You consider choreography and the ways society and architecture influence the movement and posturing of bodies.",
+  paulChan: {
+    name: "Paul Chan - 'Sade for Fonts Sake'",
+    description: "You sit down and on the table in front of you are a black computer keyboard and a black computer mouse and a modestly sized black computer monitor. Open onscreen is a blank Microsoft Word document titled: 'OPEN FOR PAUL CHAN PIECE'. A sheet of paper on the table to the left of the keyboard tells you that installed on this computer are fonts designed by Chan that transform any text into Sadean erotics. The selected font is 'Oh Juliette'. You type, 'Walking a mile in someone else's shoes', but the font causes the words to spell out something else:\nyou sissy fuck me please christ oh god don't stop, keep going fuck me\nso wet oh god please yes oh god don't stop,\nharder more so wet yes more don't stop, yes yes please harder yes harder
+harder yes yes more yes harder
+
+You feel warm. You look over to your left and then back at the screen. You stand up from your chair and push it in.",
     actions: {
       "default": "frontCenter",
     },
