@@ -829,7 +829,7 @@ THING
 
 The spread follows all the same formal characteristics as the prior 2 books, but this time is printed in black ink (of course). Again we see a stage with curtains drawn. Onstage you see a figure in mourning, draped in long cloth, and another figure embracing the first. Upstage and above them, apparently in flight, an angel: a figure in a tunic with large wings hung behind.
 
-You decide these are neither scores nor documentation, but they, as books, are performances. You imagine taking the book in your hands and flipping through its moments.
+You decide these are neither scores nor documentation, but they, as books, are performances. You imagine taking the book in your hands and turning through its moments.
 
 *go to [12]*
 
