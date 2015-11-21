@@ -142,7 +142,7 @@ Story = {
     options: {
       1: "How long is it up for?",
       2: "What's that printout on your desk?",
-      3: "Not really...",
+      3: "Not now.",
     },
     actions: {
       1: "salomehOffice_1",
@@ -158,7 +158,7 @@ Story = {
     options: {
       1: "How long is it up for?",
       2: "What's that printout on your desk?",
-      3: "Not really...",
+      3: "Not now.",
     },
     actions: {
       "1": "salomehOffice_1",
@@ -174,7 +174,7 @@ Story = {
     options: {
       1: "How long is it up for?",
       2: "What's that printout on your desk?",
-      3: "Not really...",
+      3: "Not now.",
     },
     actions: {
       "1": "salomehOffice_1",
@@ -186,7 +186,7 @@ Story = {
 /*******************************************/
 
   frontSoutheast: {
-    name: "Front space",
+    name: "Front space Southeast",
     description: "You are in the corner of the southeast corner of the gallery. You see on the wall a PAINTING by Siebren Versteeg. In the corner, a VIDEO by John Baldessari. To the right of that is the DOOR to Salomeh's office. To the WEST you see another office. To the NORTH you see more of the gallery, and the exit.",
     actions: {
       "painting": "siebrenVersteeg",
@@ -216,7 +216,7 @@ Story = {
 /*******************************************/
 
   frontEast: {
-    name: "Front space",
+    name: "Front space East",
     description: "You are on the eastern side of a big white room with bright white lights suspended from the ceiling. This is the gallery. From here you can move around the space. \n\nTo the SOUTH, there is a video, a painting on the wall, and the door to an office. To the WEST, in the center of the room, there is a table with screens. To the NORTH there is a video playing and a large photograph.",
     actions: {
       "south": "frontSoutheast",
@@ -228,7 +228,7 @@ Story = {
 /*******************************************/
 
   frontCenter: {
-    name: "Front space",
+    name: "Front space Center",
     description: "You stand at a table. It has a 1/4 inch Sandeply tabletop and 3 chairs around it.  There are two tablets at either head of the table. One tablet is showing VIDEOS and the other has a list of WEBSITES. Standing on the center of the table is a COMPUTER with a font set by Paul Chan. \n\nTo the WEST are two framed works. To the NORTHWEST, a video projection and a triptych. To the NORTHEAST corner a photographic print and a video. In the EAST is the front of the gallery, the SOUTHEAST a painting and an office. To the SOUTHWEST is another office and the way to the back space of the gallery.",
     actions: {
       "videos": "videoTablet",
@@ -269,7 +269,7 @@ Story = {
 /*******************************************/
 
   frontNortheast: {
-    name: "Front space",
+    name: "Front space Northeast",
     description: "You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by Kutlug Ataman. To your left a POLAROID by Eve Sonneman. To the WEST you see a painting and a work on paper. \n\nTo the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see the front of the gallery.",
     actions: {
       "video": "kutlugAtaman",
@@ -313,10 +313,9 @@ Story = {
 /*******************************************/
 
   frontSouth: {
-    name: "Front space",
-    description: "You are in the south wall of the front space. You feel liminal. Further south is Jean's OFFICE. To the WEST is the back space of the gallery. To the NORTH is the west wall of the front space. To the EAST is Salomeh's office and the east end of the front space. NORTHEAST there is a square table with laptops.",
+    name: "Front space South",
+    description: "You are in the south wall of the front space. You feel liminal. To the WEST is the back space of the gallery. To the NORTH is the west wall of the front space. To the EAST is Salomeh's office and the east end of the front space. NORTHEAST there is a square table with laptops.",
     actions: {
-      "office": "jeanOffice",
       "west": "backSouth",
       "north": "frontWest",
       "east": "frontSoutheast",
@@ -327,7 +326,7 @@ Story = {
 /*******************************************/
 
   frontWest: {
-    name: "Front space",
+    name: "Front space West",
     description: "You are standing at the western wall of the front space. You feel small. On the wall are two two-part FAX drawings by David Hockney. To the EAST there is a square table with laptops. To the NORTH is a video projection. To the SOUTH is an office and more of the gallery.",
     actions: {
       "fax": "davidHockney",
@@ -348,7 +347,7 @@ Story = {
 /*******************************************/
 
   frontNorthwest: {
-    name: "Front space",
+    name: "Front space Northwest",
     description: "You are in the northwest corner of the front space. You feel like you are moving although you are not. In the corner is a video PROJECTION by Brice Bischoff. On the wall is a TRIPTYCH by Dennis Oppenheim. To the SOUTHEAST there is a square table with laptops. To the SOUTH are two works by David Hockney. To the EAST is a photograph and a video.",
     actions: {
       "projection": "briceBischoff",
@@ -378,7 +377,7 @@ Story = {
 /*******************************************/
 
   backSouth: {
-    name: "Back space",
+    name: "Back space South",
     description: "You are at the south end of the back space; the southwest corner of the gallery. You feel brave. On the wall to the south are a framed PRINTOUT by Barbara Smith, a Seth Price TEXT hanging from a chain, a PRINT by Chris Burden. Next to those there is a small Barbara Kruger LITHOGRAPH hung above an INKSTAMP by Ed Keinholz. Then to the right is a PAINTING by Tyler Matthew Oyer, and finally a DRAWING by Guy de Cointet. \n\nTo NORTH is the back space of the gallery, and to the EAST is the front space.",
     actions: {
       "printout": "barbaraSmith",
@@ -403,7 +402,7 @@ Story = {
 
   sethPrice: {
     name: "Seth Price - 'Dispersion'",
-    description: "Seth Price - 'Dispersion' \n\ntext \n\nPress ENTER to continue...",
+    description: "Seth Price - 'Dispersion' \n\nYou open a booklet hanging from the wall and read:\n\nThe definition of artistic activity occurs, first of all, in the field of distribution.\nMarcel Broodthaers\n\nYou read on. You read about the distribution of art works and art ideas. You think about the manner in which the works you are experiencing in this exhibition are arriving in your proximity. You read:\n\n...the uninvitingly “tomb-like” Conceptualism of the 1960s.\n\nYou read about 'authenticity' as the objective of the record keeping of art works by the institutios of art. You read about the alternative 'popular archive' and a distribution that seeks a fractured and 'horizontal' existence for art works. \n\nPress ENTER to continue...",
     actions: {
       "default": "backSouth",
     },
@@ -452,7 +451,7 @@ Story = {
 /*******************************************/
 
   backCenter: {
-    name: "Back space",
+    name: "Back space Center",
     description: "You are in the center of the back space; the north edge of the gallery. On the floor is a video of a GAME by Eddo Stern. There is a single framed LITHOGRAPH by Bruce Nauman on the wall. To the right of that, a variety of print ephemera: CHICKEN postcards by Suzanne Lacy, MIMEOGRAPH pieces by Kim Jones, BOOTS postcards by Eleanor Antin, and three BOOKS by Ida Applebroog.\n\nTo NORTH is the end of the back space of the gallery, and to the SOUTH is the front space.",
     actions: {
       "game": "eddoStern",
@@ -517,7 +516,7 @@ Story = {
 /*******************************************/
 
   backNorth: {
-    name: "Back space",
+    name: "Back space North",
     description: "You are at the north end of the back space; the northwest corner of the gallery. On the north wall is a large PAINTING by Despina Stokou, and to the right of that a computer PRINT by Lee Mullican. On the wall to the right is a VIDEO by Miranda July and a pastel DRAWING by Ed Ruscha. To the SOUTH is more of the back space and the gallery.",
     actions: {
       "painting": "despinaStokou",
@@ -546,7 +545,7 @@ Story = {
 
   mirandaJuly: {
     name: "Miranda July - 'Somebody'",
-    description: "Miranda July - 'Somebody' \n\ntext \n\nPress ENTER to continue...",
+    description: "Miranda July - 'Somebody' \n\nYou arrive at a monitor on the wall. You see two girls wearing the same thing arguing about something. An elderly woman walks up and tells them, 'Blanca, it's me yolanda. I dont want to be in no fight with you flaca, you my homegirl. This is stupid. Come on bruja look at me'. \n\nThey are relieved and embrace, but suddenly become upset with the woman as she toddles away. They tell her they will rate her super low. You are amused. \n\nPress ENTER to continue...",
     actions: {
       "default": "backNorth",
     },

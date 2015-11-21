@@ -609,10 +609,17 @@ In the bottom righthand corner, in the same font as the exhibition details, you 
 ###[11b] Seth Price - 'Dispersion'
 
 
+You open a booklet hanging from the wall and read:
+
 The definition of artistic activity occurs, first of all, in the field of distribution.
 Marcel Broodthaers
 
-dispersion for artworks.  a manifesto not set in stone.  he can change it.  free at the new museum.  the premise for that exhibition. new models
+You read on. You read about the distribution of art works and art ideas. You think about the manner in which the works you are experiencing in this exhibition are arriving in your proximity. You read:
+
+...the uninvitingly “tomb-like” Conceptualism of the 1960s.
+
+You read about 'authenticity' as the objective of the record keeping of art works by the institutios of art. You read about the alternative 'popular archive' and a distribution that seeks a fractured and 'horizontal' existence for art works.
+
 
 ---
 
@@ -876,7 +883,9 @@ A digital print by Lee Mullican is framed in white on the wall in front of you. 
 ###[13c] Miranda July - 'Somebody'
 
 
-//
+You arrive at a monitor on the wall. You see two girls wearing the same thing arguing about something. An elderly woman walks up and tells them, 'Blanca, it's me yolanda. I dont want to be in no fight with you flaca, you my homegirl. This is stupid. Come on bruja look at me'. 
+
+They are relieved and embrace, but suddenly become upset with the woman as she toddles away. They tell her they will rate her super low. You are amused.
 
 *go to [13]*
 
