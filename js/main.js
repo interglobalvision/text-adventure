@@ -105,7 +105,7 @@ Adventure = {
         var list = '<p>From here you can say:</p><ul>';
 
         for (var x = 0; x < actions.length; x++) {
-          list += '<li>' + actions[x].toUpperCase() + '</li>';
+          list += '<li class="list-option">' + actions[x].toUpperCase() + '</li>';
         }
 
         list += '</ul>';
