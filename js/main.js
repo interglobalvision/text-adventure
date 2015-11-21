@@ -30,11 +30,6 @@ Adventure = {
     _this.form.submit( function(event) {
       event.preventDefault();
 
-      // Validate for empty values
-      if ( _this.input.val() === '' ) {
-        return false;
-      }
-
       _this.listen( _this.input.val() );
     });
 
@@ -151,6 +146,8 @@ Adventure = {
         // Check for default action
         if (_.indexOf(actions, 'default') >= 0) {
           _this.go( _this.currentPlace.actions.default);
+        } else if (action === '' ) {
+          _this.clean();
         } else {
           _this.say(action.toUpperCase());
           _this.say('action not found');
