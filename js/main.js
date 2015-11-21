@@ -121,12 +121,12 @@ Adventure = {
 
       } else if (action === 'help') {
         _this.say('============HELP');
-        var help = '<p>You can move around and interact with this world by typing commands when prompted with \'>\', and then pressing RETURN or ENTER.</p>' +
+        var help = '<p>You can move around and interact with this world by typing commands when prompted with the cursor and then pressing ENTER.</p>' +
           '<p>When you enter a new position on the map a description of that position is read to you. The available commands for that position will be in upper case letters.</p>' +
           '<p>Directional commands like EAST or SOUTHEAST will move you to a new position. Object commands like PAINTING or VIDEO will tell you about an object in the world.</p>' +
           '<p>...</p>' +
           '<p>Sometimes a person will start a conversation with you. When it is time to speak back you will be given a list of responses like:</p>' +
-          '<ul><li>>Yes</li><li>No</li></ul>' +  
+          '<p>>&nbsp;Yes<br>&nbsp;&nbsp;No</p>' +  
           '<p>You can choose a response with the UP and DOWN arrow keys, and press RETURN or ENTER to select it.</p>' +
           '<p>...</p>' +
           '<p>Also there are commands you can use at any time to help you on your way:</p>' +
