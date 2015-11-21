@@ -352,7 +352,7 @@ You feel warm. You look over to your left and then back at the screen. You stand
 ##[5] Front space - Northeast
 
 
-You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by [artists name]. To your left a POLAROID by Eve Sonneman. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.
+You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by Kutlug Ataman. To your left a POLAROID by Eve Sonneman. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.
 
 `> VIDEO`
 
@@ -479,11 +479,11 @@ APR 27 '95 17:09 D H STUDIO
 ##[9] Front space - Northwest
 
 
-You are in the northwest corner of the front space. You feel like you are moving although you are not. In the corner is a video PROJECTION by To the SOUTHEAST there is a square table with laptops. 
+You are in the northwest corner of the front space. You feel like you are moving although you are not. In the corner is a video PROJECTION by Brice Bischoff. On the wall is a TRIPTYCH by Dennis Oppenheim To the SOUTHEAST there is a square table with laptops. 
 
-`> WORKS`
+`> PROJECTION`
 
-*go to [8a]*
+*go to [9a]*
 
 `> SOUTHEAST`
 
