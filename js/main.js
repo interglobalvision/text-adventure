@@ -63,7 +63,7 @@ Adventure = {
       _this.currentPlace = _this.story[place];
 
       // Check if place is not a special type ex. conversation, question 
-      if( !_.has(_this.currentPlace, 'type') ) {
+      if ( !_.has(_this.currentPlace, 'type') ) {
         // Set focus element
         _this.$focus = _this.input;
 
@@ -163,7 +163,7 @@ Adventure = {
     var chatForm = '<form id="custom-form">';
 
     // Generate radio buttons 
-    for(var ffs = 1; ffs <= _.size(conversation); ffs++) {
+    for (var ffs = 1; ffs <= _.size(conversation); ffs++) {
       var checked = ffs === 1 ? 'checked' : '';
 
       chatForm += '<input id="radio-' + ffs + '" type="radio" name="conversation" value="' + ffs + '" ' + checked + ' /><label for="radio-' + ffs + '">' + conversation[ffs] + '</label><br />';
