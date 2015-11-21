@@ -430,10 +430,10 @@ You are in the south wall of the front space. You feel liminal. Further south is
 
 ---
 
-##[8] Front space - West wall
+##[8] Front space - West
 
 
-You are standing at the western wall of the front space. You feel small. On the wall are two two-part FAX works by David Hockney. To the EAST there is a square table with laptops. 
+You are standing at the western wall of the front space. You feel small. On the wall are two two-part FAX drawings by David Hockney. To the EAST there is a square table with laptops. To the NORTH is a video projection. To the SOUTH is an office and more of the gallery.
 
 `> FAX`
 
@@ -447,17 +447,14 @@ You are standing at the western wall of the front space. You feel small. On the 
 
 *go to [8]*
 
-`> EAST`
+`> SOUTH`
 
-*go to [2]*
+*go to [7]*
 
-`> NORTHEAST`
-
-*go to [4]*
 
 ---
 
-###[8a] David Hockney - Views of the Sea and Geometric Waves
+###[8a] David Hockney - 'Views of the Sea' and 'Geometric Waves'
 
 
 Two frames are on the wall in front of you side-by-side, each supporting two works on paper, one above the other. The top work of each frame is a moody blue-grey drawing on watercolor paper. The drawings are done in variety of materials: ink, guache, crayon and paint, and with an even greater variety of mark-making. 

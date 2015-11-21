@@ -35,6 +35,8 @@ Story = {
     save: 'name',
   },
 
+/*******************************************/
+
   salomehOffice: {
     name: "Salomeh's Office",
     type: "conversation",
@@ -83,6 +85,8 @@ Story = {
     },
   },
 
+/*******************************************/
+
   frontSoutheast: {
     name: "Front space",
     description: "You are in the corner of the southeast corner of the gallery. You see on the wall a PAINTING by Siebren Versteeg. In the corner, a VIDEO by John Baldessari. To the right of that is the DOOR to Salomeh's office. To the WEST you see another office. To the NORTH you see more of the gallery, and the exit.",
@@ -111,15 +115,19 @@ Story = {
     },
   },
 
+/*******************************************/
+
   frontEast: {
     name: "Front space",
-    description: "You are on the eastern side of a big white room with bright white lights suspended from the ceiling. This is the gallery. From here you can move around the space. \nTo the SOUTH, there is a video, a painting on the wall, and the door to an office. To the WEST, in the center of the room, there is a table with screens. To the NORTH there is a video playing and a large photograph.",
+    description: "You are on the eastern side of a big white room with bright white lights suspended from the ceiling. This is the gallery. From here you can move around the space. \n\nTo the SOUTH, there is a video, a painting on the wall, and the door to an office. To the WEST, in the center of the room, there is a table with screens. To the NORTH there is a video playing and a large photograph.",
     actions: {
       "south": "frontSoutheast",
       "west": "frontCenter",
       "north": "frontNortheast",
     },
   },
+
+/*******************************************/
 
   frontCenter: {
     name: "Front space",
@@ -160,6 +168,8 @@ Story = {
     },
   },
 
+/*******************************************/
+
   frontNortheast: {
     name: "Front space",
     description: "You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by Kutlug Ataman. To your left a POLAROID by Eve Sonneman. To the WEST you see a painting and a work on paper. \n\nTo the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see the front of the gallery.",
@@ -180,9 +190,62 @@ Story = {
     },
   },
   
-  kutlugAtaman: {
+  eveSonneman: {
     name: "Eve Sonneman - 'Discus Thrower'",
     description: "Eve Sonneman - 'Discus Thrower'\n\nHung before you is a photographic print, 'about the size of a baby crib', you think. The photograph depicts two silhouettes of the same human form, side-by-side, the right one half the size of the left. You recognize the silhouettes are of the discus thrower; the greek athlete posed at the peak of potential energy. Both silhouettes are lit by colored spotlights, circles of color defining the silhouettes form on the black background. One light is a powder green and the other is yellow and blue concentrically. To you they look like planets.\n\nYou check the title sheet for the material of the piece: Polaroid Sonnegram, and you recognize 'sonne' as the German for 'sun'. You wonder about the large format polaroid camera that made this print.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "frontNortheast",
+    },
+  },
+
+/*******************************************/
+
+  jeanOffice: {
+    name: "Jeans's Office",
+    type: "conversation",
+    description: "talking",
+    options: {
+      1: "How long is it up for?",
+      2: "What's that printout on your desk?",
+      3: "Not really...",
+    },
+    actions: {
+      1: "salomehOffice_1",
+      2: "salomehOffice_2",
+      3: "frontSoutheast",
+    },
+  },
+
+/*******************************************/
+
+  frontSouth: {
+    name: "Front space",
+    description: "You are in the south wall of the front space. You feel liminal. Further south is Jean's OFFICE. To the WEST is the back space of the gallery. To the NORTH is the west wall of the front space. To the EAST is Salomeh's office and the east end of the front space. NORTHEAST there is a square table with laptops.",
+    actions: {
+      "office": "jeanOffice",
+      "west": "backSouth",
+      "north": "frontWest",
+      "east": "frontSoutheast",
+      "northeast": "frontCenter",
+    },
+  },
+
+/*******************************************/
+
+  frontWest: {
+    name: "Front space",
+    description: "You are standing at the western wall of the front space. You feel small. On the wall are two two-part FAX drawings by David Hockney. To the EAST there is a square table with laptops. To the NORTH is a video projection. To the SOUTH is an office and more of the gallery.",
+    actions: {
+      "fax": "davidHockney",
+      "east": "frontCenter",
+      "north": "frontNorthwest",
+      "south": "frontSouth",
+    },
+  },
+
+  davidHockney: {
+    name: "David Hockney - 'Views of the Sea' and 'Geometric Waves'",
+    description: "David Hockney - 'Views of the Sea' and 'Geometric Waves'\n\nTwo frames are on the wall in front of you side-by-side, each supporting two works on paper, one above the other. The top work of each frame is a moody blue-grey drawing on watercolor paper. The drawings are done in variety of materials: ink, guache, crayon and paint, and with an even greater variety of mark-making. \n\nThe frame on the left is 'Views of the Sea' and indeed depicts something of an ocean scenario. 'Maybe a beach', you think, as you notice in the bottom-right corner of the picture something that resembles a palm tree. The frame on the right is 'Geometric Waves' and indeed depict something of a cubist sea storm. The waves jut out of patterned seas as dramatic cones.\n\nBelow the drawings in each frame is a fascimile of the drawing above it of the same dimensions (letter). They are black-and-white doubles of the drawings above them. You feel that in the reproduction some emotion has been lost; they feel dead to you. On the left edge of each facsimile is printed computer text reading perpendicular to the picture plane (the top of the letter-size copy paper). You read the text from the facsimile of 'Views of the Sea':\n\nAPR 27 '95 16:57 D H STUDIO\n\nYou read the text from the facsimile of 'Geometric Waves':\n\nAPR 27 '95 17:09 D H STUDIO\n\n'Twelve minues later,' you think, and you can tell this text is the mark of a recieved telefax. You notice more than the loss of color in the facsimile, you notice a compression in the image. You wonder what is gained through loss and about the term 'digital artifact'. You think of an ocean of data and of weather systems.\n\nPress ENTER to continue...",
     actions: {
       "default": "frontNortheast",
     },

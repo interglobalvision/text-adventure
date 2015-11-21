@@ -696,6 +696,7 @@ body {
   font-size: 34px;
   line-height: 1.4em;
   letter-spacing: 0.03em;
+  text-align: justify;
 }
 p {
   margin-bottom: 1em;
@@ -765,7 +766,7 @@ input[type="submit"] {
 }
 @media screen and (min-width: 1800px) {
   body {
-    font-size: 46px;
+    font-size: 32px;
     line-height: 1.4em;
     letter-spacing: 0.035em;
   }
@@ -776,7 +777,7 @@ input[type="submit"] {
 }
 @media screen and (max-width: 1400px) {
   body {
-    font-size: 28px;
+    font-size: 22px;
     line-height: 1.4em;
     letter-spacing: 0.03em;
   }
@@ -787,7 +788,7 @@ input[type="submit"] {
 }
 @media screen and (max-width: 1150px) {
   body {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 1.4em;
     letter-spacing: 0.03em;
   }
@@ -798,7 +799,7 @@ input[type="submit"] {
 }
 @media screen and (max-width: 600px) {
   body {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.4em;
     letter-spacing: 0.03em;
   }
