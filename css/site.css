@@ -684,6 +684,13 @@ ul.u-inline-list li {
 .genericon-zoom:before {
   content: "\f402";
 }
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  src: url("fonts/fantasquesansmono-regular-webfont.eot");
+  src: url("fonts/fantasquesansmono-regular-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/fantasquesansmono-regular-webfont.woff2") format('woff2'), url("fonts/fantasquesansmono-regular-webfont.woff") format('woff'), url("fonts/fantasquesansmono-regular-webfont.ttf") format('truetype'), url("fonts/fantasquesansmono-regular-webfont.svg#fantasque_sans_monoregular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   font-family: 'Fantasque Sans Mono', monospace;
   font-size: 18px;
