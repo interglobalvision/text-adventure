@@ -479,9 +479,13 @@ APR 27 '95 17:09 D H STUDIO
 ##[9] Front space - Northwest
 
 
-You are in the northwest corner of the front space. You feel like you are moving although you are not. In the corner is a video PROJECTION by Brice Bischoff. On the wall is a TRIPTYCH by Dennis Oppenheim To the SOUTHEAST there is a square table with laptops. 
+You are in the northwest corner of the front space. You feel like you are moving although you are not. In the corner is a video PROJECTION by Brice Bischoff. On the wall is a TRIPTYCH by Dennis Oppenheim. To the SOUTHEAST there is a square table with laptops. To the SOUTH are two works by David Hockney. To the EAST is a photograph and a video. 
 
 `> PROJECTION`
+
+*go to [9a]*
+
+`> TRIPTYCH`
 
 *go to [9a]*
 
@@ -489,17 +493,14 @@ You are in the northwest corner of the front space. You feel like you are moving
 
 *go to [4]*
 
-`> NORTH`
+`> SOUTH`
 
 *go to [8]*
 
 `> EAST`
 
-*go to [2]*
+*go to [5]*
 
-`> NORTHEAST`
-
-*go to [4]*
 
 ---
 
