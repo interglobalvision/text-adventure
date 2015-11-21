@@ -102,15 +102,15 @@ Adventure = {
       // if 'list'
       if (action === 'list') {
 
-        var help = '<p>From here you can say:</p><ul>';
+        var list = '<p>From here you can say:</p><ul>';
 
         for (var x = 0; x < actions.length; x++) {
-          help += '<li>' + actions[x].toUpperCase() + '</li>';
+          list += '<li>' + actions[x].toUpperCase() + '</li>';
         }
 
-        help += '</ul>';
+        list += '</ul>';
         _this.clean();
-        _this.say(help);
+        _this.say(list);
         break;
 
       // Check if action exists
