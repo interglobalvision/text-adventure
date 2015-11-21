@@ -38,13 +38,13 @@ Story = {
     actions: {
       "default": "mainEast",
     },
-    save: 'name', 
+    save: 'name',
   },
 
   salomehOffice: {
     name: "Salomeh's Office",
     type: "conversation",
-    description: "You enter Salomeh's office. The sound of the printer has the air. Salomeh is at a big L-shaped desk, eyes on her computer screen. She is finishing an email and you aren't sure if she noticed you yet.\n With a smile she says 'Just one moment.' While you're waiting you notice a strange printout on her desk.\n 'Done. Hi player-name. It's nice to see you. Did you have questions about the show?'",
+    description: "You enter Salomeh's office. The sound of the printer has the air. Salomeh is at a big L-shaped desk, eyes on her computer screen. She is finishing an email and you aren't sure if she noticed you yet.\n With a smile she says 'Just one moment.' While you're waiting you notice a strange printout on her desk.\n 'Done. Hi {{name}}. It's nice to see you. Did you have questions about the show?'",
     options: {
       1: "How long is it up for?",
       2: "What's that printout on your desk?",
