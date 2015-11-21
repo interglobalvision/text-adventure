@@ -740,33 +740,15 @@ img {
 #pagination {
   width: 100%;
 }
-input[type="text"],
+input[type="text"] {
+  text-transform: uppercase;
+  width: 100%;
+}
+input[type="text"]:focus {
+  outline: none;
+}
 input[type="submit"] {
-  height: 0;
-  width: 0;
-  opacity: 0;
-  text-transform: uppercase;
-}
-#command-line,
-#question-command-line {
-  display: block;
-  overflow: hidden;
-}
-#command,
-#question-command {
-  float: left;
-  white-space: pre;
-  text-transform: uppercase;
-}
-#caret,
-#question-caret {
-  float: left;
-  width: 5px;
-  height: 18px;
-  background: #fff;
-  opacity: 0;
-  -webkit-animation: blink 1s infinite linear;
-          animation: blink 1s infinite linear;
+  display: none;
 }
 .conversation #custom-form {
   text-transform: uppercase;
@@ -784,43 +766,11 @@ input[type="submit"] {
 .conversation #custom-form input[type="radio"]:checked + label:before {
   opacity: 1;
 }
-.conversation #command-line,
-.question #command-line {
-  display: none;
-}
 #footer {
   width: 100%;
 }
 @media screen and (max-width: 600px) {
   .container {
     width: 90%;
-  }
-}
-@-webkit-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  49% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  49% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
   }
 }
