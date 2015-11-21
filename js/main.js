@@ -8,7 +8,6 @@ Adventure = {
   input: $('#text-input'),
   $customForm: $('#custom-form-container'),
   $focus: null,
-  command: $('#command'),
   $mainContainer: $('#main-container'),
   currentPlace: null,
   save: {},
@@ -21,11 +20,6 @@ Adventure = {
     // Prevent input blur
     $(window).on('click', function(){
       //_this.$focus.focus();
-    });
-
-    // Copy from input to "command line"
-    _this.input.keyup(function() {
-      _this.command.text( _this.input.val() );
     });
 
     // Bind event
@@ -41,7 +35,6 @@ Adventure = {
     var _this = this;
 
     _this.input.val('');
-    _this.command.text('');
     _this.$customForm.html('');
     _this.$mainContainer.removeClass().addClass('container');
 
@@ -51,17 +44,23 @@ Adventure = {
     var _this = this;
 
     // Output command
-    _this.say(_this.command.text().toUpperCase());
+    _this.say(_this.input.val().toUpperCase());
 
-    // Clear input and "command line"
+    // Clear
     _this.clean();
 
-    // Check if action exists
-    if (_this.placeExist(place)) {
+    // Set new place
+    _this.currentPlace = _this.story[place];
 
-      // Set new place
-      _this.currentPlace = _this.story[place];
+    // Check if place is not a special type ex. conversation, question 
+    if ( !_.has(_this.currentPlace, 'type') ) {
+      // Set focus element
+      _this.$focus = _this.input;
 
+<<<<<<< HEAD
+      // Print description
+      _this.say(_this.currentPlace.description);
+=======
       // Check if place is not a special type ex. conversation, question
       if ( !_.has(_this.currentPlace, 'type') ) {
         // Set focus element
@@ -69,29 +68,30 @@ Adventure = {
 
         // Print description
         _this.say(_this.currentPlace.description);
+>>>>>>> master
 
       // else is special type
-      } else {
-        switch(_this.currentPlace.type) {
-          case 'conversation': {
-            _this.chat();
-            break;
-          }
-
-          case 'question': {
-            _this.question();
-            break;
-          }
-
-        }
-      }
-
     } else {
-      // Action not found
-      _this.say('Action not found');
+      switch(_this.currentPlace.type) {
+        case 'conversation': {
+          _this.chat();
+          break;
+        }
+
+        case 'question': {
+          _this.question();
+          break;
+        }
+
+      }
     }
 
+<<<<<<< HEAD
+
+    // focus 
+=======
     // focus
+>>>>>>> master
     _this.$focus.focus();
   },
 
@@ -137,7 +137,9 @@ Adventure = {
         if (_.indexOf(actions, 'default') >= 0) {
           _this.go( _this.currentPlace.actions.default);
         } else {
+          _this.say(action.toUpperCase());
           _this.say('action not found');
+          _this.clean();
         }
 
         break;
@@ -210,18 +212,13 @@ Adventure = {
     var answerName = typeof question !== 'undefined' ? _this.story[question].save : _this.currentPlace.save;
 
     // Generate text input
-    var questionForm = '<div id="question-command-line"> <span id="question-command"></span><div id="question-caret"></div></div><form id="custom-form" autocomplete="off"><input id="question-input" type="text" autocomplete="off"><input type="submit" value="Submit"></form>';
+    var questionForm = '<form id="custom-form" autocomplete="off"><input id="question-input" type="text" autocomplete="off"><input type="submit" value="Submit"></form>';
 
     // insert dom and container class
     _this.$customForm.html(questionForm);
     _this.$customForm = $('#custom-form-container');
     _this.say(_this.currentPlace.description);
     _this.$mainContainer.addClass('question');
-
-    // Copy from input to "question command line"
-    $('#question-input').keyup(function() {
-      $('#question-command').text( $('#question-input').val() );
-    });
 
     // Set new focus element
     _this.$focus = $('#question-input');
