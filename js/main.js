@@ -169,7 +169,7 @@ Adventure = {
       chatForm += '<input id="radio-' + ffs + '" type="radio" name="conversation" value="' + ffs + '" ' + checked + ' /><label for="radio-' + ffs + '">' + conversation[ffs] + '</label><br />';
     }
 
-    // Add submit button
+    // Add submit button, close form
     chatForm += '<input type="submit" value="Submit"></form>';
 
     // insert dom and container class
@@ -182,7 +182,7 @@ Adventure = {
     _this.$focus = $('#radio-1');
 
     // Bind submit
-    _this.$customForm.children().bind('submit', function(event) {
+    _this.$customForm.find('#custom-form').bind('submit', function(event) {
       event.preventDefault();
       var selectedOption = $('input[type="radio"]:checked').val();
       var nextPlace = _this.currentPlace.actions[selectedOption];
@@ -217,7 +217,7 @@ Adventure = {
     _this.$focus = $('#question-input');
 
     // Bind submit
-    _this.$customForm.children().bind('submit', function(event) {
+    _this.$customForm.find('#custom-form').bind('submit', function(event) {
       event.preventDefault();
       var answer = $('#question-input').val();
 
