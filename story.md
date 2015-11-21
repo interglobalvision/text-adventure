@@ -126,7 +126,7 @@ You current position is [current position].
 
 Nov 21 2015 thru Jan 30 2016
 
-Welcome to the Treachery of Images text adventure.  *possible title?*
+Welcome to the Treachery of Images text adventure.
 
 Is this your first time playing?
 
@@ -137,15 +137,6 @@ Is this your first time playing?
 *go to [0a]*
 
 `> NO or N`
-
-*go to [0b]*
-
----
-
-###[0a] Tutorial
-
-
-*explains how to play. that commands are in BOLD. HELP, MAP, LIST, RESTART, etc*
 
 *go to [0b]*
 
@@ -243,10 +234,10 @@ You are in the corner of the southeast corner of the gallery. You see on the wal
 
 ___
 
-###[2a] Siebren Versteeg - ANChORESs
+###[2a] Siebren Versteeg - 'ANChORESs'
 
 
-You read on the title sheet that the painting on the wall by Siebren Versteeg is called "ANChORESs".  It's quite large - taller and wider than you, you think.  You can see that this painting is really a print on canvas. The telltale brush strokes of a digital brush.  And you see collaged in the digital paint images of text and texture. 
+The painting on the wall is quite large - taller and wider than you, you think.  You can see that this painting is really a print on canvas. The telltale brush strokes of a digital brush.  And you see collaged in the digital paint images of text and texture. 
 
 You think of fantasy and dragons but you don't know why. Maybe its the fonts used in the collaged text, you think. One reminds you of Game of Thrones and the other of Medieval Times. 
 
@@ -256,7 +247,7 @@ You remember that Versteeg has an algorithm for generating these paintings. You 
 
 ---
 
-###[2b] John Baldessari - Teaching a Plant the Alphabet
+###[2b] John Baldessari - 'Teaching a Plant the Alphabet'
 
 
 A video monitor is on a white pedestal about the height of your waist. Onscreen you see a black-and-white film is playing. Pictured in the frame in the foreground is a small potted house plant is set on a stool. You recognize this stool from CalArts. Just behind the plant you see Baldessari's hand enter and leave the frame, each time holding a letter-size card with a letter from the English alphabet. He's going through the alphabet in sequence and each time saying the name of the letter 10 or 15 times, and taking a brief pause between each letter.  'It's a futile excersize, teaching the alphabet to a houseplant', you think. You wonder if the transmission of ideas between discrete objects, be they persons or plants, is any use at all. You sense Baldessari had some playful frustration with effectiveness of language.
