@@ -88,16 +88,19 @@ input[type="submit"]
   text-transform: uppercase
 
 
-#command-line
+#command-line,
+#question-command-line
   display: block
   overflow: hidden
   
-#command
+#command,
+#question-command
   float: left
   white-space: pre
   text-transform: uppercase
 
-#caret
+#caret,
+#question-caret
   float: left
   width: 5px
   height: $font-size-basic
@@ -134,7 +137,9 @@ input[type="submit"]
     input[type="radio"]:checked + label:before
       opacity: 1
 
-.conversation #command-line
+.conversation,
+.question
+  #command-line
     display: none
   
 // FOOTER

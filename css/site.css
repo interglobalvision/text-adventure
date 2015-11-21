@@ -684,58 +684,9 @@ ul.u-inline-list li {
 .genericon-zoom:before {
   content: "\f402";
 }
-.container {
-  margin: 0 auto;
-  width: 1272px;
-}
-.row {
-  clear: both;
-}
-.col {
-  float: left;
-  margin-left: 8px;
-  margin-right: 8px;
-  box-sizing: content-box;
-}
-.col1 {
-  width: 90px;
-}
-.col2 {
-  width: 196px;
-}
-.col3 {
-  width: 302px;
-}
-.col4 {
-  width: 408px;
-}
-.col5 {
-  width: 514px;
-}
-.col6 {
-  width: 620px;
-}
-.col7 {
-  width: 726px;
-}
-.col8 {
-  width: 832px;
-}
-.col9 {
-  width: 938px;
-}
-.col10 {
-  width: 1044px;
-}
-.col11 {
-  width: 1150px;
-}
-.col12 {
-  width: 1256px;
-}
 body {
   font-family: monospace;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.35em;
   letter-spacing: 0.001em;
 }
@@ -766,6 +717,12 @@ a:visited:hover {
 html {
   background-color: #000;
   color: #fff;
+  overflow-x: hidden;
+}
+.container {
+  width: 80%;
+  margin-left: 18px;
+  padding-top: 18px;
 }
 img {
   max-width: 100%;
@@ -783,11 +740,87 @@ img {
 #pagination {
   width: 100%;
 }
+input[type="text"],
+input[type="submit"] {
+  height: 0;
+  width: 0;
+  opacity: 0;
+  text-transform: uppercase;
+}
+#command-line,
+#question-command-line {
+  display: block;
+  overflow: hidden;
+}
+#command,
+#question-command {
+  float: left;
+  white-space: pre;
+  text-transform: uppercase;
+}
+#caret,
+#question-caret {
+  float: left;
+  width: 5px;
+  height: 18px;
+  background: #fff;
+  opacity: 0;
+  -webkit-animation: blink 1s infinite linear;
+          animation: blink 1s infinite linear;
+}
+.conversation #custom-form {
+  text-transform: uppercase;
+}
+.conversation #custom-form input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.conversation #custom-form label:before {
+  content: '>';
+  padding: 0 5px;
+  opacity: 0;
+}
+.conversation #custom-form input[type="radio"]:checked + label:before {
+  opacity: 1;
+}
+.conversation #command-line,
+.question #command-line {
+  display: none;
+}
 #footer {
   width: 100%;
 }
-@media screen and (max-width: 1272px) {
-  html {
-    width: 100%;
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
   }
 }

@@ -11,6 +11,7 @@ Adventure = {
   command: $('#command'),
   $mainContainer: $('#main-container'),
   currentPlace: null,
+  save: {},
   init: function(story, place) {
     var _this = this;
 
@@ -78,6 +79,7 @@ Adventure = {
           }
 
           case 'question': {
+            _this.question();
             break;
           }
 
@@ -190,6 +192,42 @@ Adventure = {
     });
 
   }, 
+
+  question: function(question) {
+    var _this = this;
+
+    // Get the answer name
+    var answerName = typeof question !== 'undefined' ? _this.story[question].save : _this.currentPlace.save;
+
+    // Generate text input
+    var questionForm = '<div id="question-command-line"> <span id="question-command"></span><div id="question-caret"></div></div><form id="custom-form" autocomplete="off"><input id="question-input" type="text" autocomplete="off"><input type="submit" value="Submit"></form>';
+
+    // insert dom and container class
+    _this.$customForm.html(questionForm);
+    _this.$customForm = $('#custom-form-container');
+    _this.say(_this.currentPlace.description);
+    _this.$mainContainer.addClass('question');
+
+    // Copy from input to "question command line"
+    $('#question-input').keyup(function() {
+      $('#question-command').text( $('#question-input').val() );
+    });
+
+    // Set new focus element
+    _this.$focus = $('#question-input');
+
+    // Bind submit
+    _this.$customForm.children().bind('submit', function(event) {
+      event.preventDefault();
+      var answer = $('#question-input').val();
+
+      _this.save['answerName'] = answer;
+
+      _this.say(answer.toUpperCase());
+      _this.go(_this.currentPlace.actions.default);
+    });
+
+  },
 
   placeExist: function(place) {
     var _this = this;

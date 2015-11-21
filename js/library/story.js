@@ -32,11 +32,13 @@ Story = {
   },
 
   guestbook: {
-    name: "Outside",
+    name: "Guestbook",
+    type: "question",
     description: "You walk in through the glass door. On your left there is a small table with a guestbook. You take a title sheet and then write your name in the guestbook...",
     actions: {
       "default": "mainEast",
     },
+    save: 'name', 
   },
 
   salomehOffice: {
