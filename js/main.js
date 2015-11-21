@@ -227,7 +227,7 @@ Adventure = {
 };
 $(document).ready(function () {
   'use strict';
-  Adventure.init(Story, 'salomehOffice');
+  Adventure.init(Story, 'welcome');
 });
 
 $(window).load(function () {
