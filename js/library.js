@@ -195,7 +195,7 @@ Story = {
 
   siebrenVersteeg: {
     name: "Siebren Versteeg - 'ANChORESs'",
-    description: "Siebren Versteeg - 'ANChORESs'\n\nThe painting on the wall is quite large - taller and wider than you, you think.  You can see that this painting is really a print on canvas. The telltale brush strokes of a digital brush.  And you see collaged in the digital paint images of text and texture. \n\nYou think of fantasy and dragons but you don't know why. Maybe its the fonts used in the collaged text, you think. One reminds you of Game of Thrones and the other of Medieval Times. \n\nYou remember that Versteeg has an algorithm for generating these paintings. You think of all the different possible iterations and you remember that infinity, like desire, is insatiable.",
+    description: "Siebren Versteeg - 'ANChORESs'\n\nThe painting on the wall is quite large - taller and wider than you, you think.  You can see that this painting is really a print on canvas. The telltale brush strokes of a digital brush.  And you see collaged in the digital paint images of text and texture. \n\nYou think of fantasy and dragons but you don't know why. Maybe its the fonts used in the collaged text, you think. One reminds you of Game of Thrones and the other of Medieval Times. \n\nYou remember that Versteeg has an algorithm for generating these paintings. You think of all the different possible iterations and you remember that infinity, like desire, is insatiable.\n\nPress ENTER to continue...",
     actions: {
       "default": "frontSoutheast",
     },
@@ -203,7 +203,7 @@ Story = {
 
   johnBaldessari: {
     name: "John Baldessari - 'Teaching a Plant the Alphabet'",
-    description: "John Baldessari - 'Teaching a Plant the Alphabet'\n\nThe painting on the wall is quite large - taller and wider than you, you think.  You can see that this painting is really a print on canvas. The telltale brush strokes of a digital brush.  And you see collaged in the digital paint images of text and texture. \n\nYou think of fantasy and dragons but you don't know why. Maybe its the fonts used in the collaged text, you think. One reminds you of Game of Thrones and the other of Medieval Times. \n\nYou remember that Versteeg has an algorithm for generating these paintings. You think of all the different possible iterations and you remember that infinity, like desire, is insatiable.",
+    description: "John Baldessari - 'Teaching a Plant the Alphabet'\n\nThe painting on the wall is quite large - taller and wider than you, you think.  You can see that this painting is really a print on canvas. The telltale brush strokes of a digital brush.  And you see collaged in the digital paint images of text and texture. \n\nYou think of fantasy and dragons but you don't know why. Maybe its the fonts used in the collaged text, you think. One reminds you of Game of Thrones and the other of Medieval Times. \n\nYou remember that Versteeg has an algorithm for generating these paintings. You think of all the different possible iterations and you remember that infinity, like desire, is insatiable.\n\nPress ENTER to continue...",
     actions: {
       "default": "frontSoutheast",
     },
@@ -236,7 +236,7 @@ Story = {
 
   videoTablet: {
     name: "Video tablet",
-    description: "You sit down at the tablet showing videos. You see it's a youtube playlist of videos related to the artists or works in the exhibition. The video playing is titled 'Bruce Nauman : performances1968-9'. The video is black and white. You put on the headphones and hear the ticking of a film camera. You watch as Nauman takes delicate steps around the perimeter of the larger square of two concentric squares marked on the floor of what you assume is his studio. His hips cock, forming a contrapposto balance with each step. You think of greek sculptors and geometors. You think he looks like a bird the way he moves. You consider the distance of the film and the distance of his journey around the square. You wonder if the physical film itself is also walking the perimeter of a square. You wonder if that physical film exists much at all given the other forms walking squares between here and there. Between the square room and the square table and the square tablet and the square youtube thumbnail.\n\n[press ENTER to continue]",
+    description: "You sit down at the tablet showing videos. You see it's a youtube playlist of videos related to the artists or works in the exhibition. The video playing is titled 'Bruce Nauman : performances1968-9'. The video is black and white. You put on the headphones and hear the ticking of a film camera. You watch as Nauman takes delicate steps around the perimeter of the larger square of two concentric squares marked on the floor of what you assume is his studio. His hips cock, forming a contrapposto balance with each step. You think of greek sculptors and geometors. You think he looks like a bird the way he moves. You consider the distance of the film and the distance of his journey around the square. You wonder if the physical film itself is also walking the perimeter of a square. You wonder if that physical film exists much at all given the other forms walking squares between here and there. Between the square room and the square table and the square tablet and the square youtube thumbnail.\n\nPress ENTER to continue...",
     actions: {
       "default": "frontCenter",
     },
@@ -244,7 +244,7 @@ Story = {
 
   websiteTablet: {
     name: "Website tablet",
-    description: "You pull out the chair and sit at a tablet at one end of the table. You see on screen a website. It's wegmanworld.com, William Wegman's official webpage. You notice the website's design is drawn from the illustrations in his recent children's books. You think of his transition from his early video and photographic works addressing his own body, to the work addressing his dogs' bodies. You open a video on the website. Its called 'Dog Duet'. You watch as two Weimaraners stand side-by-side simultaneously tracing with their eyes and heads the movement of some point traveling in space behind the camera. You consider choreography and the ways society and architecture influence the movement and posturing of bodies.\n\n[press ENTER to continue]",
+    description: "You pull out the chair and sit at a tablet at one end of the table. You see on screen a website. It's wegmanworld.com, William Wegman's official webpage. You notice the website's design is drawn from the illustrations in his recent children's books. You think of his transition from his early video and photographic works addressing his own body, to the work addressing his dogs' bodies. You open a video on the website. Its called 'Dog Duet'. You watch as two Weimaraners stand side-by-side simultaneously tracing with their eyes and heads the movement of some point traveling in space behind the camera. You consider choreography and the ways society and architecture influence the movement and posturing of bodies.\n\nPress ENTER to continue...",
     actions: {
       "default": "frontCenter",
     },
@@ -252,7 +252,7 @@ Story = {
 
   paulChan: {
     name: "Paul Chan - 'Sade for Fonts Sake'",
-    description: "You sit down and on the table in front of you are a black computer keyboard and a black computer mouse and a modestly sized black computer monitor. Open onscreen is a blank Microsoft Word document titled: 'OPEN FOR PAUL CHAN PIECE'. A sheet of paper on the table to the left of the keyboard tells you that installed on this computer are fonts designed by Chan that transform any text into Sadean erotics. The selected font is 'Oh Juliette'. You type, 'Walking a mile in someone else's shoes', but the font causes the words to spell out something else:\n\nyou sissy fuck me please christ oh god don't stop, keep going fuck me\nso wet oh god please yes oh god don't stop,\nharder more so wet yes more don't stop, yes yes please harder yes harder\nharder yes yes more yes harder\n\nYou feel warm. You look over to your left and then back at the screen. You stand up from your chair and push it in.\n\n[press ENTER to continue]",
+    description: "Paul Chan - 'Sade for Fonts Sake'\n\nYou sit down and on the table in front of you are a black computer keyboard and a black computer mouse and a modestly sized black computer monitor. Open onscreen is a blank Microsoft Word document titled: 'OPEN FOR PAUL CHAN PIECE'. A sheet of paper on the table to the left of the keyboard tells you that installed on this computer are fonts designed by Chan that transform any text into Sadean erotics. The selected font is 'Oh Juliette'. You type, 'Walking a mile in someone else's shoes', but the font causes the words to spell out something else:\n\nyou sissy fuck me please christ oh god don't stop, keep going fuck me\nso wet oh god please yes oh god don't stop,\nharder more so wet yes more don't stop, yes yes please harder yes harder\nharder yes yes more yes harder\n\nYou feel warm. You look over to your left and then back at the screen. You stand up from your chair and push it in.\n\nPress ENTER to continue...",
     actions: {
       "default": "frontCenter",
     },
@@ -260,11 +260,30 @@ Story = {
 
   frontNortheast: {
     name: "Front space",
-    description: "You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by Kutlug Ataman. To your left a POLAROID by Eve Sonneman. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.",
+    description: "You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by Kutlug Ataman. To your left a POLAROID by Eve Sonneman. To the WEST you see a painting and a work on paper. \n\nTo the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see the front of the gallery.",
     actions: {
       "video": "kutlugAtaman",
       "polaroid": "eveSonneman",
+      "west": "frontNorthwest",
+      "southwest": "frontCenter",
+      "south": "frontEast",
+    },
+  },
+
+  kutlugAtaman: {
+    name: "Kutlug Ataman - 'Animated Words - Nothing'",
+    description: "Kutlug Ataman - 'Animated Words - Nothing'\n\nYou see a gently undgulating flower of white calligraphy. You think that it isn't a flower at all but two identical forms of 8-point symmetry perfectly overlapped and turning in opposite directions on a black background. The turning creates a sensation for you both seductive and repulsive. Each time the two forms align you feel a tightness in your chest. You continue to watch the hypnotic spinning forms and see that they are indeed calligraphy of Arabic or Islamic origin. You think that even if you could read the characters you wouldn't be able to decipher the text with them spiraling like this.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "frontNortheast",
     },
   },
   
+  kutlugAtaman: {
+    name: "Eve Sonneman - 'Discus Thrower'",
+    description: "Eve Sonneman - 'Discus Thrower'\n\nHung before you is a photographic print, 'about the size of a baby crib', you think. The photograph depicts two silhouettes of the same human form, side-by-side, the right one half the size of the left. You recognize the silhouettes are of the discus thrower; the greek athlete posed at the peak of potential energy. Both silhouettes are lit by colored spotlights, circles of color defining the silhouettes form on the black background. One light is a powder green and the other is yellow and blue concentrically. To you they look like planets.\n\nYou check the title sheet for the material of the piece: Polaroid Sonnegram, and you recognize 'sonne' as the German for 'sun'. You wonder about the large format polaroid camera that made this print.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "frontNortheast",
+    },
+  },
+
 };

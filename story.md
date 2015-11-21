@@ -352,7 +352,7 @@ You feel warm. You look over to your left and then back at the screen. You stand
 ##[5] Front space - Northeast
 
 
-You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by Kutlug Ataman. To your left a POLAROID by Eve Sonneman. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see more of the gallery, and the exit.
+You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by Kutlug Ataman. To your left a POLAROID by Eve Sonneman. To the WEST you see a painting and a work on paper. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see the front of the gallery.
 
 `> VIDEO`
 
@@ -376,7 +376,7 @@ You are in the northeast corner of the gallery. You feel calm. To your right on 
 
 ---
 
-###[5a] Kutlug Ataman - Animated Words - Nothing
+###[5a] Kutlug Ataman - 'Animated Words - Nothing'
 
 
 You see a gently undgulating flower of white calligraphy in [TITLE], a video by [ARTIST]. You think that it isn't a flower at all but two identical forms of 8-point symmetry perfectly overlapped and turning in opposite directions on a black background. The turning creates a sensation for you both seductive and repulsive. Each time the two forms align you feel a tightness in your chest. You continue to watch the hypnotic spinning forms and see that they are indeed calligraphy of Arabic or Islamic origin. You think that even if you could read the characters you wouldn't be able to decipher the text with them spiraling like this.
@@ -385,10 +385,10 @@ You see a gently undgulating flower of white calligraphy in [TITLE], a video by 
 
 ---
 
-###[5b] Eve Sonneman - Discus Thrower
+###[5b] Eve Sonneman - 'Discus Thrower'
 
 
-Hung before you is a photographic print, "about the size of a baby's crib", you think. The photograph depicts two silhouettes of the same human form, side-by-side, the right one half the size of the left. You recognize the silhouettes are of the discus thrower; the greek athlete posed at the peak of potential energy. Both silhouettes are lit by colored spotlights, circles of color defining the silhouettes form on the black background. One light is a powder green and the other is yellow and blue concentrically. To you they look like planets.
+Hung before you is a photographic print, 'about the size of a baby crib', you think. The photograph depicts two silhouettes of the same human form, side-by-side, the right one half the size of the left. You recognize the silhouettes are of the discus thrower; the greek athlete posed at the peak of potential energy. Both silhouettes are lit by colored spotlights, circles of color defining the silhouettes form on the black background. One light is a powder green and the other is yellow and blue concentrically. To you they look like planets.
 
 You check the title sheet for the material of the piece: Polaroid Sonnegram, and you recognize 'sonne' as the German for 'sun'. You wonder about the large format polaroid camera that made this print.
 
