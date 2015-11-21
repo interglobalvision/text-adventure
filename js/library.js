@@ -236,6 +236,7 @@ Story = {
       "computer": "paulChan",
       "west": "frontWest",
       "northwest": "frontNorthwest",
+      "northeast": "frontNortheast",
       "east": "frontEast",
       "southeast": "frontSoutheast",
       "southwest": "frontSouth",
