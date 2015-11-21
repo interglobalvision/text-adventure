@@ -131,8 +131,6 @@ Adventure = {
           '<p>...</p>' +
           '<p>Also there are commands you can use at any time to help you on your way:</p>' +
           '<p>Type LIST to see a list of possible commands from your current position.</p>' +
-          '<p>Type MAP to see the world map.</p>' +
-          '<p>Type RESTART to return to the beginning of the world.</p>' +
           '<p>Type HELP to see this information again.</p>' +
           '<p>...</p>' +
           '<p>You current position is ' + _this.currentPlace.name + '</p>';
