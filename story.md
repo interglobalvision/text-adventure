@@ -762,9 +762,9 @@ You see four postcards in four frames hung in two lines of two on the wall. Each
 
 In the top two postcards she is eating the chicken's wings. In the first she has her head turned sharply to right, with her right elbow on the table as she feeds her mouth with her right hand, and her left arm stretched forward toward the table. Below her right arm is printed the word: 'wing', and below her left arm: 'arm'. You think that her right arm as it touches elbow to table and bends back up to feed herself does in its triangular posture resemble a wing. And you can see that her other arm as it is outstretched on the table in repose is more human in its posture.
 
-In the third postcard she is eating the chicken's leg. She has her own leg up on the table in front of her and you take notice of its shoeless dirty foot. She leans toward her leg like a dancer as she gnaws into the chicken leg eyes closed and elbows up. The caption below her you read: 'leg'.
+In the third postcard she is eating the chicken's leg. She has her own leg up on the table in front of her and you take notice of its shoeless dirty foot. She leans toward her leg like a dancer as she gnaws into the chicken leg eyes closed and elbows up. In the caption below her you read: 'leg'.
 
-In the final postcard she is eating the chicken's breast. In the other photographs her eyelids were closed in enjoyment, but here her eyes gaze through the camera, through the postcard, through time, and into your own. Both elbows are on the table as she feeds her self with both hands, her breasts framing the tray of chicken parts below them. The caption below reads: 'breast'.
+In the final postcard she is eating the chicken's breast. In the other photographs her eyelids were closed in enjoyment, but here her eyes gaze through the camera, through the postcard, through time, and into your own. Both elbows are on the table as she feeds her self with both hands, her breasts framing the tray of chicken parts below them. The caption reads: 'breast'.
 
 *go to [12]*
 
@@ -802,10 +802,34 @@ Clement Greenberg
 
 ---
 
-###[12f] Ida Applebroog - a performance, 1981
+###[12f] Ida Applebroog - I MEAN IT, YOU'LL SEE, and SAY SOMETHING, 1981
 
 
-//
+Three staple-bound books are displayed on a shelf. Of each book are displayed two copies from its edition, one closed to show the cover and one open to show a spread of pages. On each book cover you see a title in bold capital letters, followed by the words 'A PERFORMANCE', and finally, 'IDA APPLEBROOG'. You wonder if these are performance scores or performance documentation.
+
+The first book has a blue cover and the title you read:
+
+I MEAN
+IT
+
+The open spread has two drawings in a kind of cartoon style, one on each page of the spread, and to you the two appear identical. They are printed in only blue ink and depict a wide frame around two men. The men are shaking hands, one man turned out slightly more toward their audience. They cast dramatic shadows on the background.
+
+The second book has a maroon cover and the title reads:
+
+YOU'LL
+SEE
+
+The open spread again shows you two drawings in the same cartoon style. Again there is one per page of the spread, and this time you are certain they are identical. They are printed in only maroon ink and now show you a stage, curtains drawn. Onstage you see a holding in a casual business attire. He is holding his jacket open with his right hand. You think he's either putting his jacket on, or he could be taking it off... Below him, across the horizon of the stage, lays a woman in bed. You imagine the man is leaving her early in the morning, or perhaps arriving late at night.
+
+The third book has a black cover and the title you read:
+
+SAY
+SOME-
+THING
+
+The spread follows all the same formal characteristics as the prior 2 books, but this time is printed in black ink (of course). Again we see a stage with curtains drawn. Onstage you see a figure in mourning, draped in long cloth, and another figure embracing the first. Upstage and above them, apparently in flight, an angel: a figure in a tunic with large wings hung behind.
+
+You decide these are neither scores nor documentation, but they, as books, are performances. You imagine taking the book in your hands and flipping through its moments.
 
 *go to [12]*
 
