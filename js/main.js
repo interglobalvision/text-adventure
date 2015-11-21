@@ -21,7 +21,7 @@ Adventure = {
     $(window).on('click', function(event){
 
       // Check this isn't triggered by moving beteween radio buttons
-      if( event.target.toString() !== "[object HTMLInputElement]") {
+      if ( event.target.toString() !== "[object HTMLInputElement]") {
         _this.$focus.focus();
       }
     });
@@ -29,6 +29,12 @@ Adventure = {
     // Bind event
     _this.form.submit( function(event) {
       event.preventDefault();
+
+      // Validate for empty values
+      if ( _this.input.val() === '' ) {
+        return false;
+      }
+
       _this.listen( _this.input.val() );
     });
 
@@ -186,6 +192,12 @@ Adventure = {
     _this.$customForm.find('#custom-form').bind('submit', function(event) {
       event.preventDefault();
       var selectedOption = $('input[type="radio"]:checked').val();
+
+      // Validate for empty values
+      if ( selectedOption === '' ) {
+        return false;
+      }
+
       var nextPlace = _this.currentPlace.actions[selectedOption];
 
       _this.say(_this.currentPlace.options[selectedOption].toUpperCase());
@@ -217,7 +229,11 @@ Adventure = {
       event.preventDefault();
       var answer = $('#question-input').val();
 
-      _this.save[answerName] = answer;
+      if ( answer === '' ) {
+        return false;
+      }
+
+      _this.save[answerName] = answer.toUpperCase();
 
       _this.say(answer.toUpperCase());
       _this.go(_this.currentPlace.actions.default);

@@ -693,10 +693,9 @@ ul.u-inline-list li {
 }
 body {
   font-family: 'Fantasque Sans Mono', monospace;
-  font-size: 18px;
-  line-height: 1.35em;
-  letter-spacing: 0.001em;
-  text-align: justify;
+  font-size: 34px;
+  line-height: 1.4em;
+  letter-spacing: 0.03em;
 }
 h1 {
   font-size: 3em;
@@ -728,25 +727,13 @@ html {
   overflow-x: hidden;
 }
 .container {
-  width: 80%;
-  margin-left: 18px;
-  padding-top: 18px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 18px;
 }
 img {
   max-width: 100%;
   height: auto;
-}
-#header {
-  width: 100%;
-}
-#posts {
-  width: 100%;
-}
-.post {
-  width: 100%;
-}
-#pagination {
-  width: 100%;
 }
 input[type="text"] {
   text-transform: uppercase;
@@ -774,11 +761,47 @@ input[type="submit"] {
 .conversation #custom-form input[type="radio"]:checked + label:before {
   opacity: 1;
 }
-#footer {
-  width: 100%;
+@media screen and (min-width: 1800px) {
+  body {
+    font-size: 46px;
+    line-height: 1.4em;
+    letter-spacing: 0.035em;
+  }
+  .container {
+    max-width: 1650px;
+    padding: 36px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  body {
+    font-size: 28px;
+    line-height: 1.4em;
+    letter-spacing: 0.03em;
+  }
+  .container {
+    max-width: 1000px;
+    padding: 18px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  body {
+    font-size: 26px;
+    line-height: 1.4em;
+    letter-spacing: 0.03em;
+  }
+  .container {
+    max-width: 900px;
+    padding: 18px;
+  }
 }
 @media screen and (max-width: 600px) {
+  body {
+    font-size: 20px;
+    line-height: 1.4em;
+    letter-spacing: 0.03em;
+  }
   .container {
-    width: 90%;
+    max-width: 900px;
+    padding: 16px;
   }
 }
