@@ -139,6 +139,7 @@ Adventure = {
         debugger;
 
         _this.say(help);
+        _this.say(_this.currentPlace.description);
         _this.clean();
 
       // Check if action exists
@@ -277,6 +278,7 @@ Adventure = {
 $(document).ready(function () {
   'use strict';
   Adventure.init(Story, 'welcome');
+  //Adventure.init(Story, 'salomehOffice');
 });
 
 $(window).load(function () {
