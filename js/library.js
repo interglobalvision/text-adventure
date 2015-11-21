@@ -403,7 +403,7 @@ Story = {
 
   sethPrice: {
     name: "Seth Price - 'Dispersion'",
-    description: "Seth Price - 'Dispersion'\n\n...\n\nPress ENTER to continue...",
+    description: "Seth Price - 'Dispersion' \n\ntext \n\nPress ENTER to continue...",
     actions: {
       "default": "backSouth",
     },
