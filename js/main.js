@@ -229,12 +229,11 @@ Adventure = {
       event.preventDefault();
       var answer = $('#question-input').val();
 
-      // Validate for empty values
       if ( answer === '' ) {
         return false;
       }
 
-      _this.save[answerName] = answer;
+      _this.save[answerName] = answer.toUpperCase();
 
       _this.say(answer.toUpperCase());
       _this.go(_this.currentPlace.actions.default);
