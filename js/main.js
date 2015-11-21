@@ -105,18 +105,18 @@ Adventure = {
     for (var i = 0; i < words.length; i++) {
       var action = words[i];
 
-      // if 'help'
-      if (action === 'help') {
+      // if 'list'
+      if (action === 'list') {
 
-        var help = '<p>From here you can say:</p><ul>';
+        var list = '<p>From here you can say:</p><ul>';
 
         for (var x = 0; x < actions.length; x++) {
-          actions[x].toUpperCase();
-          help += '<li>' + actions[x] + '</li>';
+          list += '<li class="list-option">' + actions[x].toUpperCase() + '</li>';
         }
 
-        help += '</ul>';
-        _this.say(help);
+        list += '</ul>';
+        _this.clean();
+        _this.say(list);
         break;
 
       // Check if action exists
