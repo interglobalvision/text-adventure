@@ -52,23 +52,13 @@ Adventure = {
     // Set new place
     _this.currentPlace = _this.story[place];
 
-    // Check if place is not a special type ex. conversation, question 
+    // Check if place is not a special type ex. conversation, question
     if ( !_.has(_this.currentPlace, 'type') ) {
       // Set focus element
       _this.$focus = _this.input;
 
-<<<<<<< HEAD
       // Print description
       _this.say(_this.currentPlace.description);
-=======
-      // Check if place is not a special type ex. conversation, question
-      if ( !_.has(_this.currentPlace, 'type') ) {
-        // Set focus element
-        _this.$focus = _this.input;
-
-        // Print description
-        _this.say(_this.currentPlace.description);
->>>>>>> master
 
       // else is special type
     } else {
@@ -86,12 +76,7 @@ Adventure = {
       }
     }
 
-<<<<<<< HEAD
-
-    // focus 
-=======
     // focus
->>>>>>> master
     _this.$focus.focus();
   },
 
