@@ -136,7 +136,6 @@ Adventure = {
           '<p>Type HELP to see this information again.</p>' +
           '<p>...</p>' +
           '<p>You current position is ' + _this.currentPlace.name + '</p>';
-        debugger;
 
         _this.say(help);
         _this.say(_this.currentPlace.description);
