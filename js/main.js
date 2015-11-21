@@ -18,8 +18,12 @@ Adventure = {
     _this.story = story;
 
     // Prevent input blur
-    $(window).on('click', function(){
-      //_this.$focus.focus();
+    $(window).on('click', function(event){
+
+      // Check this isn't triggered by moving beteween radio buttons
+      if( event.target.toString() !== "[object HTMLInputElement]") {
+        _this.$focus.focus();
+      }
     });
 
     // Bind event
