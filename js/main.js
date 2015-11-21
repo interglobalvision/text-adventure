@@ -149,7 +149,9 @@ Adventure = {
   say: function(text) {
     var _this = this;
 
-    _this.container.append('<p>' + text + '</p>');
+    text = '<p>' + text + '</p>';
+    text = text.replace(/\n/g, '</p><p>');
+    _this.container.append(text);
 
     window.scrollTo(0,document.body.scrollHeight);
   },
