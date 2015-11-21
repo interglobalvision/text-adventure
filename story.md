@@ -340,7 +340,7 @@ You sit down at the tablet showing videos. You see it's a youtube playlist of vi
 ###[4b] Website tablet
 
 
-You pull out the chair and sit at a tablet at one end of the table. You see on screen a website. It's wegmanworld.com, William Wegman's official webpage. You notice the website's design is drawn from the illustrations in his recent children's books. You think of his transition from his early video and photographic works addressing his own body, to the work addressing his dogs' bodies. You open a video on the website. Its called 'Dog Duet'. You watch as two Weimaraners stand side-by-side simultaneously tracing with their eyes and heads the movement of some point traveling in space behind the camera. You consider coreography and the ways society and architecture influence the movement and posturing of bodies.
+You pull out the chair and sit at a tablet at one end of the table. You see on screen a website. It's wegmanworld.com, William Wegman's official webpage. You notice the website's design is drawn from the illustrations in his recent children's books. You think of his transition from his early video and photographic works addressing his own body, to the work addressing his dogs' bodies. You open a video on the website. Its called 'Dog Duet'. You watch as two Weimaraners stand side-by-side simultaneously tracing with their eyes and heads the movement of some point traveling in space behind the camera. You consider choreography and the ways society and architecture influence the movement and posturing of bodies.
 
 ---
 
@@ -399,7 +399,7 @@ You see a gently undgulating flower of white calligraphy in [TITLE], a video by 
 
 Hung before you is a photographic print, "about the size of a baby's crib", you think. The photograph depicts two silhouettes of the same human form, side-by-side, the right one half the size of the left. You recognize the silhouettes are of the discus thrower; the greek athlete posed at the peak of potential energy. Both silhouettes are lit by colored spotlights, circles of color defining the silhouettes form on the black background. One light is a powder green and the other is yellow and blue concentrically. To you they look like planets.
 
-You check the title sheet for the material of the piece: Polaroid Sonnegram, and you recognize 'sonne' as the German for 'sun'. You wonder about the large format camera that made this print.
+You check the title sheet for the material of the piece: Polaroid Sonnegram, and you recognize 'sonne' as the German for 'sun'. You wonder about the large format polaroid camera that made this print.
 
 *go to [5]*
 
@@ -758,7 +758,13 @@ You see a lithograph displaying the word 'WAR' in uppercase red letters.  You sq
 ###[12c] Suzanne Lacy - Anatomy Lesson no.1: Chickens, Coming Home to Roost, 1975-76
 
 
-You see four postcards in four frames hung in two lines of two on the wall. Each postcard is a photograph depicting Lacy nude at a kitchen table facing the camera.  You see that in each photograph she is eating a different part of a chicken. In the top two postcards she is eating the chicken's wings. In the first she has her head turned sharply to right, with her right elbow on the table as she feeds her mouth with her right hand, and her left arm stretched forward toward the table. Below her right arm is printed the word: 'wing', and below her left arm: 'arm'. You think that her right arm as it touches elbow to table and bends back up to feed herself does in its triangular posture resemble a wing. And you can see that her other arm as it is outstretched on the table in repose is far more human.
+You see four postcards in four frames hung in two lines of two on the wall. Each postcard is a photograph depicting Lacy nude, facing the camera, at a kitchen table with a tray of cooked chicken parts.  You see that in each photograph she is eating a different piece of chicken. 
+
+In the top two postcards she is eating the chicken's wings. In the first she has her head turned sharply to right, with her right elbow on the table as she feeds her mouth with her right hand, and her left arm stretched forward toward the table. Below her right arm is printed the word: 'wing', and below her left arm: 'arm'. You think that her right arm as it touches elbow to table and bends back up to feed herself does in its triangular posture resemble a wing. And you can see that her other arm as it is outstretched on the table in repose is more human in its posture.
+
+In the third postcard she is eating the chicken's leg. She has her own leg up on the table in front of her and you take notice of its shoeless dirty foot. She leans toward her leg like a dancer as she gnaws into the chicken leg eyes closed and elbows up. The caption below her you read: 'leg'.
+
+In the final postcard she is eating the chicken's breast. In the other photographs her eyelids were closed in enjoyment, but here her eyes gaze through the camera, through the postcard, through time, and into your own. Both elbows are on the table as she feeds her self with both hands, her breasts framing the tray of chicken parts below them. The caption below reads: 'breast'.
 
 *go to [12]*
 
@@ -767,7 +773,9 @@ You see four postcards in four frames hung in two lines of two on the wall. Each
 ###[12d] Kim Jones - Mimeograph pieces, Early 80's
 
 
-//
+Four framed mimeographs are hung two-by-two on the wall. Each is about letter-size and each shows you a black-and-white photograph with an irregular white margin on the page. Captured in the photograph is Jones a man on a rooftop. He is nude aside from a costume of sticks and mud formed in some arrangement varying between each. You remember Jones did public appearances like this in Los Angeles as his alter-ego known as Mudman. 
+
+Mudman takes power stances on the roof and you think there is some energy in the clumps of mud. You imagine meeting Mudman in the street in downtown Los Angeles and the speechless exchange of presence that you would pass together.
 
 *go to [12]*
 
@@ -776,7 +784,19 @@ You see four postcards in four frames hung in two lines of two on the wall. Each
 ###[12d] Eleanor Antin - 100 Boots, 1971-73
 
 
-//
+Seven postcards are framed in seven frames on the wall. The first six are photographs of landscapes, and you see that each landscape is unique between them. You see a hillside, a field, a harbor, a bar empty save for a belly dancer, an abandoned interior and an on-location movie shoot. You are certain that though there are other figures and objects present in the photos the protagonist in each is a congregation of many cowboy boots in the landscape, and you estimate at least 30 boots are shown in each. The boots are standing upright, as if worn by an invisible cowboy, and in lines or rows or other groupings. 
+
+The final postcard is a photgraph of a woman sitting in a chair with one leg crossing the other, her hand against her chin in thought. Next to her on a small table you see she has some implements you can't make out. And below her photo a block of text on a white background reads:
+
+'...Not that the work of the modern artist must by any means 
+resemble the past, but he must show some sense of it, a realization
+of its presence and attraction. Otherwise he dissipates himself in
+sheer quality and fails to impose that order and shaping which are
+indispensable concomitants of high art, and without which the truly
+cultivated spectator is left thirsty. High art resumes everything that
+precedes it, otherwise it is less than high.'
+Clement Greenberg
+(Partisan Review, July, 1948)
 
 *go to [12]*
 
