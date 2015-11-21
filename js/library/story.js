@@ -2,7 +2,7 @@ Story = {
 
   welcome: {
     name: "Welcome",
-    description: "Welcome to the Treachery of Images text adventure.\n\nIs this your first time playing?\n(YES or NO)",
+    description: "Welcome to the Treachery of Images text adventure.\n\nIs this your first time playing?",
     actions: {
       yes: "tutorial",
       no: "outside",
@@ -250,5 +250,178 @@ Story = {
       "default": "frontNortheast",
     },
   },
+
+/*******************************************/
+
+  frontNorthwest: {
+    name: "Front space",
+    description: "You are in the northwest corner of the front space. You feel like you are moving although you are not. In the corner is a video PROJECTION by Brice Bischoff. On the wall is a TRIPTYCH by Dennis Oppenheim. To the SOUTHEAST there is a square table with laptops. To the SOUTH are two works by David Hockney. To the EAST is a photograph and a video.",
+    actions: {
+      "projection": "briceBischoff",
+      "triptych": "dennisOppenheim",
+      "southeast": "frontCenter",
+      "south": "frontWest",
+      "east": "frontNortheast",
+    },
+  },
+
+  briceBischoff: {
+    name: "Brice Bischoff - 'Night Drive'",
+    description: "Brice Bischoff - 'Night Drive'\n\nThere is a large black steel frame on some wide stucco pedestal in the corner of the room. Streched within the frame is a kind of plastic screen or scrim with a few thin blue and yellow colored strokes gesturing across it. 'They're like spray paint', you think, or some remainder of a photographic process.\n\nOn the floor by your feet, more toward the center of the room, is a small white pedestal with a projector pointed toward the screen.  The projector is throwing a parade of greyscale images onto the screen in front of you. The images meander from left to right at different speeds and depths. The images are photographs from the street. You think how they are so reminiscent of the streets of Los Angeles, but that many streets in many cities could yield images like these. The way the projected images play with the colored strokes is very friendly as they crest and intersect.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "frontNorthwest",
+    },
+  },
+
+  dennisOppenheim: {
+    name: "Dennis Oppenheim - 'Ghost Trip'",
+    description: "Dennis Oppenheim - 'Ghost Trip'\n\nYou see on the wall a triptych of large paper works framed in plexiglass. The one on the left: a rather blue bird's eye photograph of terrain. On the second of the three panels you read black text on white: \n\nGHOST TRIP 1976. PROJECT PROPOSAL FOR:\nWESTERN UNITED STATES.\nDIMENSIONS: 400 FEET.\nMATERIALS: PLOWED EARTH.\n\nYou think of the approximation of physical space in data...and the limitations of the documentation of art. The third panel of the triptych is a map and you wonder if it resembles at all the other two panels. You recall something from Borges, an introduction to a story maybe, that spoke something of a map so precise it became as large as the area it was meant to represent. You think you remember something from Baudrillard that mentioned that verse but you quickly give up on remembering.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "frontNorthwest",
+    },
+  },
+
+/*******************************************/
+
+  backSouth: {
+    name: "Back space",
+    description: "You are at the south end of the back space; the southwest corner of the gallery. You feel brave. On the wall to the south are a framed PRINTOUT by Barbara Smith, a Seth Price TEXT hanging from a chain, a PRINT by Chris Burden. Next to those there is a small Barbara Kruger LITHOGRAPH hung above an INKSTAMP by Ed Keinholz. Then to the right is a PAINTING by Tyler Matthew Oyer, and finally a DRAWING by Guy de Cointet. \n\nTo NORTH is the back space of the gallery, and to the EAST is the front space.",
+    actions: {
+      "printout": "barbaraSmith",
+      "text": "sethPrice",
+      "print": "chrisBurden",
+      "lithograph": "barbaraKruger",
+      "inkstamp": "edKeinholz",
+      "painting": "tylerMatthewOyer",
+      "drawing": "guydDeCointet",
+      "north": "backCenter",
+      "east": "frontSouth",
+    },
+  },
+
+  barbaraSmith: {
+    name: "Barbara Smith - mailer for 'Field Piece'",
+    description: "Barbara Smith - mailer for 'Field Piece'\n\nHung in a gold frame nearest the left end of the wall you approach what appears like a drawing of dots. The top and bottom edges of the paper are each lined with a single line of punched holes. You recognize that this is a dot matrix print on continuous form paper, an now far outdated technique of computer printout. The image on the paper is formed by evenly spaced dots of different widths and densities. You see at the upper half of the paper the dots form the image of a white cloud, the word 'CIRRUS' in its center. At the lower half of the paper you see the dots form the image of a hill, the words 'FIELD PIECE' spelled out across it in negative space. Both the cloud and the hill appear to you to be emanating some kind of atmosphere. 'They're trying to merge', you think. In the bottom left corner of the hill, written perpendicular to the horizon of the dot landscape, in characters the same height and width of the dots in the matrix, are the details of an exhibition:\n\nBARBARA TURNER SMITH\n\n708 MANHATTAN PLACE\nLOS ANGELES (NR MELROSE & WESTERN)\n\nSEPT 9 THRU SEPT 27, 1971\n\n\nHOURS: MON THRU SAT\n10AM TO 4PM\n\nRECEPTION:\nTHURS SEPT 9\n8PM TO 10 PM\n\nIn the bottom righthand corner, in the same font as the exhibition details, you see the letters 'RR' and think, '...those must be initials.' You think of the term 'immaterial labor' and decide you don't quite know what that means.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backSouth",
+    },
+  },
+
+  sethPrice: {
+    name: "Seth Price - 'Dispersion'",
+    description: "Seth Price - 'Dispersion'\n\n...\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backSouth",
+    },
+  },
+
+  chrisBurden: {
+    name: "Chris Burden - Untitled",
+    description: "Chris Burden - Untitled\n\nAn untitled print by Chris Burden shows you some handwriting and a photo of upturned palms.  You walk closer to inspect it. You read the blue handwriting quietly to yourself:\n\nCHRIS —\nTOOK BUS TO\nWORK. CAN NOT\nDO NAILS. COULDN'T\nSLEEP.\n\nBelow the words, centered horizontally, you see the photo. You look closer and see that the palms are upturned to show a fresh wound in each. You think it reminds you of the wounds of Christ and remember a performance by Burden called 'Trans-Fixed' in which he was crucified on a VW Beetle.  You think on the roles that text and photography have played in his actions. You wonder who wrote the note and who drove the nails through his hands when the writer could not.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backSouth",
+    },
+  },
+
+  barbaraKruger: {
+    name: "Barbara Kruger - 'You're Right'",
+    description: "Barbara Kruger - 'You're Right'\n\nThe thin lithograph framed before you by a thin pane of glass is wider than it is tall. It has three simple elements. The first, and most prominent by size, is a black halftone of two human eyes gazing off to your left, disregarding you. The second, and most prominent by color, is a hot pink rectangle censoring the bridge of the gazer's nose with white text reading:\n\nYOU'RE\nRIGHT\nAnd third, locked below the hot pink strip is a green block with white text reading:\n\nAND YOU\nKNOW IT\nAND SO\nSHOULD\nEVERYONE\nELSE\n\nYou think of the distribution of the artist's thoughts and the egoism and almost divinity implied therein. You suppose that any speech act is a mechanism to manifest the body of the speaker in some supreme manner superior to the arguably questionable physical presence of that body. You think this is pessimistic and you leave it at that.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backSouth",
+    },
+  },
+
+  edKeinholz: {
+    name: "Ed Kienholz - 'For a Mitre Saw'",
+    description: "Ed Kienholz - 'For a Mitre Saw'\n\nOn the wall you see a thin steel frame weathered and framing a work on watercolor paper. The work is about the width of your shoulders when you were a child.  There is a pale yellow wash striping the white plane of paper like a horizon.  And on that, in a black handmade type of some antique style, you read:\n\nFor A MITRE SAW\n\n'Like a price tag', you think and you wonder about the commerce of artworks. You wonder how to draw an equivilancy between a mitre saw and this drawing before you.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backSouth",
+    },
+  },
+
+  tylerMatthewOyer: {
+    name: "Tyler Matthew Oyer - 'Marquee #68'",
+    description: "Tyler Matthew Oyer - 'Marquee #68'\n\nThere on the wall in front of you is a painted canvas stretched on a frame. You think its about the size of a young boy. The picture plane shows you three graphic layers: a pitch black background, then a silhouette of a giant golden hand, then 5 lines of large white uppercase text. The golden hand is graphic yet ornate. It begins at the top from its wrist, haloed by a frilly golden sleeve. The golden wrist continues down the picture to the golden hand. The golden hand leads to golden fingers. The tip of each golden finger terminates in a golden flower, and each of the flowers appear to be of a unique variety. You think that each finger bestows a unique character on the field. On top of the golden hand is the white text which reads:\n\nM I N D R\nE B O R N\nB Y S K Y\nT H A T I\nS T O R N\n\nAnd it takes you a moment to decifer but then recognize it reads as, 'MIND REBORN BY SKY THAT IS TORN'. To you this reads like a line from a poem or a song. But then you remember the magic golden fingers of the golden hand and think the text is also like a spell. \n\nPress ENTER to continue...",
+    actions: {
+      "default": "backSouth",
+    },
+  },
+
+  guydDeCointet: {
+    name: "Guy de Cointet - 'Lady and Two Popes'",
+    description: "Guy de Cointet - 'Lady and Two Popes'\n\nYou're standing in front of a framed print of very thin lines on big white paper. The lines are a thicket of sharp angles and it appears to you that lines could be just one line crossing over itself many times at different angles. 'But of course not, there are many endings,' you think to yourself. \n\nThe small, handwritten caption at the bottom reads 'A lady and two popes' and you think that sounds like the beginning of a joke. You see it's also signed on the bottom-right, 'Guy de Cointet'. The shape of the drawing looks to you like a block of text because of the way it finishes at the bottom like the last line of a paragraph. You remember those drawings of de Cointet that are like cryptographic poems and think, 'This must be one of them'. You think about cryptography in your daily life...barcodes...passwords. You think of Bitcoin and the Silk Road...Edward Snowden and Chelsea Manning.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backSouth",
+    },
+  },
+
+/*******************************************/
+
+  backCenter: {
+    name: "Back space",
+    description: "You are in the center of the back space; the north edge of the gallery. On the floor is a video of a GAME by Eddo Stern. There is a single framed LITHOGRAPH by Bruce Nauman on the wall. To the right of that, a variety of print ephemera: CHICKEN postcards by Suzanne Lacy, MIMEOGRAPH pieces by Kim Jones, BOOTS postcards by Eleanor Antin, and three BOOKS by Ida Applebroog.\n\nTo NORTH is the end of the back space of the gallery, and to the SOUTH is the front space.",
+    actions: {
+      "game": "eddoStern",
+      "lithograph": "bruceNauman",
+      "chicken": "suzanneLacy",
+      "mimeograph": "kimJones",
+      "boots": "eleanorAntin",
+      "books": "idaApplebroog",
+      "north": "backNorth",
+      "south": "backSouth",
+    },
+  },
+
+  eddoStern: {
+    name: "Eddo Stern - 'Vietnam Romance'",
+    description: "Eddo Stern - 'Vietnam Romance'\n\nYou watch as side-scrolling scenes of richly colored watercolor landscapes fall from right to left across a large flat-screen monitor in the center of the floor you stand on. You crouch down momentarily to meet the screen at eye-level. The scenes before you switch between clouds and cities and war zones and deserts (some road in a rainy rural Vietnam, an airport in the Mojave desert, an airport cafe, a stormy night sky high in the clouds with airplanes struggling to stay in flight, a desert road with tanks trudging across). Occasionally text appears onscreen with video game prompts: 'press any button to play', or dialogue floating above characters heads. You decide that this is in-game video from a video game, but the aesthetic of the watercolor graphics is unfamiliar. You watch as a tank travels up a hill annhiliating giant text characters with its mounted machine gun.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backCenter",
+    },
+  },
+
+  bruceNauman: {
+    name: "Bruce Nauman - 'Raw War'",
+    description: "Bruce Nauman - 'Raw War'\n\nYou see a lithograph displaying the word 'WAR' in uppercase red letters.  You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text...or another between stillness and motion.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backCenter",
+    },
+  },
+
+  suzanneLacy: {
+    name: "Suzanne Lacy - 'Anatomy Lesson no.1: Chickens Coming Home to Roost'",
+    description: "Suzanne Lacy - 'Anatomy Lesson no.1: Chickens Coming Home to Roost'\n\nYou see four postcards in four frames hung in two lines of two on the wall. Each postcard is a photograph depicting Lacy nude, facing the camera, at a kitchen table with a tray of cooked chicken parts.  You see that in each photograph she is eating a different piece of chicken. \n\nIn the top two postcards she is eating the chicken's wings. In the first she has her head turned sharply to right, with her right elbow on the table as she feeds her mouth with her right hand, and her left arm stretched forward toward the table. Below her right arm is printed the word: 'wing', and below her left arm: 'arm'. You think that her right arm as it touches elbow to table and bends back up to feed herself does in its triangular posture resemble a wing. And you can see that her other arm as it is outstretched on the table in repose is more human in its posture.\n\nIn the third postcard she is eating the chicken's leg. She has her own leg up on the table in front of her and you take notice of its shoeless dirty foot. She leans toward her leg like a dancer as she gnaws into the chicken leg eyes closed and elbows up. In the caption below her you read: 'leg'.\n\nIn the final postcard she is eating the chicken's breast. In the other photographs her eyelids were closed in enjoyment, but here her eyes gaze through the camera, through the postcard, through time, and into your own. Both elbows are on the table as she feeds her self with both hands, her breasts framing the tray of chicken parts below them. The caption reads: 'breast'.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backCenter",
+    },
+  },
+
+  kimJones: {
+    name: "Kim Jones - 'Mimeograph pieces'",
+    description: "Kim Jones - 'Mimeograph pieces'\n\nFour framed mimeographs are hung two-by-two on the wall. Each is about letter-size and each shows you a black-and-white photograph with an irregular white margin on the page. Captured in the photograph is Jones a man on a rooftop. He is nude aside from a costume of sticks and mud formed in some arrangement varying between each. You remember Jones did public appearances like this in Los Angeles as his alter-ego known as Mudman. \n\nMudman takes power stances on the roof and you think there is some energy in the clumps of mud. You imagine meeting Mudman in the street in downtown Los Angeles and the speechless exchange of presence that you would pass together.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backCenter",
+    },
+  },
+
+  eleanorAntin: {
+    name: "Eleanor Antin - '100 Boots'",
+    description: "Eleanor Antin - '100 Boots'\n\nSeven postcards are framed in seven frames on the wall. The first six are photographs of landscapes, and you see that each landscape is unique between them. You see a hillside, a field, a harbor, a bar empty save for a belly dancer, an abandoned interior and an on-location movie shoot. You are certain that though there are other figures and objects present in the photos the protagonist in each is a congregation of many cowboy boots in the landscape, and you estimate at least 30 boots are shown in each. The boots are standing upright, as if worn by an invisible cowboy, and in lines or rows or other groupings. \n\nThe final postcard is a photgraph of a woman sitting in a chair with one leg crossing the other, her hand against her chin in thought. Next to her on a small table you see she has some implements you can't make out. And below her photo a block of text on a white background reads:\n\n'...Not that the work of the modern artist must by any means resemble the past, but he must show some sense of it, a realization of its presence and attraction. Otherwise he dissipates himself in sheer quality and fails to impose that order and shaping which are indispensable concomitants of high art, and without which the truly cultivated spectator is left thirsty. High art resumes everything that precedes it, otherwise it is less than high.' \nClement Greenberg \n(Partisan Review, July, 1948)\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backCenter",
+    },
+  },
+
+  idaApplebroog: {
+    name: "Ida Applebroog - 'I MEAN IT', 'YOU'LL SEE', and 'SAY SOMETHING'",
+    description: "Ida Applebroog - 'I MEAN IT', 'YOU'LL SEE', and 'SAY SOMETHING'\n\nThree staple-bound books are displayed on a shelf. Of each book are displayed two copies from its edition, one closed to show the cover and one open to show a spread of pages. On each book cover you see a title in bold capital letters, followed by the words 'A PERFORMANCE', and finally, 'IDA APPLEBROOG'. You wonder if these are performance scores or performance documentation.\n\nThe first book has a blue cover and the title you read:\n\nI MEAN \nIT \n\nThe open spread has two drawings in a kind of cartoon style, one on each page of the spread, and to you the two appear identical. They are printed in only blue ink and depict a wide frame around two men. The men are shaking hands, one man turned out slightly more toward their audience. They cast dramatic shadows on the background. \n\nThe second book has a maroon cover and the title reads:\n\nYOU'LL \nSEE \n\nThe open spread again shows you two drawings in the same cartoon style. Again there is one per page of the spread, and this time you are certain they are identical. They are printed in only maroon ink and now show you a stage, curtains drawn. Onstage you see a holding in a casual business attire. He is holding his jacket open with his right hand. You think he's either putting his jacket on, or he could be taking it off... Below him, across the horizon of the stage, lays a woman in bed. You imagine the man is leaving her early in the morning, or perhaps arriving late at night. \n\nThe third book has a black cover and the title you read: \n\nSAY \nSOME-\nTHING \n\nThe spread follows all the same formal characteristics as the prior 2 books, but this time is printed in black ink (of course). Again we see a stage with curtains drawn. Onstage you see a figure in mourning, draped in long cloth, and another figure embracing the first. Upstage and above them, apparently in flight, an angel: a figure in a tunic with large wings hung behind. \n\nYou decide these are neither scores nor documentation, but they, as books, are performances. You imagine taking the book in your hands and turning through its moments.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backCenter",
+    },
+  },
+
+
+
+
 
 };

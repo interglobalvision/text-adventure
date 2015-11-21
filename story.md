@@ -501,10 +501,10 @@ You are in the northwest corner of the front space. You feel like you are moving
 
 ---
 
-###[9a] Brice Bischoff - Night Drive
+###[9a] Brice Bischoff - 'Night Drive'
 
 
-There is a large black steel frame on some wide stucco pedestal in the corner of the room. Streched within the frame is a kind of plastic screen or scrim with a few thin blue and yellow colored strokes gesturing across it. 'They're like spray paint," you think, or some remainder of a photographic process. 
+There is a large black steel frame on some wide stucco pedestal in the corner of the room. Streched within the frame is a kind of plastic screen or scrim with a few thin blue and yellow colored strokes gesturing across it. 'They're like spray paint', you think, or some remainder of a photographic process. 
 
 On the floor by your feet, more toward the center of the room, is a small white pedestal with a projector pointed toward the screen.  The projector is throwing a parade of greyscale images onto the screen in front of you. The images meander from left to right at different speeds and depths. The images are photographs from the street. You think how they are so reminiscent of the streets of Los Angeles, but that many streets in many cities could yield images like these. The way the projected images play with the colored strokes is very friendly as they crest and intersect.
 
@@ -512,7 +512,7 @@ On the floor by your feet, more toward the center of the room, is a small white 
 
 ---
 
-###[9b] Dennis Oppenheim - Ghost Trip
+###[9b] Dennis Oppenheim - 'Ghost Trip'
 
 
 You see on the wall a triptych of large paper works framed in plexiglass. The one on the left: a rather blue bird's eye photograph of terrain. On the second of the three panels you read black text on white: 
@@ -580,10 +580,10 @@ You are at the south end of the back space; the southwest corner of the gallery.
 
 ---
 
-###[11a] Barbara Smith - mailer for Field Piece
+###[11a] Barbara Smith - mailer for 'Field Piece'
 
 
-Hung in a gold frame nearest the left end of the wall you approach what appears like a drawing of dots. The top and bottom edges of the paper are each lined with a single line of punched holes. You recognize that this is a dot matrix print on continuous form paper, an now far outdated technique of computer printout. The image on the paper is formed by evenly spaced dots of different widths and densities. You see at the upper half of the paper the dots form the image of a white cloud, the word 'CIRRUS' in its center. At the lower half of the paper you see the dots form the image of a hill, the words 'FIELD PIECE' spelled out across it in negative space. Both the cloud and the hill appear to you to be emanating some kind of atmosphere. "They're trying to merge", you think. In the bottom left corner of the hill, written perpendicular to the horizon of the dot landscape, in characters the same height and width of the dots in the matrix, are the details of an exhibition:
+Hung in a gold frame nearest the left end of the wall you approach what appears like a drawing of dots. The top and bottom edges of the paper are each lined with a single line of punched holes. You recognize that this is a dot matrix print on continuous form paper, an now far outdated technique of computer printout. The image on the paper is formed by evenly spaced dots of different widths and densities. You see at the upper half of the paper the dots form the image of a white cloud, the word 'CIRRUS' in its center. At the lower half of the paper you see the dots form the image of a hill, the words 'FIELD PIECE' spelled out across it in negative space. Both the cloud and the hill appear to you to be emanating some kind of atmosphere. 'They're trying to merge', you think. In the bottom left corner of the hill, written perpendicular to the horizon of the dot landscape, in characters the same height and width of the dots in the matrix, are the details of an exhibition:
 
 BARBARA TURNER SMITH
 
@@ -606,7 +606,7 @@ In the bottom righthand corner, in the same font as the exhibition details, you 
 
 ---
 
-###[11b] Seth Price - Dispersion
+###[11b] Seth Price - 'Dispersion'
 
 
 The definition of artistic activity occurs, first of all, in the field of distribution.
@@ -633,7 +633,7 @@ Below the words, centered horizontally, you see the photo. You look closer and s
 
 ---
 
-###[11d] Barbara Kruger - You're Right
+###[11d] Barbara Kruger - 'You're Right'
 
 
 The thin lithograph framed before you by a thin pane of glass is wider than it is tall. It has three simple elements. The first, and most prominent by size, is a black halftone of two human eyes gazing off to your left, disregarding you. The second, and most prominent by color, is a hot pink rectangle censoring the bridge of the gazer's nose with white text reading:
@@ -654,7 +654,7 @@ You think of the distribution of the artist's thoughts and the egoism and almost
 
 ---
 
-###[11e] Ed Kienholz - For a Mitre Saw
+###[11e] Ed Kienholz - 'For a Mitre Saw'
 
 
 On the wall you see a thin steel frame weathered and framing a work on watercolor paper. The work is about the width of your shoulders when you were a child.  There is a pale yellow wash striping the white plane of paper like a horizon.  And on that, in a black handmade type of some antique style, you read:
@@ -667,7 +667,7 @@ For A MITRE SAW
 
 ---
 
-###[11f] Tyler Matthew Oyer - Marquee #68
+###[11f] Tyler Matthew Oyer - 'Marquee #68'
 
 
 There on the wall in front of you is a painted canvas stretched on a frame. You think its about the size of a young boy. The picture plane shows you three graphic layers: a pitch black background, then a silhouette of a giant golden hand, then 5 lines of large white uppercase text. The golden hand is graphic yet ornate. It begins at the top from its wrist, haloed by a frilly golden sleeve. The golden wrist continues down the picture to the golden hand. The golden hand leads to golden fingers. The tip of each golden finger terminates in a golden flower, and each of the flowers appear to be of a unique variety. You think that each finger bestows a unique character on the field. On top of the golden hand is the white text which reads:
@@ -678,13 +678,13 @@ B Y S K Y
 T H A T I
 S T O R N
 
-And it takes you a moment to decifer but then recognize it reads as, "MIND REBORN BY SKY THAT IS TORN". To you this reads like a line from a poem or a song. But then you remember the magic golden fingers of the golden hand and think the text is also like a spell. 
+And it takes you a moment to decifer but then recognize it reads as, 'MIND REBORN BY SKY THAT IS TORN'. To you this reads like a line from a poem or a song. But then you remember the magic golden fingers of the golden hand and think the text is also like a spell. 
 
 *go to [11]*
 
 ---
 
-###[11g] Guy de Cointet - Lady and Two Popes
+###[11g] Guy de Cointet - 'Lady and Two Popes'
 
 
 You're standing in front of a framed print of very thin lines on big white paper. The lines are a thicket of sharp angles and it appears to you that lines could be just one line crossing over itself many times at different angles. 'But of course not, there are many endings,' you think to yourself. 
@@ -698,7 +698,9 @@ The small, handwritten caption at the bottom reads 'A lady and two popes' and yo
 ##[12] Back space - Center
 
 
-You are in the center of the back space; the north edge of the gallery. On the floor is a video of a GAME by Eddo Stern. There is a single framed LITHOGRAPH by Bruce Nauman on the wall. To the right of that, a variety of print ephemera: CHICKEN postcards by Suzanne Lacy, MIMEOGRAPH pieces by Kim Jones, BOOTS postcards by Eleanor Antin, and three BOOKS by Ida Applebroog.
+You are in the center of the back space; the north edge of the gallery. On the floor is a video of a GAME by Eddo Stern. There is a single framed LITHOGRAPH by Bruce Nauman on the wall. To the right of that, a variety of print ephemera: CHICKEN postcards by Suzanne Lacy, MIMEOGRAPH pieces by Kim Jones, BOOTS postcards by Eleanor Antin, and three BOOKS by Ida Applebroog. 
+
+To NORTH is the end of the back space of the gallery, and to the SOUTH is the front space.
 
 `> GAME`
 
@@ -726,16 +728,16 @@ You are in the center of the back space; the north edge of the gallery. On the f
 
 ---
 
-###[12a] Eddo Stern - Vietnam Romance
+###[12a] Eddo Stern - 'Vietnam Romance'
 
 
-You watch as side-scrolling scenes of richly colored watercolor landscapes fall from right to left across a large flat-screen monitor in the center of the floor you stand on. You crouch down momentarily to meet the screen at eye-level. The scenes before you switch between clouds and cities and war zones and deserts (some road in a rainy rural Vietnam, an airport in the Mojave desert, an airport cafe, a stormy night sky high in the clouds with airplanes struggling to stay in flight, a desert road with tanks trudging across). Occasionally text appears onscreen with video game prompts: "press any button to play", or dialogue floating above characters heads. You decide that this is in-game video from a video game, but the aesthetic of the watercolor graphics is unfamiliar. You watch as a tank travels up a hill annhiliating giant text characters with its mounted machine gun.
+You watch as side-scrolling scenes of richly colored watercolor landscapes fall from right to left across a large flat-screen monitor in the center of the floor you stand on. You crouch down momentarily to meet the screen at eye-level. The scenes before you switch between clouds and cities and war zones and deserts (some road in a rainy rural Vietnam, an airport in the Mojave desert, an airport cafe, a stormy night sky high in the clouds with airplanes struggling to stay in flight, a desert road with tanks trudging across). Occasionally text appears onscreen with video game prompts: 'press any button to play', or dialogue floating above characters heads. You decide that this is in-game video from a video game, but the aesthetic of the watercolor graphics is unfamiliar. You watch as a tank travels up a hill annhiliating giant text characters with its mounted machine gun.
 
 *go to [12]*
 
 ---
 
-###[12b] Bruce Nauman - Raw War
+###[12b] Bruce Nauman - 'Raw War'
 
 
 You see a lithograph displaying the word 'WAR' in uppercase red letters.  You squint your eyes and see that behind 'WAR' is the word 'RAW', slightly fainter. Behind that 'WAR' again and then 'RAW' and it seems to repeat on as it disappears in the pitch black space. You wonder if the text is like a neon sign, and if the depth is a play with time. The oscillation between 'WAR' and 'RAW' brings to your mind some oscillating dichotomies in the work such as one between image and text...or another between stillness and motion.
@@ -744,7 +746,7 @@ You see a lithograph displaying the word 'WAR' in uppercase red letters.  You sq
 
 ---
 
-###[12c] Suzanne Lacy - Anatomy Lesson no.1: Chickens, Coming Home to Roost, 1975-76
+###[12c] Suzanne Lacy - 'Anatomy Lesson no.1: Chickens, Coming Home to Roost'
 
 
 You see four postcards in four frames hung in two lines of two on the wall. Each postcard is a photograph depicting Lacy nude, facing the camera, at a kitchen table with a tray of cooked chicken parts.  You see that in each photograph she is eating a different piece of chicken. 
@@ -759,7 +761,7 @@ In the final postcard she is eating the chicken's breast. In the other photograp
 
 ---
 
-###[12d] Kim Jones - Mimeograph pieces, Early 80's
+###[12d] Kim Jones - 'Mimeograph pieces'
 
 
 Four framed mimeographs are hung two-by-two on the wall. Each is about letter-size and each shows you a black-and-white photograph with an irregular white margin on the page. Captured in the photograph is Jones a man on a rooftop. He is nude aside from a costume of sticks and mud formed in some arrangement varying between each. You remember Jones did public appearances like this in Los Angeles as his alter-ego known as Mudman. 
@@ -770,7 +772,7 @@ Mudman takes power stances on the roof and you think there is some energy in the
 
 ---
 
-###[12d] Eleanor Antin - 100 Boots, 1971-73
+###[12d] Eleanor Antin - '100 Boots'
 
 
 Seven postcards are framed in seven frames on the wall. The first six are photographs of landscapes, and you see that each landscape is unique between them. You see a hillside, a field, a harbor, a bar empty save for a belly dancer, an abandoned interior and an on-location movie shoot. You are certain that though there are other figures and objects present in the photos the protagonist in each is a congregation of many cowboy boots in the landscape, and you estimate at least 30 boots are shown in each. The boots are standing upright, as if worn by an invisible cowboy, and in lines or rows or other groupings. 
@@ -791,7 +793,7 @@ Clement Greenberg
 
 ---
 
-###[12f] Ida Applebroog - I MEAN IT, YOU'LL SEE, and SAY SOMETHING, 1981
+###[12f] Ida Applebroog - 'I MEAN IT', 'YOU'LL SEE', and 'SAY SOMETHING'
 
 
 Three staple-bound books are displayed on a shelf. Of each book are displayed two copies from its edition, one closed to show the cover and one open to show a spread of pages. On each book cover you see a title in bold capital letters, followed by the words 'A PERFORMANCE', and finally, 'IDA APPLEBROOG'. You wonder if these are performance scores or performance documentation.
@@ -847,7 +849,7 @@ You are at the north end of the back space; the northwest corner of the gallery.
 
 ---
 
-###[13a] Despina Stokou
+###[13a] Despina Stokou - 'Recently Used #8892'
 
 
 A large stretched canvas is on the wall, and you feel its maybe the size of your body with your arms and legs stretched out. Drawn with a thick pencil or maybe charcoal over the entire surface of the canvas are lines of emoji characters, about 15 lines in total, 10 emojis per line. You recognize this emoji character set specifically from apple devices. About half of the hand-drawn emojis have been filled in with color paint, the rest are left as pencil outlines. You start by viewing the composition as a single whole, bluring your eyes. Then you catch yourself and remember that each discrete emoji character indicates some single meaning in its given context. 
@@ -858,7 +860,7 @@ Beginning at the top left, you read the lines of emojis like a story, thinking t
 
 ---
 
-###[13b] Lee Mullican
+###[13b] Lee Mullican - Digital print
 
 
 A digital print by Lee Mullican is framed in white on the wall in front of you. 'I didn't know he made digital prints', you think. The colors are wonderfully rich and the forms are diverse and evocative and move in painterly stripes. The geometry gives you a sense of space that you can't trace. You think of roads and cities and lights and Matt Mullican. 
@@ -867,7 +869,7 @@ A digital print by Lee Mullican is framed in white on the wall in front of you. 
 
 ---
 
-###[13c] Miranda July
+###[13c] Miranda July - 'Somebody'
 
 
 //
@@ -876,7 +878,7 @@ A digital print by Lee Mullican is framed in white on the wall in front of you. 
 
 ---
 
-###[13d] Ed Ruscha - Waves of Advancing Technology
+###[13d] Ed Ruscha - 'Waves of Advancing Technology'
 
 
 Framed in wood on the wall in front of you is a drawing. It depicts three lines of white block text advancing or receding through an indigo haze. You read the words:
