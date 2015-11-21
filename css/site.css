@@ -689,6 +689,7 @@ body {
   font-size: 18px;
   line-height: 1.35em;
   letter-spacing: 0.001em;
+  text-align: justify;
 }
 h1 {
   font-size: 3em;
