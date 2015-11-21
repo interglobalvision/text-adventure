@@ -21,7 +21,7 @@ Adventure = {
     $(window).on('click', function(event){
 
       // Check this isn't triggered by moving beteween radio buttons
-      if( event.target.toString() !== "[object HTMLInputElement]") {
+      if ( event.target.toString() !== "[object HTMLInputElement]") {
         _this.$focus.focus();
       }
     });
@@ -29,9 +29,9 @@ Adventure = {
     // Bind event
     _this.form.submit( function(event) {
       event.preventDefault();
-      
+
       // Validate for empty values
-      if( _this.input.val() === '' ) {
+      if ( _this.input.val() === '' ) {
         return false;
       }
 
@@ -194,7 +194,7 @@ Adventure = {
       var selectedOption = $('input[type="radio"]:checked').val();
 
       // Validate for empty values
-      if( selectedOption === '' ) {
+      if ( selectedOption === '' ) {
         return false;
       }
 
@@ -230,7 +230,7 @@ Adventure = {
       var answer = $('#question-input').val();
 
       // Validate for empty values
-      if( answer === '' ) {
+      if ( answer === '' ) {
         return false;
       }
 
