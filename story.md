@@ -829,7 +829,7 @@ You decide these are neither scores nor documentation, but they, as books, are p
 ##[13] Back space - North
 
 
-You are at the north end of the back space; the northwest corner of the gallery. On the north wall is a large PAINTING by Despina Stokou, and to the right of that a computer PRINT by Lee Mullican. On the wall to the right is a VIDEO by Miranda July and a pastel DRAWING by Ed Ruscha.
+You are at the north end of the back space; the northwest corner of the gallery. On the north wall is a large PAINTING by Despina Stokou, and to the right of that a computer PRINT by Lee Mullican. On the wall to the right is a VIDEO by Miranda July and a pastel DRAWING by Ed Ruscha. To the SOUTH is more of the back space and the gallery.
 
 `> PAINTING`
 
@@ -846,6 +846,10 @@ You are at the north end of the back space; the northwest corner of the gallery.
 `> DRAWING`
 
 *go to [13d]*
+
+`> SOUTH`
+
+*go to [12]*
 
 ---
 

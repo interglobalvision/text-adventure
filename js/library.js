@@ -301,16 +301,12 @@ Story = {
   jeanOffice: {
     name: "Jeans's Office",
     type: "conversation",
-    description: "talking",
+    description: "Talking...",
     options: {
-      1: "How long is it up for?",
-      2: "What's that printout on your desk?",
-      3: "Not really...",
+      1: "No thanks",
     },
     actions: {
-      1: "salomehOffice_1",
-      2: "salomehOffice_2",
-      3: "frontSoutheast",
+      1: "frontSouth",
     },
   },
 
@@ -518,8 +514,50 @@ Story = {
     },
   },
 
+/*******************************************/
 
+  backNorth: {
+    name: "Back space",
+    description: "You are at the north end of the back space; the northwest corner of the gallery. On the north wall is a large PAINTING by Despina Stokou, and to the right of that a computer PRINT by Lee Mullican. On the wall to the right is a VIDEO by Miranda July and a pastel DRAWING by Ed Ruscha. To the SOUTH is more of the back space and the gallery.",
+    actions: {
+      "painting": "despinaStokou",
+      "print": "leeMullican",
+      "video": "mirandaJuly",
+      "drawing": "edRuscha",
+      "south": "backCenter",
+    },
+  },
 
+  despinaStokou: {
+    name: "Despina Stokou - 'Recently Used #8892'",
+    description: "Despina Stokou - 'Recently Used #8892'\n\nA large stretched canvas is on the wall, and you feel its maybe the size of your body with your arms and legs stretched out. Drawn with a thick pencil or maybe charcoal over the entire surface of the canvas are lines of emoji characters, about 15 lines in total, 10 emojis per line. You recognize this emoji character set specifically from apple devices. About half of the hand-drawn emojis have been filled in with color paint, the rest are left as pencil outlines. You start by viewing the composition as a single whole, bluring your eyes. Then you catch yourself and remember that each discrete emoji character indicates some single meaning in its given context. \n\nBeginning at the top left, you read the lines of emojis like a story, thinking that this maybe function like lines of text. The emojis are like hieroglyphs, their vague individual meanings resting on the context of their neighbors like a house of cards, a precarious architecture of imprecise signification. But reading this emoji story left to right and top to bottom yields little save for the experience of grasping for connections and drawing conclusions. You try instead to read the story in another direction, first from top to bottom and left to right, and then from right to left and top to bottom, and so on. Each direction tells you a new story but with no more coherence than the others. You think the problem is of scale. If this is a story, then each character in the script might be an object or a memory, a feeling or an encounter and nothing in these heiroglyphs tell you which is which.\n\nPress ENTER to continue...",
+    actions: {
+      "default": "backNorth",
+    },
+  },
 
+  leeMullican: {
+    name: "Lee Mullican - Digital print",
+    description: "Lee Mullican - Digital print \n\nA digital print by Lee Mullican is framed in white on the wall in front of you. 'I didn't know he made digital prints', you think. The colors are wonderfully rich and the forms are diverse and evocative and move in painterly stripes. The geometry gives you a sense of space that you can't trace. You think of roads and cities and lights and Matt Mullican. \n\nPress ENTER to continue...",
+    actions: {
+      "default": "backNorth",
+    },
+  },
+
+  mirandaJuly: {
+    name: "Miranda July - 'Somebody'",
+    description: "Miranda July - 'Somebody' \n\ntext \n\nPress ENTER to continue...",
+    actions: {
+      "default": "backNorth",
+    },
+  },
+
+  edRuscha: {
+    name: "Ed Ruscha - 'Waves of Advancing Technology'",
+    description: "Ed Ruscha - 'Waves of Advancing Technology' \n\nFramed in wood on the wall in front of you is a drawing. It depicts three lines of white block text advancing or receding through an indigo haze. You read the words: \n\nWAVES OF \nADVANCING \n TECHNOLOGY \n\nAnd you sense the tinge of significance. You think of some dark sky high above the ground on a clear night in Los Angeles and an ominous prophecy floating through a thin smog unnoticed by the humans busy actualizing it below. You think of the technology of Ruscha's mark as it filled the picture plane with this thin blue field. You think of the question of advancement in the technology of art production and the risk of adopting new methods. \n\nPress ENTER to continue...",
+    actions: {
+      "default": "backNorth",
+    },
+  },
 
 };
