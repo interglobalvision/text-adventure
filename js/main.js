@@ -177,7 +177,7 @@ Adventure = {
     }
 
     text = '<p>' + text + '</p>';
-    text = text.replace(/\n/g, '</p><p>');
+    text = text.replace(/\n/g, '<br />');
     _this.container.append(text);
 
     window.scrollTo(0,document.body.scrollHeight);
