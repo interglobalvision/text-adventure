@@ -62,7 +62,7 @@ Adventure = {
       // Set new place
       _this.currentPlace = _this.story[place];
 
-      // Check if place is not a special type ex. conversation, question 
+      // Check if place is not a special type ex. conversation, question
       if ( !_.has(_this.currentPlace, 'type') ) {
         // Set focus element
         _this.$focus = _this.input;
@@ -91,7 +91,7 @@ Adventure = {
       _this.say('Action not found');
     }
 
-    // focus 
+    // focus
     _this.$focus.focus();
   },
 
@@ -148,6 +148,14 @@ Adventure = {
 
   say: function(text) {
     var _this = this;
+    var regexp = /\{\{.*\}\}/;
+    var found = text.match(regexp);
+
+    if (found) {
+      var variable = found[0].substr(0, (found[0].length - 2)).substr(2);
+
+      text = text.replace(regexp, _this.save[variable]);
+    }
 
     text = '<p>' + text + '</p>';
     text = text.replace(/\n/g, '</p><p>');
@@ -164,7 +172,7 @@ Adventure = {
 
     var chatForm = '<form id="custom-form">';
 
-    // Generate radio buttons 
+    // Generate radio buttons
     for (var ffs = 1; ffs <= _.size(conversation); ffs++) {
       var checked = ffs === 1 ? 'checked' : '';
 
@@ -193,7 +201,7 @@ Adventure = {
       _this.go(nextPlace);
     });
 
-  }, 
+  },
 
   question: function(question) {
     var _this = this;
