@@ -221,6 +221,14 @@ Adventure = {
       _this.go(nextPlace);
     });
 
+    // if mobile, bind change event
+    if( $('.touch').length ) {
+      _this.$customForm.find('input[type="radio"][name="conversation"]').change(function(event) {
+        _this.$customForm.find('#custom-form').submit();
+      });
+
+    }
+
   },
 
   question: function(question) {

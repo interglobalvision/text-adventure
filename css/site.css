@@ -764,6 +764,9 @@ input[type="submit"] {
 .conversation #custom-form input[type="radio"]:checked + label:before {
   opacity: 1;
 }
+.conversation #input-form {
+  display: none;
+}
 @media screen and (min-width: 1800px) {
   body {
     font-size: 32px;
