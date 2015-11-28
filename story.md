@@ -145,15 +145,9 @@ Is this your first time playing?
 ###[0b] Outside
 
 
-You're standing in front of a long brown building on Santa Fe Ave, a warehouse in downtown Los Angeles. Above your head and to your left you see the number 2011. There is a glass door in front of you, and big windows on either side. In the window to your right written in black is the word "Cirrus" in all caps. You can ENTER through the glass door or LEAVE.
+You're standing in front of a long brown building on Santa Fe Ave, a warehouse in downtown Los Angeles. Above your head and to your left you see the number 2011. There is a glass door in front of you, and big windows on either side. In the window to your right written in black is the word "Cirrus" in all caps. You can PROCEED through the glass door.
 
-`> LEAVE`
-
-Goodbye. 
-
-*redirect?*
-
-`> ENTER`
+`> PROCEED`
 
 *go to [0c]*
 

@@ -11,7 +11,7 @@ Story = {
 
   tutorial: {
     name: "Tutorial",
-    description: "This world is an interactive adventure game by interglobal.vision set in the exhibition THIS IS NOT A CONNECTION at Cirrus Gallery in Los Angeles, CA.\n\nYou can move around and interact with this world by typing commands when prompted with the cursor and then pressing ENTER.\n\nWhen you enter a new position on the map a description of that position is read to you. The available commands for that position will be in upper case letters.\n\nDirectional commands like EAST or SOUTHEAST will move you to a new position. Object commands like PAINTING or VIDEO will tell you about an object in the world.\n\n...\n\nAlso there are commands you can use at any time to help you on your way:\n\nType LIST to see a list of possible commands from your current position.\n\nType HELP to see this information again.\n\nPress ENTER to continue...",
+    description: "This world is an interactive adventure game by interglobal.vision set in the exhibition THIS IS NOT A CONNECTION at Cirrus Gallery in Los Angeles, CA.\n\nYou can move around and interact with this world by typing commands when prompted with the cursor and then pressing ENTER.\n\nWhen you enter a new position on the map a description of that position is read to you. The available commands for that position will be in upper case letters.\n\nDirectional commands like EAST or SOUTHEAST will move you to a new position. Object commands like PAINTING or VIDEO will tell you about an object in the world.\n\n...\n\nAlso there are commands you can use at any time to help you on your way:\n\nType LIST to see a list of possible commands from your current position.\n\nType HELP to see this information again.\n\nPress ENTER to continue...", 
     actions: {
       "default": "outside",
     },
@@ -19,9 +19,9 @@ Story = {
 
   outside: {
     name: "Outside",
-    description: "You're standing in front of a long brown building on Santa Fe Ave, a warehouse in downtown Los Angeles. Above your head and to your left you see the number 2011. There is a glass door in front of you, and big windows on either side. In the window to your right written in black is the word 'CIRRUS'.\n\nYou can ENTER through the glass door.",
+    description: "You're standing in front of a long brown building on Santa Fe Ave, a warehouse in downtown Los Angeles. Above your head and to your left you see the number 2011. There is a glass door in front of you, and big windows on either side. In the window to your right written in black is the word 'CIRRUS'.\n\nYou can PROCEED through the glass door.",
     actions: {
-      enter: "guestbook",
+      proceed: "guestbook",
     },
   },
 
