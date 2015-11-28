@@ -40,7 +40,7 @@ Story = {
   salomehOffice: {
     name: "Salomeh's Office",
     type: "conversation",
-    description: "You enter Salomeh's office. The sound of the printer has the air. Salomeh is at a big L-shaped desk, eyes on her computer screen. She is finishing an email and you aren't sure if she noticed you yet.\n\nWith a smile she says 'Just one moment.' While you're waiting you notice a strange printout on her desk.\n\n'Done. Hi {{name}}. It's nice to see you. Did you have questions about the show?'",
+    description: "You enter Salomeh's office. The sound of the printer has the air. Salomeh is at a big L-shaped desk, eyes on her computer screen. She is finishing an email and you aren't sure if she noticed you yet.\n\nWith a smile she says, 'Just one moment.' While you're waiting you notice a strange printout on her desk.\n\n'Done. Hi {{name}}. It's nice to see you. Did you have questions about the show?'",
     options: {
       1: "How long is it up for?",
       2: "What's that printout on your desk?",
@@ -56,7 +56,7 @@ Story = {
   salomehOffice_1: {
     name: "Salomeh's Office",
     type: "conversation",
-    description: "The show is on from Nov 21 2015 through Jan 30 2016. \n Did you any more questions about the show?'",
+    description: "'The show is on from Nov 21 2015 through Jan 30 2016.'\n\n'Did you any more questions about the show?'",
     options: {
       1: "How long is it up for?",
       2: "What's that printout on your desk?",
@@ -72,7 +72,7 @@ Story = {
   salomehOffice_2: {
     name: "Salomeh's Office",
     type: "conversation",
-    description: "Jean's messing around with some emojis for clouds...I was like, 'Just do your own!'. \n\nDid you any more questions about the show?'",
+    description: "'Jean's messing around with some emojis for clouds...I was like, 'Just do your own!'\n\n'Did you any more questions about the show?'",
     options: {
       1: "How long is it up for?",
       2: "What's that printout on your desk?",
