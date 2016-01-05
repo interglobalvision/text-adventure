@@ -147,7 +147,7 @@ Story = {
     actions: {
       1: "salomehOffice_1",
       2: "salomehOffice_2",
-      3: "frontSoutheast",
+      3: "frontSoutheast", //2
     },
   },
 
@@ -185,7 +185,7 @@ Story = {
 
 /*******************************************/
 
-  frontSoutheast: {
+  frontSoutheast: { //2
     name: "Front space Southeast",
     description: "You are in the corner of the southeast corner of the gallery. You see on the wall a PAINTING by Siebren Versteeg. In the corner, a VIDEO by John Baldessari. To the right of that is the DOOR to Salomeh's office. To the WEST you see another office. To the NORTH you see more of the gallery, and the exit.",
     actions: {
@@ -215,19 +215,19 @@ Story = {
 
 /*******************************************/
 
-  frontEast: {
+  frontEast: { //3
     name: "Front space East",
     description: "You are on the eastern side of a big white room with bright white lights suspended from the ceiling. This is the gallery. From here you can move around the space. \n\nTo the SOUTH, there is a video, a painting on the wall, and the door to an office. To the WEST, in the center of the room, there is a table with screens. To the NORTH there is a video playing and a large photograph.",
     actions: {
-      "south": "frontSoutheast",
-      "west": "frontCenter",
-      "north": "frontNortheast",
+      "south": "frontSoutheast", //2
+      "west": "frontCenter", //4
+      "north": "frontNortheast", //5
     },
   },
 
 /*******************************************/
 
-  frontCenter: {
+  frontCenter: { //4
     name: "Front space Center",
     description: "You stand at a table. It has a 1/4 inch Sandeply tabletop and 3 chairs around it.  There are two tablets at either head of the table. One tablet is showing VIDEOS and the other has a list of WEBSITES. Standing on the center of the table is a COMPUTER with a font set by Paul Chan. \n\nTo the WEST are two framed works. To the NORTHWEST, a video projection and a triptych. To the NORTHEAST corner a photographic print and a video. In the EAST is the front of the gallery, the SOUTHEAST a painting and an office. To the SOUTHWEST is another office and the way to the back space of the gallery.",
     actions: {
@@ -235,11 +235,11 @@ Story = {
       "websites": "websiteTablet",
       "computer": "paulChan",
       "west": "frontWest",
-      "northwest": "frontNorthwest",
-      "northeast": "frontNortheast",
+      "northwest": "frontNorthwest", //9
+      "northeast": "frontNortheast", //
       "east": "frontEast",
-      "southeast": "frontSoutheast",
-      "southwest": "frontSouth",
+      "southeast": "frontSoutheast", //2
+      "southwest": "frontSouth", //
     },
   },
 
@@ -271,7 +271,7 @@ Story = {
 
   frontNortheast: {
     name: "Front space Northeast",
-    description: "You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by Kutlug Ataman. To your left a POLAROID by Eve Sonneman. To the WEST you see a painting and a work on paper. \n\nTo the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see the front of the gallery.",
+    description: "You are in the northeast corner of the gallery. You feel calm. To your right on the wall is a VIDEO by Kutlug Ataman. To your left a POLAROID by Eve Sonneman. \n\nTo the WEST you see a video projection and a triptych. To the SOUTHWEST, in the center of the room, is a table with laptops. To the SOUTH you see the front of the gallery.",
     actions: {
       "video": "kutlugAtaman",
       "polaroid": "eveSonneman",
@@ -349,7 +349,7 @@ Story = {
 
   frontNorthwest: {
     name: "Front space Northwest",
-    description: "You are in the northwest corner of the front space. You feel like you are moving although you are not. In the corner is a video PROJECTION by Brice Bischoff. On the wall is a TRIPTYCH by Dennis Oppenheim. To the SOUTHEAST there is a square table with laptops. To the SOUTH are two works by David Hockney. To the EAST is a photograph and a video.",
+    description: "You are in the northwest corner of the front space. You feel like you are moving although you are not. In the corner is a video PROJECTION by Brice Bischoff. On the wall is a TRIPTYCH by Dennis Oppenheim. \n\nTo the SOUTHEAST there is a square table with laptops. To the SOUTH are two works by David Hockney. To the EAST is a photograph and a video.",
     actions: {
       "projection": "briceBischoff",
       "triptych": "dennisOppenheim",
