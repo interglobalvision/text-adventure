@@ -187,7 +187,7 @@ Story = {
 
   frontSoutheast: { //2
     name: "Front space Southeast",
-    description: "You are in the corner of the southeast corner of the gallery. You see on the wall a PAINTING by Siebren Versteeg. In the corner, a VIDEO by John Baldessari. To the right of that is the DOOR to Salomeh's office. To the WEST you see another office. To the NORTH you see more of the gallery, and the exit.",
+    description: "You are in the corner of the southeast corner of the gallery. You see on the wall a PAINTING by Siebren Versteeg. In the corner, a VIDEO by John Baldessari. To the right of that is the DOOR to Salomeh's office. \n\nTo the WEST you see another office. To the NORTH you see more of the gallery, and the exit.",
     actions: {
       "painting": "siebrenVersteeg",
       "video": "johnBaldessari",
@@ -328,7 +328,7 @@ Story = {
 
   frontWest: {
     name: "Front space West",
-    description: "You are standing at the western wall of the front space. You feel small. On the wall are two two-part FAX drawings by David Hockney. To the EAST there is a square table with laptops. To the NORTH is a video projection. To the SOUTH is an office and more of the gallery.",
+    description: "You are standing at the western wall of the front space. You feel small. On the wall are two two-part FAX drawings by David Hockney. \n\nTo the EAST there is a square table with laptops. To the NORTH is a video projection. To the SOUTH is an office and more of the gallery.",
     actions: {
       "fax": "davidHockney",
       "east": "frontCenter",
@@ -518,7 +518,7 @@ Story = {
 
   backNorth: {
     name: "Back space North",
-    description: "You are at the north end of the back space; the northwest corner of the gallery. On the north wall is a large PAINTING by Despina Stokou, and to the right of that a computer PRINT by Lee Mullican. On the wall to the right is a VIDEO by Miranda July and a pastel DRAWING by Ed Ruscha. To the SOUTH is more of the back space and the gallery.",
+    description: "You are at the north end of the back space; the northwest corner of the gallery. On the north wall is a large PAINTING by Despina Stokou, and to the right of that a computer PRINT by Lee Mullican. On the wall to the right is a VIDEO by Miranda July and a pastel DRAWING by Ed Ruscha. \n\nTo the SOUTH is more of the back space and the gallery.",
     actions: {
       "painting": "despinaStokou",
       "print": "leeMullican",
