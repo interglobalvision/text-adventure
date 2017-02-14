@@ -9,7 +9,7 @@ $margin-small = ($gutter)
 $margin-basic = ($gutter*2)
 $margin-large = ($gutter*5)
 
-$font-size-basic = 34px
+$font-size-basic = 32px
 $font-leading-basic = 1.4em
 $font-tracking-basic = 0.03em
 
@@ -67,10 +67,15 @@ li.list-option
 
 // FORM
 
+#text-input-holder
+  &:before
+    content: '>'
+    position: absolute
+
 input[type="text"]
   text-transform: uppercase
   width: 100%
-
+  margin-left: 35px
   &:focus
     outline: none
 
@@ -78,8 +83,6 @@ input[type="text"]
   input[type="text"]
     border: 1px solid $color-white
     padding: 5px
-
-
 
 input[type="submit"]
   display: none
@@ -122,15 +125,6 @@ input[type="submit"]
   $margin-basic = ($gutter*2)
   $margin-large = ($gutter*5)
 
-  $font-size-basic = 32px
-  $font-leading-basic = 1.4em
-  $font-tracking-basic = 0.035em
-
-  body
-    font-size: $font-size-basic
-    line-height: $font-leading-basic
-    letter-spacing: $font-tracking-basic
-
   .container
     max-width: 1650px
     padding: $margin-small
@@ -156,6 +150,9 @@ input[type="submit"]
     max-width: 1000px
     padding: $margin-small
 
+  input[type="text"]
+    margin-left: 24px
+
 
 @media screen and (max-width: 1280px)
 
@@ -177,6 +174,9 @@ input[type="submit"]
     max-width: 900px
     padding: $margin-small
 
+  input[type="text"]
+    margin-left: 22px
+
 @media screen and (max-width: 600px)
 
   $gutter = 16px
@@ -196,3 +196,6 @@ input[type="submit"]
   .container
     max-width: 900px
     padding: $margin-small
+
+  input[type="text"]
+    margin-left: 20px

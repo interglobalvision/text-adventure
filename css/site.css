@@ -693,7 +693,7 @@ ul.u-inline-list li {
 }
 body {
   font-family: 'Fantasque Sans Mono', monospace;
-  font-size: 34px;
+  font-size: 32px;
   line-height: 1.4em;
   letter-spacing: 0.03em;
   text-align: justify;
@@ -734,9 +734,14 @@ li.list-option {
   list-style-position: inside;
   list-style-type: square;
 }
+#text-input-holder:before {
+  content: '>';
+  position: absolute;
+}
 input[type="text"] {
   text-transform: uppercase;
   width: 100%;
+  margin-left: 35px;
 }
 input[type="text"]:focus {
   outline: none;
@@ -771,11 +776,6 @@ input[type="submit"] {
   display: none;
 }
 @media screen and (min-width: 1800px) {
-  body {
-    font-size: 32px;
-    line-height: 1.4em;
-    letter-spacing: 0.035em;
-  }
   .container {
     max-width: 1650px;
     padding: 36px;
@@ -791,6 +791,9 @@ input[type="submit"] {
     max-width: 1000px;
     padding: 18px;
   }
+  input[type="text"] {
+    margin-left: 24px;
+  }
 }
 @media screen and (max-width: 1280px) {
   body {
@@ -802,6 +805,9 @@ input[type="submit"] {
     max-width: 900px;
     padding: 18px;
   }
+  input[type="text"] {
+    margin-left: 22px;
+  }
 }
 @media screen and (max-width: 600px) {
   body {
@@ -812,5 +818,8 @@ input[type="submit"] {
   .container {
     max-width: 900px;
     padding: 16px;
+  }
+  input[type="text"] {
+    margin-left: 20px;
   }
 }
