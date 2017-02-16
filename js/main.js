@@ -45,11 +45,11 @@ Adventure = {
 
   },
 
-  go: function(place) {
+  go: function(place, isInput) {
     var _this = this;
 
     // Output command
-    _this.say(_this.input.val().toUpperCase());
+    _this.say(_this.input.val().toUpperCase(), isInput);
 
     // Clear
     _this.clean();
@@ -121,7 +121,7 @@ Adventure = {
           '<p>Directional commands like EAST or SOUTHEAST will move you to a new position. Object commands like PAINTING or VIDEO will tell you about an object in the world.</p>' +
           '<p>...</p>' +
           '<p>Sometimes a person will start a conversation with you. When it is time to speak back you will be given a list of responses like:</p>' +
-          '<p>>&nbsp;Yes<br>&nbsp;&nbsp;No</p>' +  
+          '<p>>&nbsp;Yes<br>&nbsp;&nbsp;No</p>' +
           '<p>You can choose a response with the UP and DOWN arrow keys, and press RETURN or ENTER to select it.</p>' +
           '<p>...</p>' +
           '<p>Also there are commands you can use at any time to help you on your way:</p>' +
@@ -137,7 +137,7 @@ Adventure = {
       // Check if action exists
       } else if (_.indexOf(actions,action) >= 0) {
 
-        _this.go(_this.currentPlace.actions[action]);
+        _this.go(_this.currentPlace.actions[action], true);
         break;
 
       // Action not found
@@ -145,11 +145,11 @@ Adventure = {
 
         // Check for default action
         if (_.indexOf(actions, 'default') >= 0) {
-          _this.go( _this.currentPlace.actions.default);
+          _this.go( _this.currentPlace.actions.default, true);
         } else if (action === '' ) {
           _this.clean();
         } else {
-          _this.say(action.toUpperCase());
+          _this.say(action.toUpperCase(), true);
           _this.say('action not found');
           _this.clean();
         }
@@ -160,7 +160,7 @@ Adventure = {
     }
   },
 
-  say: function(text) {
+  say: function(text, isInput) {
     var _this = this;
     var regexp = /\{\{.*\}\}/;
     var found = text.match(regexp);
@@ -169,6 +169,10 @@ Adventure = {
       var variable = found[0].substr(0, (found[0].length - 2)).substr(2);
 
       text = text.replace(regexp, _this.save[variable]);
+    }
+
+    if (isInput) {
+      text = '> ' + text;
     }
 
     text = '<p>' + text + '</p>';
@@ -190,7 +194,7 @@ Adventure = {
     for (var ffs = 1; ffs <= _.size(conversation); ffs++) {
       var checked = ffs === 1 ? 'checked' : '';
 
-      chatForm += '<input id="radio-' + ffs + '" type="radio" name="conversation" value="' + ffs + '" ' + checked + ' /><label for="radio-' + ffs + '">' + conversation[ffs] + '</label><br />';
+      chatForm += '<input id="radio-' + ffs + '" type="radio" name="conversation" value="' + ffs + '" ' + checked + ' /><label for="radio-' + ffs + '"> ' + conversation[ffs] + '</label><br />';
     }
 
     // Add submit button, close form
@@ -217,7 +221,7 @@ Adventure = {
 
       var nextPlace = _this.currentPlace.actions[selectedOption];
 
-      _this.say(_this.currentPlace.options[selectedOption].toUpperCase());
+      _this.say(_this.currentPlace.options[selectedOption].toUpperCase(), true);
       _this.go(nextPlace);
     });
 
@@ -238,7 +242,7 @@ Adventure = {
     var answerName = typeof question !== 'undefined' ? _this.story[question].save : _this.currentPlace.save;
 
     // Generate text input
-    var questionForm = '<form id="custom-form" autocomplete="off"><input id="question-input" type="text" autocomplete="off"><input type="submit" value="Submit"></form>';
+    var questionForm = '<form id="custom-form" autocomplete="off"><div id="text-input-holder"><input id="question-input" type="text" autocomplete="off"></div><input type="submit" value="Submit"></form>';
 
     // insert dom and container class
     _this.$customForm.html(questionForm);
@@ -260,8 +264,8 @@ Adventure = {
 
       _this.save[answerName] = answer.toUpperCase();
 
-      _this.say(answer.toUpperCase());
-      _this.go(_this.currentPlace.actions.default);
+      _this.say(answer.toUpperCase(), true);
+      _this.go(_this.currentPlace.actions.default, false);
     });
 
   },
